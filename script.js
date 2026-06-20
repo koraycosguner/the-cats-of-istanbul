@@ -121,6 +121,250 @@ const books = [
       },
     ],
   },
+  {
+    title: "Hakan and the Moonlit Library",
+    libraryKicker: "Book Magic",
+    readerKicker: "A secret library bedtime mystery",
+    description:
+      "A glowing bookmark opens a hidden library where lost endings need a brave reader.",
+    cover: "assets/book-cover-moonlit-library.webp",
+    coverAlt:
+      "Cover art for Hakan and the Moonlit Library showing Hakan, Yusuf, and a glowing secret library",
+    pages: [
+      {
+        title: "The Bookmark Blinked",
+        paragraphs: [
+          "Hakan was almost asleep when a thin silver light blinked under his pillow.",
+          "He pulled out a bookmark. It was cool and shiny, like a slice of moon.",
+          "The bookmark floated from his hand and pointed toward the hall.",
+          "From the bookshelf came a soft sound. Shhh. A page was turning by itself.",
+        ],
+        image: "assets/moonlit-page-01.webp",
+        alt: "Hakan finding a glowing silver bookmark under his pillow while Yusuf peeks from the doorway",
+      },
+      {
+        title: "The Book Door",
+        paragraphs: [
+          "Yusuf met Hakan in the hall. \"Why are you awake?\" he whispered.",
+          "\"I am not awake,\" said Hakan. \"I am reading a clue.\"",
+          "At the end of the hall, the bookshelf bent into the shape of a door.",
+          "The silver bookmark slipped into the crack. Click. The door opened.",
+        ],
+        image: "assets/moonlit-page-02.webp",
+        alt: "Hakan and Yusuf discovering a secret door made of glowing books",
+      },
+      {
+        title: "The Library Woke Up",
+        paragraphs: [
+          "Inside was a library bigger than any house. Shelves curled up like tall stairs.",
+          "Books floated past. A ladder rolled by with no one pushing it.",
+          "A tiny woman with round glasses stood behind a tall desk.",
+          "\"I am the Keeper,\" she said. \"And tonight, my Last Page Bell is gone.\"",
+        ],
+        image: "assets/moonlit-page-03.webp",
+        alt: "A huge moonlit library with floating books and Hakan and Yusuf standing in wonder",
+      },
+      {
+        title: "The Empty Pillow",
+        paragraphs: [
+          "The Keeper pointed to a red pillow. It had a round empty spot in the middle.",
+          "\"The bell helps stories find their endings,\" she said.",
+          "A bedtime book nearby kept saying, \"Once upon a... once upon a...\"",
+          "Yusuf looked at Hakan. \"We should find that bell fast.\"",
+        ],
+        image: "assets/moonlit-page-04.webp",
+        alt: "The Keeper showing Hakan and Yusuf the empty velvet pillow where the bell should be",
+      },
+      {
+        title: "Books Behaving Badly",
+        paragraphs: [
+          "A sea book sneezed and spilled a tiny wave across the floor.",
+          "A castle book forgot how to close its bridge.",
+          "Hakan laughed, then saw a small gray book sitting alone on a shelf.",
+          "It had no title. It had no ending. It had only three glowing dots.",
+        ],
+        image: "assets/moonlit-page-05.webp",
+        alt: "Funny unfinished books causing harmless surprises in the magical library",
+      },
+      {
+        title: "The Dot Trail",
+        paragraphs: [
+          "The three dots rolled off the page and bounced onto the floor.",
+          "Plink. Plink. Plink.",
+          "They made a trail to a ladder made of moonlight.",
+          "\"Up?\" Yusuf asked. Hakan nodded. \"The story wants us to climb.\"",
+        ],
+        image: "assets/moonlit-page-06.webp",
+        alt: "A blank gray book making glowing dots that lead toward a moonbeam ladder",
+      },
+      {
+        title: "Up the Moonbeam",
+        paragraphs: [
+          "The ladder looked like light, but it held Hakan's feet.",
+          "Yusuf climbed behind him, one hand ready in case Hakan slipped.",
+          "At the top, three little sparks slept in paper nests.",
+          "When Hakan came close, the sparks woke and danced around his hands.",
+        ],
+        image: "assets/moonlit-page-07.webp",
+        alt: "Hakan and Yusuf climbing a moonbeam ladder inside the secret library",
+      },
+      {
+        title: "Three Bright Sparks",
+        paragraphs: [
+          "One spark felt kind. One spark felt brave. One spark felt like home.",
+          "Hakan cupped them gently. They were warm, but they did not burn.",
+          "The sparks flew into the gray book.",
+          "A paper castle rose from the pages, and a silver bell shone at the top.",
+        ],
+        image: "assets/moonlit-page-08.webp",
+        alt: "Hakan holding three glowing story sparks while Yusuf smiles beside him",
+      },
+      {
+        title: "The Paper Castle",
+        paragraphs: [
+          "The castle folded and unfolded like a pop-up card.",
+          "The bell was tied with a ribbon of unfinished sentences.",
+          "Hakan said, \"Kind. Brave. Home.\"",
+          "The ribbon slipped loose. The bell dropped into his hands with a bright ding!",
+        ],
+        image: "assets/moonlit-page-09.webp",
+        alt: "Hakan rescuing a silver bell from a pop-up paper castle while Yusuf holds the book steady",
+      },
+      {
+        title: "Reader of Moonlight",
+        paragraphs: [
+          "When Hakan placed the bell on its pillow, the whole library sighed happily.",
+          "The books found their endings. The tiny wave went back into its page.",
+          "The Keeper bowed. \"You listened first. That is what good readers do.\"",
+          "Back in bed, Hakan found the silver bookmark beside him. It blinked once, as if another story was waiting.",
+        ],
+        image: "assets/moonlit-page-10.webp",
+        alt: "Hakan and Yusuf smiling as the moonlit library glows and the silver bell returns to its pillow",
+      },
+    ],
+  },
+  {
+    title: "Hakan and the Lanterns of Cappadocia",
+    libraryKicker: "Cappadocia Quest",
+    readerKicker: "A sunrise adventure above the valleys",
+    description:
+      "A lantern floating the wrong way leads Hakan and Yusuf to a lost little star.",
+    cover: "assets/book-cover-lanterns-cappadocia.webp",
+    coverAlt:
+      "Cover art for Hakan and the Lanterns of Cappadocia showing Hakan, Yusuf, balloons, and a glowing lantern",
+    pages: [
+      {
+        title: "Before the Balloons",
+        paragraphs: [
+          "In Cappadocia, morning started while the sky was still purple.",
+          "Hakan stood by the balcony in his socks. Balloons slept in the valley below.",
+          "Yusuf yawned beside him. \"Sunrise should come with snacks,\" he said.",
+          "Then one small lantern floated up from the valley. It was going the wrong way.",
+        ],
+        image: "assets/cappadocia-page-01.webp",
+        alt: "Hakan and Yusuf watching Cappadocia before sunrise from a balcony",
+      },
+      {
+        title: "The Lantern's Secret",
+        paragraphs: [
+          "The lantern drifted to their balcony and glowed gold.",
+          "Inside its light was a tiny blue sparkle.",
+          "Hakan touched the handle. A soft voice seemed to whisper, \"A star fell. Help it home.\"",
+          "Yusuf stopped yawning. \"Okay,\" he said. \"That is not a normal lantern.\"",
+        ],
+        image: "assets/cappadocia-page-02.webp",
+        alt: "A glowing lantern arriving at the balcony while Hakan and Yusuf look amazed",
+      },
+      {
+        title: "Ready Before Breakfast",
+        paragraphs: [
+          "Angela found them at the door with their shoes on.",
+          "She wrapped a red scarf around Hakan's neck. \"For the cold morning,\" she said.",
+          "Koray gave Yusuf a small flashlight. \"For careful looking.\"",
+          "The lantern bobbed outside as if it could hardly wait.",
+        ],
+        image: "assets/cappadocia-page-03.webp",
+        alt: "Angela and Koray helping Hakan and Yusuf get ready before sunrise",
+      },
+      {
+        title: "The Light Dots",
+        paragraphs: [
+          "The lantern led them between tall stone towers called fairy chimneys.",
+          "Every few steps, it dropped a dot of light on the sandy path.",
+          "Hakan counted the dots. \"They are making a trail.\"",
+          "The trail curved toward a cave doorway glowing softly in the hill.",
+        ],
+        image: "assets/cappadocia-page-04.webp",
+        alt: "Hakan and Yusuf following glowing lantern dots through Cappadocia fairy chimneys",
+      },
+      {
+        title: "The Cave Spark",
+        paragraphs: [
+          "Inside the cave, painted horses ran across the stone walls.",
+          "Yusuf shone the flashlight low. Something blue blinked under a smooth rock.",
+          "Hakan lifted the rock and found a tiny spark.",
+          "The spark spun once and pointed toward the balloon field.",
+        ],
+        image: "assets/cappadocia-page-05.webp",
+        alt: "Hakan finding a tiny blue spark in a glowing Cappadocia cave while Yusuf holds a flashlight",
+      },
+      {
+        title: "The Balloon Captain",
+        paragraphs: [
+          "A kind balloon captain was checking ropes beside a striped balloon.",
+          "Hakan showed her the blue spark. Yusuf showed her the lantern.",
+          "The captain smiled like she understood everything.",
+          "\"Then you need to look from the sky,\" she said. \"Climb in, helpers.\"",
+        ],
+        image: "assets/cappadocia-page-06.webp",
+        alt: "Hakan and Yusuf meeting a kind hot air balloon captain at dawn",
+      },
+      {
+        title: "Up, Up, Up",
+        paragraphs: [
+          "The balloon rose slowly, like a deep breath.",
+          "Below them, the valleys turned pink and gold.",
+          "The lantern floated beside the basket. The blue spark pointed in a wobbly circle.",
+          "\"The star is moving,\" Hakan said. \"Or hiding.\"",
+        ],
+        image: "assets/cappadocia-page-07.webp",
+        alt: "Hakan and Yusuf riding in a hot air balloon above Cappadocia at sunrise",
+      },
+      {
+        title: "The Carpet Clue",
+        paragraphs: [
+          "On a sunny stone roof, Hakan saw a shadow shaped like a star.",
+          "The captain lowered the balloon near colorful carpets spread in the morning light.",
+          "In one carpet was a small empty golden space.",
+          "There, tucked into the pattern, blinked the lost little star.",
+        ],
+        image: "assets/cappadocia-page-08.webp",
+        alt: "Hakan finding the lost blue star tucked into a colorful Cappadocia carpet",
+      },
+      {
+        title: "Back to the Sky",
+        paragraphs: [
+          "Hakan lifted the star with both hands. It was lighter than a crumb.",
+          "The lantern opened like a flower.",
+          "When Hakan placed the star inside, it shot upward with a silver ribbon of light.",
+          "All the balloons glowed, as if the morning had smiled.",
+        ],
+        image: "assets/cappadocia-page-09.webp",
+        alt: "Hakan returning the lost star to the sky from a hot air balloon basket",
+      },
+      {
+        title: "The Lantern Charm",
+        paragraphs: [
+          "By breakfast, the sky was blue and full of balloons.",
+          "Angela brushed dust from Hakan's sleeve. Koray smiled at Yusuf's sleepy face.",
+          "On Hakan's plate sat a tiny golden lantern charm.",
+          "When he held it close, it whispered, \"There are more bright things to find.\"",
+        ],
+        image: "assets/cappadocia-page-10.webp",
+        alt: "Hakan holding a tiny lantern charm at breakfast with Yusuf, Angela, and Koray nearby",
+      },
+    ],
+  },
 ];
 
 let activeBook = books[0];

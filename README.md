@@ -2,13 +2,17 @@
 
 A polished, mobile-friendly GitHub Pages picture-book website for young readers.
 
-**Story title:** _Hakan and the Cats of Istanbul_
+Included stories:
 
-This is a static HTML, CSS, and JavaScript storybook library with a front landing page, a book cover card, ten illustrated story pages, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, fullscreen support where the browser allows it, and a fixed two-page book spread on larger screens.
+- _Hakan and the Cats of Istanbul_
+- _Hakan and the Moonlit Library_
+- _Hakan and the Lanterns of Cappadocia_
+
+This is a static HTML, CSS, and JavaScript storybook library with a front landing page, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, fullscreen support where the browser allows it, and a fixed two-page book spread on larger screens.
 
 ## Reading Level
 
-The story text is written for roughly 2nd-3rd grade readers. It uses short paragraphs, lively clues, page-end surprises, and warm adventure language to encourage a child to keep reading.
+The story text is written for roughly 2nd-3rd grade readers. It uses short paragraphs, lively clues, page-end surprises, and warm adventure language to encourage a child to keep reading. Later books use simpler vocabulary and clearer sentence structure while keeping the adventures exciting.
 
 ## Layout
 
@@ -57,9 +61,9 @@ Settings -> Pages -> Deploy from branch -> main -> root
 
 - `index.html` - semantic storybook markup
 - `style.css` - responsive open-book styling
-- `script.js` - page navigation, swipe controls, progress, and story data
-- `assets/page-01.webp` through `assets/page-10.webp` - optimized generated storybook artwork used by the site
-- `assets/page-01.png` through `assets/page-10.png` - source-quality generated artwork backups
+- `script.js` - library data, page navigation, swipe controls, progress, and story text
+- `assets/*.webp` - optimized generated cover and storybook artwork used by the site
+- `assets/page-01.png` through `assets/page-10.png` - source-quality generated artwork backups for the first book
 - `assets/favicon.svg` - local favicon
 
 ## Notes
