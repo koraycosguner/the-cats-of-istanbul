@@ -479,6 +479,7 @@ function showReader(bookIndex) {
   readerView.hidden = false;
   siteKicker.textContent = activeBook.readerKicker;
   siteTitle.textContent = activeBook.title;
+  document.body.classList.toggle("drop-cap-book", bookIndex === 0);
   document.body.classList.add("reader-open");
   renderPage(1);
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -494,6 +495,7 @@ async function showLibrary() {
   siteKicker.textContent = "Story library";
   siteTitle.textContent = "Hakan's Picture Books";
   document.body.classList.remove("reader-open");
+  document.body.classList.remove("drop-cap-book");
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
