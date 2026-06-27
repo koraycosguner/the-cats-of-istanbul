@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A polished children's picture book for Yusuf: Yusie and the Marvel Tree Dragon."
+    />
+    <title>Yusie and the Marvel Tree Dragon</title>
+    <link rel="preload" as="image" href="assets/yusie-page-01.webp" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="spark-field" aria-hidden="true">
+      <span class="spark spark-one"></span>
+      <span class="spark spark-two"></span>
+      <span class="spark spark-three"></span>
+      <span class="spark spark-four"></span>
+      <span class="spark spark-five"></span>
+      <span class="spark spark-six"></span>
+    </div>
+
+    <header class="site-header">
+      <p class="kicker">A Bozyazi dragon adventure</p>
+      <h1>Yusie and the Marvel Tree Dragon</h1>
+    </header>
+
+    <main class="app-shell" aria-live="polite">
+      <section class="storybook" aria-label="Story reader">
+        <section class="book-card" aria-labelledby="story-title">
+          <div class="progress-wrap" aria-label="Story progress">
+            <a class="library-button" href="../">Library</a>
+            <div class="progress-track">
+              <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <span id="progressLabel">Page 1 of 10</span>
+            <button
+              type="button"
+              class="fullscreen-button"
+              id="fullscreenButton"
+              aria-label="Enter full screen"
+            >
+              Full screen
+            </button>
+          </div>
+
+          <article class="page-turn" id="page">
+            <figure class="illustration-frame">
+              <img
+                id="storyImage"
+                src="assets/yusie-page-01.webp"
+                alt="Yusuf and Hakan finding a glowing blue egg under the huge Marvel Tree by the Mediterranean"
+                decoding="async"
+                fetchpriority="high"
+              />
+            </figure>
+
+            <section class="story-panel" aria-labelledby="story-title">
+              <h2 id="story-title">The Blue Egg</h2>
+              <div class="story-copy" id="storyText"></div>
+            </section>
+          </article>
+
+          <div class="controls" aria-label="Story controls">
+            <button
+              type="button"
+              class="nav-button ghost"
+              id="backButton"
+              aria-label="Previous page"
+            >
+              <span aria-hidden="true">&#8592;</span>
+            </button>
+            <button
+              type="button"
+              class="nav-button"
+              id="nextButton"
+              aria-label="Next page"
+            >
+              <span aria-hidden="true">&#8594;</span>
+            </button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

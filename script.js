@@ -158,8 +158,8 @@ const books = [
         paragraphs: [
           "Inside was a library bigger than any house. Shelves curled up like tall stairs.",
           "Books floated past. A ladder rolled by with no one pushing it.",
-          "A tiny woman with round glasses stood behind a tall desk.",
-          "\"I am the Keeper,\" she said. \"And tonight, my Last Page Bell is gone.\"",
+          "A tiny old man with round glasses stood behind a tall desk.",
+          "\"I am the Keeper,\" he said. \"And tonight, my Last Page Bell is gone.\"",
         ],
         image: "assets/moonlit-page-03.webp",
         alt: "A huge moonlit library with floating books and Hakan and Yusuf standing in wonder",
@@ -168,7 +168,7 @@ const books = [
         title: "The Empty Pillow",
         paragraphs: [
           "The Keeper pointed to a red pillow. It had a round empty spot in the middle.",
-          "\"The bell helps stories find their endings,\" she said.",
+          "\"The bell helps stories find their endings,\" he said.",
           "A bedtime book nearby kept saying, \"Once upon a... once upon a...\"",
           "Yusuf looked at Hakan. \"We should find that bell fast.\"",
         ],
@@ -365,6 +365,193 @@ const books = [
       },
     ],
   },
+  {
+    title: "Hakan and the Little Lost Moon",
+    libraryKicker: "Space Team Adventure",
+    readerKicker: "A glowing space rescue among the stars",
+    description:
+      "Hakan helps a lost moon friend cross a shifting asteroid field before the comet passes.",
+    cover: "assets/book-cover-little-lost-moon.webp",
+    coverAlt:
+      "Cover art for Hakan and the Little Lost Moon showing Hakan, Yusuf, Glim, Blip, Pidge, and a glowing comet in space",
+    pages: [
+      {
+        title: "Blast Off",
+        paragraphs: [
+          "High above Earth, a little silver starship sailed between the stars.",
+          "Hakan floated up from the floor and turned a slow, happy somersault.",
+          "Angela tucked a pouch of glowing star-snacks into his belt. \"For making friends,\" she said.",
+          "Koray winked from the pilot seat. \"Remember, out here, no one flies alone.\"",
+        ],
+        image: "assets/little-moon-page-01.webp",
+        alt: "Hakan floating in a warm silver starship while Angela gives him glowing snacks, Koray pilots, and Yusuf laughs",
+      },
+      {
+        title: "A Tiny Cry",
+        paragraphs: [
+          "A tiny cry drifted through the dark.",
+          "Outside the window, a soft blue moon-creature curled into a ball.",
+          "\"I am Glim,\" it whispered. \"My little moon is far away. The comet is coming, and I must get home before it passes.\"",
+          "Hakan pressed his hand to the glass. \"Then we will help you.\"",
+        ],
+        image: "assets/little-moon-page-02.webp",
+        alt: "Hakan and Yusuf looking through a starship window at Glim, a sad blue moon-creature floating in space",
+      },
+      {
+        title: "Meet Blip",
+        paragraphs: [
+          "Boing! Something round bounced off the wall.",
+          "Boing! It bounced off the ceiling. Boing! It tapped Hakan's helmet.",
+          "\"That is Blip,\" Yusuf laughed. \"He never lands where he plans.\"",
+          "Blip grinned. Glim gave a tiny hopeful glow. The rescue team had begun.",
+        ],
+        image: "assets/little-moon-page-03.webp",
+        alt: "Blip bouncing through the starship cabin while Hakan, Yusuf, and Glim laugh",
+      },
+      {
+        title: "The Mighty Eagle",
+        paragraphs: [
+          "Outside the ship, a small grey moon-pigeon flapped by.",
+          "\"Make way!\" he boomed. \"I am Pidge, the mightiest space-eagle in the sky!\"",
+          "He was, in truth, a very small pigeon.",
+          "Hakan smiled. A brave friend, even a tiny one, might be exactly what they needed.",
+        ],
+        image: "assets/little-moon-page-04.webp",
+        alt: "Pidge the tiny moon-pigeon puffing up heroically while Hakan, Yusuf, Glim, and Blip watch",
+      },
+      {
+        title: "The Drifting Field",
+        paragraphs: [
+          "The way to Glim's moon was blocked by a field of asteroids.",
+          "The rocks drifted and turned. One gap opened. Another slid shut.",
+          "Yusuf narrowed his eyes. \"It keeps changing.\"",
+          "Far away, the comet shone brighter. Time was slipping by.",
+        ],
+        image: "assets/little-moon-page-05.webp",
+        alt: "Hakan, Yusuf, Glim, and Blip facing a shifting asteroid field with a comet in the distance",
+      },
+      {
+        title: "Turned Around",
+        paragraphs: [
+          "Hakan and Blip tried to dart through first.",
+          "Left. Right. Up. Around.",
+          "The asteroids shifted again, and suddenly they were back where they started.",
+          "Glim's blue glow dimmed. \"We cannot do this alone,\" Hakan said.",
+        ],
+        image: "assets/little-moon-page-06.webp",
+        alt: "Hakan and Blip looking turned around inside the asteroid field while Glim glows dimly",
+      },
+      {
+        title: "The Glowing Snacks",
+        paragraphs: [
+          "Hakan opened Angela's pouch. Star-snacks floated out like tiny suns.",
+          "From the shadows came shy space friends: star-mice, comet-kittens, and moon-bugs with bright eyes.",
+          "Pidge puffed over too. \"Did someone say feast?\"",
+          "Hakan looked at all those helpful faces, and an idea began to glow.",
+        ],
+        image: "assets/little-moon-page-07.webp",
+        alt: "Hakan opening glowing star-snacks as friendly space creatures gather around",
+      },
+      {
+        title: "One Big Team",
+        paragraphs: [
+          "\"We cannot cross alone,\" Hakan said. \"But together, we can.\"",
+          "He gave everyone a job. \"Watch left. Watch right. Yusuf, count the gaps. Blip, lead the bounce.\"",
+          "The creatures cheered. Glim glowed bright again.",
+          "Hakan remembered Koray's words: out here, no one flies alone.",
+        ],
+        image: "assets/little-moon-page-08.webp",
+        alt: "Hakan gathering Yusuf, Glim, Blip, Pidge, and space creatures into one team near the asteroid field",
+      },
+      {
+        title: "Into the Field",
+        paragraphs: [
+          "Together, they floated into the asteroid field.",
+          "\"Gap on the left!\" called a star-mouse.",
+          "\"Duck here!\" called a comet-kitten.",
+          "In low gravity they bounced and tumbled, light as feathers, moving deeper toward the little moon.",
+        ],
+        image: "assets/little-moon-page-09.webp",
+        alt: "The whole team weaving through a drifting asteroid field while Hakan holds Glim and Yusuf counts gaps",
+      },
+      {
+        title: "Pidge the Brave",
+        paragraphs: [
+          "Then the asteroids closed into one tall wall.",
+          "No path showed at the bottom. No path showed in the middle.",
+          "Pidge puffed up his chest. \"A space-eagle fears nothing!\"",
+          "He flapped high above the wall. \"There! A gap! Follow me!\"",
+        ],
+        image: "assets/little-moon-page-10.webp",
+        alt: "Pidge bravely finding a hidden high gap in a wall of asteroids while the team watches below",
+      },
+      {
+        title: "Through the Gap",
+        paragraphs: [
+          "Up they soared, all together, through the narrow gap.",
+          "Just then, the comet streaked past in a great silver blaze.",
+          "Below them, a small moon glowed like a night-light.",
+          "\"We made it!\" Hakan cried. \"We made it together!\"",
+        ],
+        image: "assets/little-moon-page-11.webp",
+        alt: "Hakan, Yusuf, Glim, Blip, Pidge, and the team bursting through an asteroid gap as a comet passes",
+      },
+      {
+        title: "Glim Goes Home",
+        paragraphs: [
+          "On the little moon, Glim's family rushed out, glowing blue with joy.",
+          "Glim tumbled into their arms.",
+          "Then Glim floated back and placed a warm piece of moonlight in Hakan's hand.",
+          "\"So you remember,\" Glim whispered.",
+        ],
+        image: "assets/little-moon-page-12.webp",
+        alt: "Glim reuniting with a blue moon-creature family and giving Hakan a glowing piece of moonlight",
+      },
+      {
+        title: "The Floating Feast",
+        paragraphs: [
+          "That night, the space station glittered with a floating feast.",
+          "Snacks drifted by. Space friends danced in the air.",
+          "Pidge told the story of his mighty flight, making it bigger each time.",
+          "Koray hugged Hakan. \"See? Out here, no one flies alone.\"",
+        ],
+        image: "assets/little-moon-page-13.webp",
+        alt: "Hakan, Yusuf, Angela, Koray, and the space creatures celebrating at a floating feast in a space station",
+      },
+      {
+        title: "Sailing Home",
+        paragraphs: [
+          "At last, the little starship turned for home.",
+          "Hakan floated by the window with the moonlight gift glowing in his hands.",
+          "Yusuf was already asleep. Blip dozed in a gentle bounce.",
+          "The quiet stars drifted by, slow and soft.",
+        ],
+        image: "assets/little-moon-page-14.webp",
+        alt: "Sleepy Hakan holding a glowing moonlight gift in the starship while Yusuf and Blip sleep nearby",
+      },
+      {
+        title: "A Gentle Wink",
+        paragraphs: [
+          "Far away, the comet glowed once more.",
+          "Just before Hakan closed his eyes, it seemed to give him a tiny silver wink.",
+          "Had the comet helped them all along?",
+          "Hakan smiled. He would always wonder. Then he drifted to sleep among the stars.",
+        ],
+        image: "assets/little-moon-page-15.webp",
+        alt: "Hakan smiling sleepily at a distant winking comet through the starship window",
+      },
+    ],
+  },
+  {
+    title: "Yusie and the Marvel Tree Dragon",
+    libraryKicker: "Yusuf Dragon Adventure",
+    description:
+      "A blue egg, 999-speed boots, and a red rooster-dragon by the Mediterranean.",
+    cover: "yusuf/assets/yusie-cover.webp",
+    coverAlt:
+      "Cover art for Yusie and the Marvel Tree Dragon showing Yusuf, Hakan, a blue egg, and a red rooster-dragon by the sea",
+    href: "yusuf/",
+  },
 ];
 
 let activeBook = books[0];
@@ -396,7 +583,14 @@ function renderLibrary() {
     button.type = "button";
     button.className = "book-tile";
     button.setAttribute("aria-label", `Open ${book.title}`);
-    button.addEventListener("click", () => showReader(index));
+    button.addEventListener("click", () => {
+      if (book.href) {
+        window.location.href = book.href;
+        return;
+      }
+
+      showReader(index);
+    });
 
     const coverShell = document.createElement("span");
     coverShell.className = "cover-shell";
@@ -493,7 +687,7 @@ async function showLibrary() {
   readerView.hidden = true;
   libraryView.hidden = false;
   siteKicker.textContent = "Story library";
-  siteTitle.textContent = "Hakan's Picture Books";
+  siteTitle.textContent = "Hakan and Yusuf's Picture Books";
   document.body.classList.remove("reader-open");
   document.body.classList.remove("drop-cap-book");
   window.scrollTo({ top: 0, behavior: "smooth" });

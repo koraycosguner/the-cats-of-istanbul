@@ -7,8 +7,10 @@ Included stories:
 - _Hakan and the Cats of Istanbul_
 - _Hakan and the Moonlit Library_
 - _Hakan and the Lanterns of Cappadocia_
+- _Hakan and the Little Lost Moon_
+- _Yusie and the Marvel Tree Dragon_
 
-This is a static HTML, CSS, and JavaScript storybook library with a front landing page, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, fullscreen support where the browser allows it, and a fixed two-page book spread on larger screens.
+This is a static HTML, CSS, and JavaScript storybook library with a front landing page, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, fullscreen support where the browser allows it, and fixed two-page book spreads on larger screens.
 
 ## Reading Level
 
@@ -61,7 +63,8 @@ Settings -> Pages -> Deploy from branch -> main -> root
 
 - `index.html` - semantic storybook markup
 - `style.css` - responsive open-book styling
-- `script.js` - library data, page navigation, swipe controls, progress, and story text
+- `script.js` - main library data, page navigation, swipe controls, progress, and story text
+- `yusuf/` - Yusuf's standalone Yusie dragon picture book
 - `assets/*.webp` - optimized generated cover and storybook artwork used by the site
 - `assets/page-01.png` through `assets/page-10.png` - source-quality generated artwork backups for the first book
 - `assets/favicon.svg` - local favicon
