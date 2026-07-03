@@ -831,6 +831,186 @@ const books = [
     ],
   },
   {
+    title: "Hakan and Yusuf and the Kitsune Dawn Crown",
+    libraryKicker: "Kitsune Finale",
+    readerKicker: "The final fox-gate adventure",
+    description:
+      "Papa Bip and Bip Jr. must save the Dawn Crown before the fox gate closes at sunrise.",
+    cover: "assets/book-cover-kitsune-dawn-crown.webp",
+    coverAlt:
+      "Cover art for Hakan and Yusuf and the Kitsune Dawn Crown showing Papa Bip and Bip Jr saving the fox gate at sunrise",
+    pages: [
+      {
+        title: "The Star That Fell",
+        paragraphs: [
+          "The Star Garden was still shining when one star winked twice.",
+          "Then it slipped from the sky.",
+          "It fell softly into Hakan's hands, no hotter than warm bread.",
+          "Papa Bip's nine tails went very still. \"That is not a star. That is a dawn spark.\"",
+        ],
+        image: "assets/kitsune-dawn-crown-page-01.webp",
+        alt: "Hakan holding a fallen dawn spark while Yusuf, Papa Bip, and Bip Jr watch in the Star Garden",
+      },
+      {
+        title: "The Crack in the Crown",
+        paragraphs: [
+          "Bip touched the dawn spark with his nose.",
+          "Far above the highest cloud, a golden crown flashed and cracked like thin ice.",
+          "\"The Dawn Crown keeps our fox gate open,\" Bip said. \"If it breaks, we must close the path before sunrise.\"",
+          "Bip Jr.'s ears drooped. \"Then we cannot visit Hakan and Yusuf?\"",
+        ],
+        image: "assets/kitsune-dawn-crown-page-02.webp",
+        alt: "Papa Bip touching the dawn spark as the golden Dawn Crown cracks above the clouds",
+      },
+      {
+        title: "Asa Wakes",
+        paragraphs: [
+          "Angela held out her paper crane charm.",
+          "The crane unfolded, turned gold, and chirped like morning.",
+          "\"I am Asa,\" said the tiny dawn bird. \"Follow quickly, but not carelessly.\"",
+          "Yusuf looked at Hakan. \"That sounds like it was meant for both of us.\"",
+        ],
+        image: "assets/kitsune-dawn-crown-page-03.webp",
+        alt: "Angela's paper crane charm turning into Asa the tiny golden dawn bird",
+      },
+      {
+        title: "Koray's Kite",
+        paragraphs: [
+          "The first wind was too strong to climb.",
+          "Koray cut bamboo, tied string, and folded shrine paper into a bright kite.",
+          "\"Everyone holds one cord,\" he said.",
+          "The kite lifted them gently, and the mountain fell away below.",
+        ],
+        image: "assets/kitsune-dawn-crown-page-04.webp",
+        alt: "Koray building a bamboo and paper kite while the family and kitsunes hold the cords",
+      },
+      {
+        title: "The 999-Step Sandals",
+        paragraphs: [
+          "At the Bamboo Wind, golden leaves burst into the air.",
+          "Hakan's 999-step sandals tingled. He wanted to zoom.",
+          "\"Stay with us,\" Yusuf called.",
+          "So Hakan ran in circles around the group, catching every leaf before it flew away.",
+        ],
+        image: "assets/kitsune-dawn-crown-page-05.webp",
+        alt: "Hakan using his glowing 999-step sandals to catch golden leaves around the group",
+      },
+      {
+        title: "The Quick Leaf",
+        paragraphs: [
+          "The leaves spun together in Hakan's hands.",
+          "They became one bright Quick Leaf.",
+          "Bip Jr. bounced. \"You were fast and careful!\"",
+          "Hakan grinned at Yusuf. \"I did not even run off the mountain.\"",
+        ],
+        image: "assets/kitsune-dawn-crown-page-06.webp",
+        alt: "Hakan holding the glowing Quick Leaf while Bip Jr and Papa Bip watch proudly",
+      },
+      {
+        title: "Mirror Crane Lake",
+        paragraphs: [
+          "The next path ended at a lake full of white mirror cranes.",
+          "One crane showed Yusuf crossing the moon bridge for Hakan.",
+          "Another showed Hakan stepping across the star stones for Yusuf.",
+          "The lake whispered, \"Say what is true.\"",
+        ],
+        image: "assets/kitsune-dawn-crown-page-07.webp",
+        alt: "Hakan and Yusuf standing at Mirror Crane Lake with reflections of their brave moments",
+      },
+      {
+        title: "What Brothers See",
+        paragraphs: [
+          "Yusuf looked at Hakan. \"You are little, but your heart is huge.\"",
+          "Hakan looked at Yusuf. \"You act calm, but you are brave even when you are scared.\"",
+          "The cranes bowed.",
+          "From the lake rose the True Reflection, shining clear as morning water.",
+        ],
+        image: "assets/kitsune-dawn-crown-page-08.webp",
+        alt: "The True Reflection rising between Hakan and Yusuf beside the mirror cranes",
+      },
+      {
+        title: "The Thunder Carp",
+        paragraphs: [
+          "At the Sun Gate, a giant thunder carp blocked the way.",
+          "Cloud sparks popped from its whiskers. BOOM-pop! BOOM-pop!",
+          "Bip Jr. hid behind Hakan. \"Is it angry?\"",
+          "The carp sniffled. \"My bell is stuck.\"",
+        ],
+        image: "assets/kitsune-dawn-crown-page-09.webp",
+        alt: "A gentle thunder carp blocking the Sun Gate with a small sky bell tangled in its whisker",
+      },
+      {
+        title: "The Sky Bell Sound",
+        paragraphs: [
+          "Yusuf tied a safety sash around Hakan's waist.",
+          "Hakan stepped close and untangled the little sky bell from the carp's whisker.",
+          "The carp shook itself happily, and thunder rolled away like a drum.",
+          "It gave them the Sky Bell Sound, humming inside a pearl.",
+        ],
+        image: "assets/kitsune-dawn-crown-page-10.webp",
+        alt: "Yusuf holding a safety sash while Hakan frees the sky bell from the thunder carp",
+      },
+      {
+        title: "Papa Bip Holds the Gate",
+        paragraphs: [
+          "At last they reached the Dawn Crown.",
+          "It floated above the fox gate, cracked and trembling.",
+          "The gate began to close with a deep moon-white groan.",
+          "Papa Bip leaped forward and spread all nine tails wide. \"Not yet.\"",
+        ],
+        image: "assets/kitsune-dawn-crown-page-11.webp",
+        alt: "Papa Bip spreading his nine white tails to hold open the closing fox gate beneath the cracked Dawn Crown",
+      },
+      {
+        title: "The Tiny Fox-Door",
+        paragraphs: [
+          "The Dawn Crown floated behind a fox-door too small for people and too narrow for Papa Bip.",
+          "Papa Bip held the gate open, but his paws slid in the clouds.",
+          "Bip Jr. stared at the dark little doorway.",
+          "\"I am only five tails,\" he whispered.",
+        ],
+        image: "assets/kitsune-dawn-crown-page-12.webp",
+        alt: "Bip Jr facing the tiny fox-door while Papa Bip strains to hold the larger gate open",
+      },
+      {
+        title: "Brave Does Not Mean Big",
+        paragraphs: [
+          "Yusuf knelt beside Bip Jr.",
+          "\"I was scared on the moon bridge,\" he said. \"I crossed because Hakan needed me.\"",
+          "Hakan held out the Quick Leaf, the True Reflection, and the Sky Bell Sound.",
+          "\"We need you now.\"",
+        ],
+        image: "assets/kitsune-dawn-crown-page-13.webp",
+        alt: "Yusuf encouraging Bip Jr while Hakan offers the three Dawn Crown pieces",
+      },
+      {
+        title: "The Small Fox Saves the Crown",
+        paragraphs: [
+          "Bip Jr. slipped through the fox-door with the three pieces.",
+          "Hakan waited. Yusuf waited. Even the wind waited.",
+          "Bip Jr.'s five tails flashed inside the crown like little moons.",
+          "When he came back, the Dawn Crown floated after him, whole and bright.",
+        ],
+        image: "assets/kitsune-dawn-crown-page-14.webp",
+        alt: "Bip Jr repairing the golden Dawn Crown from inside the tiny fox-door",
+      },
+      {
+        title: "The Gate Stays Open",
+        paragraphs: [
+          "Sunrise poured gold over the mountain.",
+          "Papa Bip folded his tired tails, and the fox gate opened wider, warm and quiet.",
+          "Bip bowed to Yusuf. Bip Jr. pressed his nose to Hakan's hand.",
+          "\"Today, my son saved the Crown,\" Bip said.",
+          "\"And my papa held the sky,\" Bip Jr. said proudly.",
+          "\"When your charms glow,\" Bip told the brothers, \"we will hear you.\"",
+          "And far below, the river, the stars, and the cherry trees all shone at once.",
+        ],
+        image: "assets/kitsune-dawn-crown-page-15.webp",
+        alt: "The family and two white kitsunes celebrating as the fox gate stays open at sunrise",
+      },
+    ],
+  },
+  {
     title: "Yusie and the Marvel Tree Dragon",
     libraryKicker: "Yusuf Dragon Adventure",
     description:
