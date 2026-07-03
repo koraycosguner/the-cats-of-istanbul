@@ -687,6 +687,150 @@ const books = [
     ],
   },
   {
+    title: "Hakan and Yusuf and the Kitsune Star Garden",
+    libraryKicker: "Kitsune Sequel",
+    readerKicker: "A sky garden adventure above the shrine",
+    description:
+      "A stuck river lantern leads the brothers, Bip Jr., and Papa Bip into a secret garden of stars.",
+    cover: "assets/book-cover-kitsune-star-garden.webp",
+    coverAlt:
+      "Cover art for Hakan and Yusuf and the Kitsune Star Garden showing the brothers with two white kitsunes in a glowing star garden",
+    pages: [
+      {
+        title: "The Lantern That Stayed",
+        paragraphs: [
+          "The river flowed again, bright and happy under the cherry trees.",
+          "Most lanterns floated away, but one little lantern stayed near Hakan's feet.",
+          "Inside it, a tiny star seed blinked.",
+          "Yusuf bent close. \"That one is asking for help.\"",
+        ],
+        image: "assets/kitsune-star-garden-page-01.webp",
+        alt: "Hakan and Yusuf finding one glowing river lantern that stays behind beside the white kitsunes",
+      },
+      {
+        title: "Mizuna Points Up",
+        paragraphs: [
+          "Mizuna rose from the river like blue morning mist.",
+          "\"That seed belongs to the Star Garden,\" she said. \"It waits above the shrine, where clouds sleep.\"",
+          "Bip Jr.'s five white tails popped up. \"A garden in the sky?\"",
+          "Papa Bip smiled. \"A garden that only opens before dawn.\"",
+        ],
+        image: "assets/kitsune-star-garden-page-02.webp",
+        alt: "Mizuna the blue river spirit pointing toward a hidden sky garden above the mountain shrine",
+      },
+      {
+        title: "Angela's Paper Crane",
+        paragraphs: [
+          "Angela folded the blank charm into a paper crane.",
+          "The crane flapped once, then twice, and lifted into the air.",
+          "Silver lines glowed across its wings, making a map through the clouds.",
+          "\"Follow gently,\" Angela said. \"Maps like this do not enjoy being rushed.\"",
+        ],
+        image: "assets/kitsune-star-garden-page-03.webp",
+        alt: "Angela folding a glowing paper crane map while Hakan, Yusuf, and the kitsunes watch",
+      },
+      {
+        title: "Koray and the Wind-Bell Gate",
+        paragraphs: [
+          "At the top of the shrine steps stood a gate with three silent wind bells.",
+          "One bell had a cracked wooden hook.",
+          "Koray fixed it with a careful twist of cord.",
+          "The bells rang softly, and cloud stairs rolled out from the mountain.",
+        ],
+        image: "assets/kitsune-star-garden-page-04.webp",
+        alt: "Koray repairing a wind bell at a mountain shrine gate as cloud stairs appear",
+      },
+      {
+        title: "Moon Moth Maze",
+        paragraphs: [
+          "The cloud stairs led to a maze of moon moths.",
+          "Hakan wanted to chase them, but Yusuf held up one hand.",
+          "\"Slow,\" he whispered. \"Angela said gently.\"",
+          "The moths opened their wings and showed the Wind Chime Light.",
+        ],
+        image: "assets/kitsune-star-garden-page-05.webp",
+        alt: "Yusuf guiding Hakan slowly through glowing moon moths on cloud stairs",
+      },
+      {
+        title: "The Stone Turtle Bridge",
+        paragraphs: [
+          "A stone turtle slept across a gap in the clouds.",
+          "\"I am a bridge,\" the turtle said. \"But I am not a fast bridge.\"",
+          "Bip Jr. bounced impatiently. Hakan almost did too.",
+          "Yusuf stepped on first and waited. Slowly, safely, the turtle carried them across.",
+        ],
+        image: "assets/kitsune-star-garden-page-06.webp",
+        alt: "Yusuf stepping first onto a huge gentle stone turtle bridge above the clouds",
+      },
+      {
+        title: "The Laughing Star",
+        paragraphs: [
+          "In the Star Garden, the flowers were dark.",
+          "Bip Jr. tried a tiny fox trick: he sneezed foxfire and made his five tails sparkle like silly noodles.",
+          "Hakan laughed. Yusuf laughed. Even Papa Bip snorted.",
+          "From the laughter, the Laughing Star Light rolled out from under a blossom.",
+        ],
+        image: "assets/kitsune-star-garden-page-07.webp",
+        alt: "Bip Jr the young white five-tailed kitsune making everyone laugh in the dark Star Garden",
+      },
+      {
+        title: "The Sudden Cloud Gust",
+        paragraphs: [
+          "Just then, a cloud gust spun through the garden.",
+          "The lantern seed lifted from Hakan's hands.",
+          "Yusuf grabbed the string, but the gust pulled him toward floating stones.",
+          "\"Yusuf!\" Hakan shouted.",
+        ],
+        image: "assets/kitsune-star-garden-page-08.webp",
+        alt: "A cloud gust pulling Yusuf and the glowing lantern seed toward floating moon stones",
+      },
+      {
+        title: "Hakan Steps Across",
+        paragraphs: [
+          "Hakan looked at the floating stones. They bobbed like little moons.",
+          "He was scared, but Yusuf had crossed first for him before.",
+          "Now it was Hakan's turn.",
+          "He stepped from stone to stone and caught Yusuf's moon-fox charm just before it slipped away.",
+        ],
+        image: "assets/kitsune-star-garden-page-09.webp",
+        alt: "Hakan bravely crossing floating moon stones to catch Yusuf's glowing moon-fox charm",
+      },
+      {
+        title: "Planting the Seed-Lights",
+        paragraphs: [
+          "The brothers carried the lantern seed back together.",
+          "Wind Chime Light. Turtle Bridge Light. Laughing Star Light.",
+          "They placed all three around the seed.",
+          "The dark flowers trembled, then opened with tiny stars inside.",
+        ],
+        image: "assets/kitsune-star-garden-page-10.webp",
+        alt: "Hakan and Yusuf planting three glowing seed-lights around the lantern seed in the Star Garden",
+      },
+      {
+        title: "The Star Garden Blooms",
+        paragraphs: [
+          "Stars bloomed across the garden like silver blossoms.",
+          "The lantern seed rose high and became the first bright flower.",
+          "Below the clouds, every river lantern found its way home.",
+          "Bip bowed to Yusuf. Bip Jr. bumped his nose against Hakan's hand.",
+        ],
+        image: "assets/kitsune-star-garden-page-11.webp",
+        alt: "The Star Garden blooming with silver flowers while the river lanterns glow below the clouds",
+      },
+      {
+        title: "Beyond the Highest Cloud",
+        paragraphs: [
+          "At dawn, the cloud stairs faded.",
+          "Angela's paper crane folded itself back into a charm. Koray's wind bells sang in the gate.",
+          "Hakan and Yusuf stood shoulder to shoulder with the two white kitsunes.",
+          "Far above them, one new star winked twice, as if another story was waiting.",
+        ],
+        image: "assets/kitsune-star-garden-page-12.webp",
+        alt: "Hakan, Yusuf, Angela, Koray, Bip Jr, and Papa Bip standing together at dawn by the mountain shrine",
+      },
+    ],
+  },
+  {
     title: "Yusie and the Marvel Tree Dragon",
     libraryKicker: "Yusuf Dragon Adventure",
     description:

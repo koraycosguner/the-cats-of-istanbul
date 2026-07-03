@@ -9,6 +9,7 @@ Included stories:
 - _Hakan and the Lanterns of Cappadocia_
 - _Hakan and the Little Lost Moon_
 - _Hakan and Yusuf and the Kitsune Moon Bridge_
+- _Hakan and Yusuf and the Kitsune Star Garden_
 - _Yusie and the Marvel Tree Dragon_
 
 This is a static HTML, CSS, and JavaScript storybook library with a front landing page, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, fullscreen support where the browser allows it, and fixed two-page book spreads on larger screens.
