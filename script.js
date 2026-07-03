@@ -543,6 +543,150 @@ const books = [
     ],
   },
   {
+    title: "Hakan and Yusuf and the Kitsune Moon Bridge",
+    libraryKicker: "Kitsune Shrine Quest",
+    readerKicker: "An ancient Japan brother adventure",
+    description:
+      "White kitsunes, cherry blossoms, and a moon bridge lead the brothers to a sleeping river spirit.",
+    cover: "assets/book-cover-kitsune-moon-bridge.webp",
+    coverAlt:
+      "Cover art for Hakan and Yusuf and the Kitsune Moon Bridge showing the brothers with two white kitsunes at a moonlit shrine",
+    pages: [
+      {
+        title: "Cherry Blossom Mountain",
+        paragraphs: [
+          "Hakan and Yusuf climbed the mountain path with Angela and Koray.",
+          "Bamboo clicked in the wind. Cherry blossoms drifted over the old shrine gate.",
+          "Below the steps, the river did not sparkle or splash. It lay still as glass.",
+          "Yusuf moved closer to Hakan. \"Something is wrong with that river.\"",
+        ],
+        image: "assets/kitsune-moon-bridge-page-01.webp",
+        alt: "Hakan, Yusuf, Angela, and Koray arriving at an ancient mountain shrine with a still river below",
+      },
+      {
+        title: "Two White Foxes",
+        paragraphs: [
+          "A blue-white flame danced between the bamboo stalks.",
+          "Hakan followed it one step, then jumped back as a young white fox popped out. Five tails swished behind him.",
+          "\"I am Bip Jr.!\" the little kitsune chirped.",
+          "A much larger white fox stepped beside Yusuf. Nine tails fanned like moonlit clouds. \"And I am Bip,\" he said, puffing up his strong chest fur.",
+        ],
+        image: "assets/kitsune-moon-bridge-page-02.webp",
+        alt: "Bip Jr the five-tailed white kitsune surprising Hakan while papa Bip the nine-tailed white kitsune stands by Yusuf",
+      },
+      {
+        title: "The Sleeping River",
+        paragraphs: [
+          "Tiny moss sprites waved from a flat river stone.",
+          "They pointed into the water. Deep below, a blue river spirit slept with her eyes closed.",
+          "\"That is Mizuna,\" Bip said softly. \"When she sleeps too long, the lanterns cannot float home.\"",
+          "Three lanterns bobbed near the bank, stuck and dim.",
+        ],
+        image: "assets/kitsune-moon-bridge-page-03.webp",
+        alt: "Moss sprites showing Hakan and Yusuf the sleeping river spirit Mizuna beneath still water",
+      },
+      {
+        title: "Angela's Old Song",
+        paragraphs: [
+          "Angela touched the blank paper charm in her hand.",
+          "\"My grandmother taught me one line of an old river song,\" she said.",
+          "She sang it gently. The shrine gate glowed blue and gold.",
+          "The first gate opened, and the still river gave one tiny ripple.",
+        ],
+        image: "assets/kitsune-moon-bridge-page-04.webp",
+        alt: "Angela singing an old river song as the shrine gate glows open while the family and white kitsunes watch",
+      },
+      {
+        title: "Koray's Tiny Bridge",
+        paragraphs: [
+          "Past the gate was a moss-sprite village, but its tiny bridge was broken.",
+          "Koray knelt with his wooden repair pouch. Tap, twist, tuck. The bridge stood again.",
+          "The moss sprites cheered and gave Hakan a glowing Bell Note.",
+          "\"First piece of the wake-up song,\" Yusuf said.",
+        ],
+        image: "assets/kitsune-moon-bridge-page-05.webp",
+        alt: "Koray repairing a tiny moss-sprite bridge while the sprites give the brothers a glowing Bell Note",
+      },
+      {
+        title: "The Tanuki Drum Trick",
+        paragraphs: [
+          "A tanuki drummer waited in the bamboo clearing.",
+          "He beat his drum fast, slow, fast, slow, then changed it again with a grin.",
+          "Hakan laughed, but Yusuf closed his eyes and listened past the trick.",
+          "\"There,\" Yusuf said. He clapped the true rhythm. A Drumbeat light spun into his hand.",
+        ],
+        image: "assets/kitsune-moon-bridge-page-06.webp",
+        alt: "Yusuf listening carefully to solve the tanuki drummer's changing rhythm while Hakan and the white kitsunes watch",
+      },
+      {
+        title: "Sky Koi Pond",
+        paragraphs: [
+          "At the top of the hill, koi fish swam through a pond that reflected the moon.",
+          "One tiny koi slipped out of the silver water and wiggled on a wet stone.",
+          "Hakan cupped it gently and helped it back.",
+          "The koi spun in a happy circle and gave him a round Moon Reflection.",
+        ],
+        image: "assets/kitsune-moon-bridge-page-07.webp",
+        alt: "Hakan helping a small glowing koi spirit return to a moonlit pond while Yusuf holds the Drumbeat",
+      },
+      {
+        title: "Bip Jr.'s Big Mistake",
+        paragraphs: [
+          "Bip Jr. wanted to make Hakan laugh again.",
+          "He sent a foxfire dot bouncing down a mirror-bamboo path.",
+          "Hakan followed one step too far. Mist slid between the bamboo, and his voice sounded far away.",
+          "\"Hakan!\" Yusuf called. Bip Jr.'s ears drooped. \"I only meant to play.\"",
+        ],
+        image: "assets/kitsune-moon-bridge-page-08.webp",
+        alt: "Hakan separated by mirror-bamboo mist while Yusuf reaches toward him and Bip Jr looks sorry",
+      },
+      {
+        title: "The Moon Bridge Appears",
+        paragraphs: [
+          "The river brightened. A thin silver bridge grew from moonlight and cherry petals.",
+          "\"That bridge will not hold a show-off,\" Bip said. \"It holds only a protector.\"",
+          "Hakan waited on the far side of the mist.",
+          "Yusuf held the Bell Note, the Drumbeat, and the Moon Reflection close. \"Then I go first.\"",
+        ],
+        image: "assets/kitsune-moon-bridge-page-09.webp",
+        alt: "A silver moon bridge appearing over the sleeping river while Yusuf prepares to cross toward Hakan",
+      },
+      {
+        title: "Yusuf Crosses First",
+        paragraphs: [
+          "Yusuf stepped onto the bridge.",
+          "It trembled under his foot. He swallowed, but he did not turn back.",
+          "\"I am coming, Hakan,\" he said.",
+          "With each brave step, the bridge grew brighter, until Yusuf reached the mist and took his brother's hand.",
+        ],
+        image: "assets/kitsune-moon-bridge-page-10.webp",
+        alt: "Yusuf bravely crossing the glowing moon bridge first to reach Hakan",
+      },
+      {
+        title: "Wake, Mizuna",
+        paragraphs: [
+          "Together, the brothers brought the three lights to the river.",
+          "Angela's song floated from the shrine gate. Koray's tiny bridge rang like a bell.",
+          "Yusuf clapped the true drumbeat. Hakan lifted the Moon Reflection.",
+          "The river rose in blue light. Mizuna opened her eyes and smiled.",
+        ],
+        image: "assets/kitsune-moon-bridge-page-11.webp",
+        alt: "Hakan and Yusuf using the song pieces to wake Mizuna, the gentle blue river spirit",
+      },
+      {
+        title: "Two Moon-Fox Charms",
+        paragraphs: [
+          "Water rushed happily over the stones. The lanterns floated home at last.",
+          "Bip Jr. bowed so low his five tails flopped over his head. Hakan laughed and forgave him.",
+          "Bip touched his nose to Yusuf's hand. \"A true protector crossed first tonight.\"",
+          "The brothers held matching moon-fox charms. Yusuf squeezed Hakan's shoulder. \"I will always cross first if you need me.\"",
+        ],
+        image: "assets/kitsune-moon-bridge-page-12.webp",
+        alt: "Hakan and Yusuf holding moon-fox charms with Angela, Koray, Bip Jr, and Bip at the flowing river",
+      },
+    ],
+  },
+  {
     title: "Yusie and the Marvel Tree Dragon",
     libraryKicker: "Yusuf Dragon Adventure",
     description:
