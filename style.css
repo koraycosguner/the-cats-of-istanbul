@@ -161,6 +161,10 @@ h1 {
   line-height: 1.5;
 }
 
+.collection-back-button {
+  margin-top: 16px;
+}
+
 .book-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 320px));

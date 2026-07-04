@@ -10,6 +10,8 @@
     <title>Hakan and Yusuf's Picture Books</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="preload" as="image" href="assets/book-cover-cats-of-istanbul.webp" />
+    <link rel="preload" as="image" href="assets/book-cover-cats-blue-tile-map.webp" />
+    <link rel="preload" as="image" href="assets/book-cover-cats-galata-moon-bell.webp" />
     <link rel="preload" as="image" href="assets/book-cover-little-lost-moon.webp" />
     <link rel="preload" as="image" href="assets/book-cover-kitsune-moon-bridge.webp" />
     <link rel="preload" as="image" href="assets/book-cover-kitsune-star-garden.webp" />
@@ -41,10 +43,18 @@
       >
         <div class="library-intro">
           <h2 id="library-title">Choose Tonight's Adventure</h2>
-          <p>
+          <p id="libraryDescription">
             Cozy picture-book stories made for curious readers, gentle magic,
             and one more page before sleep.
           </p>
+          <button
+            type="button"
+            class="library-button collection-back-button"
+            id="collectionBackButton"
+            hidden
+          >
+            Library
+          </button>
         </div>
 
         <div class="book-grid" id="bookGrid"></div>

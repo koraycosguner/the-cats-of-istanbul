@@ -8,6 +8,7 @@ const books = [
     cover: "assets/book-cover-cats-of-istanbul.webp",
     coverAlt:
       "Cover art for Hakan and the Cats of Istanbul showing Hakan, Yusuf, Misket, and Istanbul at sunset",
+    seriesId: "cats-of-istanbul",
     pages: [
       {
         title: "Morning Over Istanbul",
@@ -118,6 +119,296 @@ const books = [
         ],
         image: "assets/page-10.webp",
         alt: "Misket giving Hakan a tiny golden paw charm while Angela, Koray, and Yusuf watch warmly",
+      },
+    ],
+  },
+  {
+    title: "Hakan, Yusuf, and the Blue Tile Map",
+    libraryKicker: "Istanbul Cats Sequel",
+    readerKicker: "A blue-tile mystery through Istanbul",
+    description:
+      "Misket returns with a dim map, three missing tiles, and a path for both brothers to read.",
+    cover: "assets/book-cover-cats-blue-tile-map.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Blue Tile Map showing the brothers, Misket, and a glowing Istanbul tile map",
+    seriesId: "cats-of-istanbul",
+    pages: [
+      {
+        title: "Misket Returns",
+        paragraphs: [
+          "Hakan's golden paw charm blinked during breakfast.",
+          "Tap, tap, tap. Misket stood at the window with a blue tile in her mouth.",
+          "Yusuf leaned closer. \"That is not just a tile,\" he said. \"It is one piece of a bigger pattern.\"",
+          "Misket's green eyes flashed. Then she leaped down and waited by the door.",
+        ],
+        image: "assets/cats-blue-tile-map-page-01.webp",
+        alt: "Misket tapping the breakfast window with a blue tile while Hakan and Yusuf study it",
+      },
+      {
+        title: "The Dim Map",
+        paragraphs: [
+          "Misket led them back to the hidden courtyard of the Cats of Istanbul.",
+          "On one wall, hundreds of blue tiles made a map of the city.",
+          "But the map was dull, like the sea under clouds.",
+          "\"This map guides lost cats to safe doors,\" said the eldest cat. \"Tonight, it cannot see.\"",
+        ],
+        image: "assets/cats-blue-tile-map-page-02.webp",
+        alt: "Hakan and Yusuf facing the dim Blue Tile Map in the hidden cat courtyard",
+      },
+      {
+        title: "Yusuf Reads the Pattern",
+        paragraphs: [
+          "Yusuf stepped close to the empty spaces in the wall.",
+          "\"Three shapes are missing,\" he said. \"A tulip, a wave, and a star.\"",
+          "Hakan touched the edge of one dull tile. \"The map looks sad.\"",
+          "Misket nodded as if Hakan had read the most important clue.",
+        ],
+        image: "assets/cats-blue-tile-map-page-03.webp",
+        alt: "Yusuf pointing to tulip, wave, and star-shaped gaps in the Blue Tile Map",
+      },
+      {
+        title: "Angela's Tulip Clue",
+        paragraphs: [
+          "At the Spice Bazaar, warm colors glowed under hanging lamps.",
+          "Angela stopped beside an old scarf covered in tulips.",
+          "\"This tulip is the same shape,\" she said. \"My grandmother loved patterns like this.\"",
+          "When Angela hummed softly, one tulip on the scarf shone blue.",
+        ],
+        image: "assets/cats-blue-tile-map-page-04.webp",
+        alt: "Angela finding the tulip clue on an old scarf in the Spice Bazaar",
+      },
+      {
+        title: "The Yarn Basket Kitten",
+        paragraphs: [
+          "In the Grand Bazaar, a tiny kitten squeaked from a basket of yarn.",
+          "Hakan untangled her gently, loop by loop.",
+          "Yusuf followed the red-blue pattern under the stalls. \"It ends here!\"",
+          "The kitten batted a ball of yarn aside, and the Tulip Tile sparkled underneath.",
+        ],
+        image: "assets/cats-blue-tile-map-page-05.webp",
+        alt: "Hakan freeing a kitten from yarn while Yusuf follows the floor pattern to the Tulip Tile",
+      },
+      {
+        title: "Koray's Tiny Tram Bell",
+        paragraphs: [
+          "A tiny cat tram waited in a hidden alley, frozen on its little track.",
+          "Koray knelt beside it. \"The bell cord is twisted.\"",
+          "He fixed it with careful fingers. Ding!",
+          "The tram rolled forward just enough to point its bright nose toward the water.",
+        ],
+        image: "assets/cats-blue-tile-map-page-06.webp",
+        alt: "Koray fixing the bell cord on a tiny magical cat tram in a hidden Istanbul alley",
+      },
+      {
+        title: "The Cistern of Reflections",
+        paragraphs: [
+          "Below the city, cool stone columns stood in quiet water.",
+          "Yusuf counted the columns and their reflections. \"The missing wave is under the seventh light.\"",
+          "Hakan listened to the drops. Plink. Plink-plink. Plink.",
+          "The water rippled, and the Wave Tile rose into his hands.",
+        ],
+        image: "assets/cats-blue-tile-map-page-07.webp",
+        alt: "Yusuf counting cistern reflections while Hakan listens to water drops near the Wave Tile",
+      },
+      {
+        title: "Fog on the Bosphorus",
+        paragraphs: [
+          "Soft fog slid over the ferry dock.",
+          "Koray watched the ferry lights blink through the mist. \"The route turns left at the blue one.\"",
+          "Angela sang quietly, and the nervous cats tucked closer to her shoes.",
+          "The map line shimmered upward, toward the red rooftops.",
+        ],
+        image: "assets/cats-blue-tile-map-page-08.webp",
+        alt: "Koray reading ferry lights while Angela calms the cats in Bosphorus fog",
+      },
+      {
+        title: "The Helpful Gull",
+        paragraphs: [
+          "On a warm red rooftop, a gull sat beside a nest of ribbons.",
+          "The Star Tile glittered inside it like moon bread.",
+          "Hakan bowed. \"May we have it back, please?\"",
+          "Yusuf held out a smooth blue bead. The gull traded with a proud little flap.",
+        ],
+        image: "assets/cats-blue-tile-map-page-09.webp",
+        alt: "Hakan asking a rooftop gull for the Star Tile while Yusuf offers a blue bead",
+      },
+      {
+        title: "Three Tiles, One Pattern",
+        paragraphs: [
+          "Back in the courtyard, Yusuf did not place the tiles by size.",
+          "He placed them by pattern: tulip to garden, wave to ferry, star to rooftop.",
+          "Hakan turned the Golden Fish Key in a tiny blue lock.",
+          "The map glowed once, then waited, as if it needed one more thing.",
+        ],
+        image: "assets/cats-blue-tile-map-page-10.webp",
+        alt: "Yusuf placing the three missing tiles while Hakan turns the Golden Fish Key",
+      },
+      {
+        title: "Angela Wakes the Blue",
+        paragraphs: [
+          "Angela sang the soft bazaar song again.",
+          "Koray rang the tiny tram bell. Ding!",
+          "Hakan and Yusuf pressed their hands on the map together.",
+          "Blue light ran through every tile, fast as a happy river.",
+        ],
+        image: "assets/cats-blue-tile-map-page-11.webp",
+        alt: "Angela singing and Koray ringing the tram bell while Hakan and Yusuf wake the Blue Tile Map",
+      },
+      {
+        title: "Readers of Paths",
+        paragraphs: [
+          "The Cats of Istanbul cheered in soft meows and proud tail swishes.",
+          "Tiny blue paths spread across the map, over rooftops, ferries, fountains, and doors.",
+          "Misket gave Hakan and Yusuf matching blue tile charms.",
+          "\"Readers of Paths,\" said the eldest cat. \"The city can see again.\"",
+        ],
+        image: "assets/cats-blue-tile-map-page-12.webp",
+        alt: "Misket giving Hakan and Yusuf matching blue tile charms as the Cats of Istanbul celebrate",
+      },
+    ],
+  },
+  {
+    title: "Hakan, Yusuf, and the Galata Moon Bell",
+    libraryKicker: "Istanbul Cats Sequel",
+    readerKicker: "A moonlit Galata Tower rescue",
+    description:
+      "A silent bell, three missing sounds, and a night path for the whole family.",
+    cover: "assets/book-cover-cats-galata-moon-bell.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Galata Moon Bell showing the family, Misket, and the glowing Moon Bell",
+    seriesId: "cats-of-istanbul",
+    pages: [
+      {
+        title: "A Line to Galata",
+        paragraphs: [
+          "At bedtime, Hakan and Yusuf's blue tile charms began to glow.",
+          "The Blue Tile Map opened on Hakan's desk by itself.",
+          "A silver line curled across the tiny city, over rooftops and water.",
+          "It stopped at Galata Tower.",
+        ],
+        image: "assets/cats-galata-moon-bell-page-01.webp",
+        alt: "Hakan and Yusuf watching the Blue Tile Map draw a silver line to Galata Tower",
+      },
+      {
+        title: "The Silent Bell",
+        paragraphs: [
+          "In the hidden courtyard, Misket touched the map with one paw.",
+          "A silver-blue bell appeared above the tiles, but it made no sound.",
+          "\"The Galata Moon Bell opens secret cat doors at night,\" said the eldest cat.",
+          "\"Three sounds are missing: sea, street, and home.\"",
+        ],
+        image: "assets/cats-galata-moon-bell-page-02.webp",
+        alt: "Misket showing Hakan and Yusuf the silent Galata Moon Bell on the Blue Tile Map",
+      },
+      {
+        title: "Koray's Ferry Knot",
+        paragraphs: [
+          "At the ferry pier, a rope gate blocked the hidden cat path.",
+          "Koray studied the knot. \"This wants a sailor's twist.\"",
+          "Loop, tuck, pull. The rope gate opened.",
+          "Behind it, a glowing shell hummed beside the water.",
+        ],
+        image: "assets/cats-galata-moon-bell-page-03.webp",
+        alt: "Koray tying a sailor knot to open a hidden ferry-pier cat path",
+      },
+      {
+        title: "The Sea Note",
+        paragraphs: [
+          "The shell hummed with ferry horns and Bosphorus waves.",
+          "Yusuf held it steady with both hands.",
+          "Hakan leaned close and listened until the sound curled into shape.",
+          "A blue pearl rose from the shell. The Sea Note was found.",
+        ],
+        image: "assets/cats-galata-moon-bell-page-04.webp",
+        alt: "Yusuf holding a glowing shell steady while Hakan listens for the Sea Note",
+      },
+      {
+        title: "Angela Spots the Wrong Shadow",
+        paragraphs: [
+          "Near Galata Tower, Angela stopped on the cobblestones.",
+          "\"The moon is there,\" she said, \"but the tower shadow points that way.\"",
+          "The shadow stretched to a warm window full of lanterns.",
+          "Misket flicked her tail. Another clue.",
+        ],
+        image: "assets/cats-galata-moon-bell-page-05.webp",
+        alt: "Angela noticing the wrong shadow near Galata Tower leading to a lantern shop",
+      },
+      {
+        title: "The Lantern Kitten",
+        paragraphs: [
+          "Inside the shop, lanterns swung in soft circles.",
+          "A kitten crouched under a shelf, too scared to move.",
+          "Hakan spoke softly while Yusuf held the ladder steady.",
+          "The kitten touched Hakan's hand, and the Street Note sparkled beside her paw.",
+        ],
+        image: "assets/cats-galata-moon-bell-page-06.webp",
+        alt: "Hakan calming a kitten in a lantern shop while Yusuf steadies a ladder",
+      },
+      {
+        title: "Yusuf Climbs First",
+        paragraphs: [
+          "Inside Galata Tower, the stairs curled up and up.",
+          "The wind hummed through the stone windows.",
+          "Yusuf climbed first with Misket at his side.",
+          "He left small blue chalk marks so Hakan could follow safely.",
+        ],
+        image: "assets/cats-galata-moon-bell-page-07.webp",
+        alt: "Yusuf climbing first inside Galata Tower and leaving blue chalk marks for Hakan",
+      },
+      {
+        title: "The Wind in Angela's Scarf",
+        paragraphs: [
+          "At the top, the Home Note fluttered in the wind.",
+          "It zipped left. It zipped right. Hakan could not catch it.",
+          "Angela opened her scarf like a sail.",
+          "The wind filled it gently, and the Home Note landed in the soft cloth.",
+        ],
+        image: "assets/cats-galata-moon-bell-page-08.webp",
+        alt: "Angela catching the glowing Home Note in her scarf at the top of Galata Tower",
+      },
+      {
+        title: "Koray Fixes the Bell Frame",
+        paragraphs: [
+          "The Moon Bell waited above them, silver and quiet.",
+          "It was not broken, but its wooden frame had cracked.",
+          "Koray wrapped the frame with cord and tied it tight.",
+          "The bell hung straight. Now it was ready to ring.",
+        ],
+        image: "assets/cats-galata-moon-bell-page-09.webp",
+        alt: "Koray repairing the cracked wooden frame of the Galata Moon Bell",
+      },
+      {
+        title: "Brothers at the Rope",
+        paragraphs: [
+          "Hakan unlocked the bell heart with the Golden Fish Key.",
+          "Yusuf held the rope as the wind pushed hard.",
+          "Hakan held Yusuf's wrist. Yusuf nodded.",
+          "Together, they rang the Galata Moon Bell.",
+        ],
+        image: "assets/cats-galata-moon-bell-page-10.webp",
+        alt: "Hakan unlocking the Moon Bell heart while Yusuf holds the bell rope",
+      },
+      {
+        title: "Doors of Moonlight",
+        paragraphs: [
+          "The bell sang over Istanbul in silver-blue rings.",
+          "Blue doors glowed under stairs, beside fountains, and behind flower pots.",
+          "Lost cats lifted their heads and padded safely home.",
+          "From the tower, Hakan and Yusuf watched the whole city answer.",
+        ],
+        image: "assets/cats-galata-moon-bell-page-11.webp",
+        alt: "Blue cat doors glowing across moonlit Istanbul as lost cats find their way home",
+      },
+      {
+        title: "Keepers of the Bell",
+        paragraphs: [
+          "Back in the courtyard, Misket placed silver bell charms before the brothers.",
+          "\"Keepers of the Bell,\" said the eldest cat. \"You listened together.\"",
+          "Angela and Koray smiled as the Cats of Istanbul bowed.",
+          "On the Blue Tile Map, one last sparkle winked. Istanbul was saving another secret for another night.",
+        ],
+        image: "assets/cats-galata-moon-bell-page-12.webp",
+        alt: "Misket giving Hakan and Yusuf silver bell charms as Angela, Koray, and the cats celebrate",
       },
     ],
   },
@@ -1022,7 +1313,25 @@ const books = [
   },
 ];
 
+const collections = [
+  {
+    id: "cats-of-istanbul",
+    title: "The Cats of Istanbul Adventures",
+    libraryKicker: "Istanbul Cats Collection",
+    description:
+      "Misket, the secret Cats of Istanbul, and three connected city mysteries.",
+    cover: "assets/book-cover-cats-of-istanbul.webp",
+    coverAlt:
+      "Collection cover for The Cats of Istanbul Adventures showing Hakan, Yusuf, Misket, and Istanbul",
+  },
+];
+
+const defaultLibraryTitle = "Choose Tonight's Adventure";
+const defaultLibraryDescription =
+  "Cozy picture-book stories made for curious readers, gentle magic, and one more page before sleep.";
+
 let activeBook = books[0];
+let activeCollectionId = null;
 let currentPage = 0;
 let pointerStartX = 0;
 
@@ -1042,54 +1351,105 @@ const siteTitle = document.getElementById("siteTitle");
 const libraryView = document.getElementById("libraryView");
 const readerView = document.getElementById("readerView");
 const libraryButton = document.getElementById("libraryButton");
+const libraryTitle = document.getElementById("library-title");
+const libraryDescription = document.getElementById("libraryDescription");
+const collectionBackButton = document.getElementById("collectionBackButton");
+
+function createBookTile(item, onClick, index = 1) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "book-tile";
+  button.setAttribute("aria-label", `Open ${item.title}`);
+  button.addEventListener("click", onClick);
+
+  const coverShell = document.createElement("span");
+  coverShell.className = "cover-shell";
+
+  const cover = document.createElement("img");
+  cover.src = item.cover;
+  cover.alt = item.coverAlt;
+  cover.width = 941;
+  cover.height = 1672;
+  cover.decoding = "async";
+  cover.loading = index === 0 ? "eager" : "lazy";
+
+  const meta = document.createElement("span");
+  meta.className = "book-meta";
+
+  const kicker = document.createElement("span");
+  kicker.className = "book-kicker";
+  kicker.textContent = item.libraryKicker;
+
+  const title = document.createElement("span");
+  title.className = "book-title";
+  title.textContent = item.title;
+
+  const description = document.createElement("span");
+  description.className = "book-description";
+  description.textContent = item.description;
+
+  coverShell.append(cover);
+  meta.append(kicker, title, description);
+  button.append(coverShell, meta);
+
+  return button;
+}
 
 function renderLibrary() {
   bookGrid.textContent = "";
 
-  books.forEach((book, index) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "book-tile";
-    button.setAttribute("aria-label", `Open ${book.title}`);
-    button.addEventListener("click", () => {
-      if (book.href) {
-        window.location.href = book.href;
-        return;
-      }
+  if (activeCollectionId) {
+    const collection = collections.find(({ id }) => id === activeCollectionId);
+    const collectionBooks = books.filter(
+      ({ seriesId }) => seriesId === activeCollectionId,
+    );
 
-      showReader(index);
+    libraryTitle.textContent = collection.title;
+    libraryDescription.textContent = collection.description;
+    siteKicker.textContent = "Story collection";
+    siteTitle.textContent = collection.title;
+    collectionBackButton.hidden = false;
+
+    collectionBooks.forEach((book) => {
+      const bookIndex = books.indexOf(book);
+      bookGrid.append(
+        createBookTile(book, () => {
+          showReader(bookIndex);
+        }, bookIndex),
+      );
     });
 
-    const coverShell = document.createElement("span");
-    coverShell.className = "cover-shell";
+    return;
+  }
 
-    const cover = document.createElement("img");
-    cover.src = book.cover;
-    cover.alt = book.coverAlt;
-    cover.width = 941;
-    cover.height = 1672;
-    cover.decoding = "async";
-    cover.loading = index === 0 ? "eager" : "lazy";
+  libraryTitle.textContent = defaultLibraryTitle;
+  libraryDescription.textContent = defaultLibraryDescription;
+  siteKicker.textContent = "Story library";
+  siteTitle.textContent = "Hakan and Yusuf's Picture Books";
+  collectionBackButton.hidden = true;
 
-    const meta = document.createElement("span");
-    meta.className = "book-meta";
+  collections.forEach((collection, index) => {
+    bookGrid.append(
+      createBookTile(collection, () => {
+        showCollection(collection.id);
+      }, index),
+    );
+  });
 
-    const kicker = document.createElement("span");
-    kicker.className = "book-kicker";
-    kicker.textContent = book.libraryKicker;
+  books
+    .filter(({ seriesId }) => !seriesId)
+    .forEach((book, offset) => {
+      const bookIndex = books.indexOf(book);
+      bookGrid.append(
+        createBookTile(book, () => {
+          if (book.href) {
+            window.location.href = book.href;
+            return;
+          }
 
-    const title = document.createElement("span");
-    title.className = "book-title";
-    title.textContent = book.title;
-
-    const description = document.createElement("span");
-    description.className = "book-description";
-    description.textContent = book.description;
-
-    coverShell.append(cover);
-    meta.append(kicker, title, description);
-    button.append(coverShell, meta);
-    bookGrid.append(button);
+          showReader(bookIndex);
+        }, collections.length + offset),
+      );
   });
 }
 
@@ -1147,17 +1507,27 @@ function showReader(bookIndex) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
+function showCollection(collectionId) {
+  activeCollectionId = collectionId;
+  readerView.hidden = true;
+  libraryView.hidden = false;
+  document.body.classList.remove("reader-open");
+  document.body.classList.remove("drop-cap-book");
+  renderLibrary();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
 async function showLibrary() {
   if (document.fullscreenElement) {
     await document.exitFullscreen();
   }
 
+  activeCollectionId = null;
   readerView.hidden = true;
   libraryView.hidden = false;
-  siteKicker.textContent = "Story library";
-  siteTitle.textContent = "Hakan and Yusuf's Picture Books";
   document.body.classList.remove("reader-open");
   document.body.classList.remove("drop-cap-book");
+  renderLibrary();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -1206,6 +1576,7 @@ async function toggleFullscreen() {
 backButton.addEventListener("click", previousPage);
 nextButton.addEventListener("click", nextPage);
 libraryButton.addEventListener("click", showLibrary);
+collectionBackButton.addEventListener("click", showLibrary);
 
 if (bookCard.requestFullscreen && document.exitFullscreen) {
   fullscreenButton.addEventListener("click", toggleFullscreen);
