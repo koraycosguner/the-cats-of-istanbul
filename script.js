@@ -421,6 +421,7 @@ const books = [
     cover: "assets/book-cover-moonlit-library.webp",
     coverAlt:
       "Cover art for Hakan and the Moonlit Library showing Hakan, Yusuf, and a glowing secret library",
+    seriesId: "book-magic",
     pages: [
       {
         title: "The Bookmark Blinked",
@@ -531,6 +532,340 @@ const books = [
         ],
         image: "assets/moonlit-page-10.webp",
         alt: "Hakan and Yusuf smiling as the moonlit library glows and the silver bell returns to its pillow",
+      },
+    ],
+  },
+  {
+    title: "Hakan, Yusuf, and the Clockwork Chapter",
+    libraryKicker: "Book Magic Sequel",
+    readerKicker: "A Moonlit Library mystery about missing middles",
+    description:
+      "The Last Page Bell rings again, but the Story Clock is skipping the middle of every tale.",
+    cover: "assets/book-cover-book-magic-clockwork-chapter.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Clockwork Chapter showing the family beside the magical Story Clock",
+    seriesId: "book-magic",
+    pages: [
+      {
+        title: "The Bell Rings Twice",
+        paragraphs: [
+          "Hakan was reading in bed when the silver bookmark blinked again.",
+          "Ding. Ding.",
+          "The sound came from inside the book, tiny but bright.",
+          "Yusuf looked in from the doorway. \"That bell is calling us back.\"",
+        ],
+        image: "assets/book-magic-clockwork-page-01.webp",
+        alt: "Hakan reading in bed as the silver bookmark glows and Yusuf watches from the doorway",
+      },
+      {
+        title: "An Ending Too Soon",
+        paragraphs: [
+          "The book opened by itself. The first page said, \"Once upon a time.\"",
+          "Then the pages flipped fast. Swish, swish, swish.",
+          "The last page said, \"The End.\"",
+          "Yusuf frowned. \"Wait. Where did the middle go?\"",
+        ],
+        image: "assets/book-magic-clockwork-page-02.webp",
+        alt: "A magical book skipping from the first page to the last while Hakan and Yusuf look surprised",
+      },
+      {
+        title: "Back to the Moonlit Library",
+        paragraphs: [
+          "The bookshelf door opened with a soft silver click.",
+          "Hakan, Yusuf, Angela, and Koray stepped into the Moonlit Library.",
+          "The Keeper hurried toward them with his round glasses shining.",
+          "\"The Last Page Bell is home,\" he said, \"but the Story Clock is skipping.\"",
+        ],
+        image: "assets/book-magic-clockwork-page-03.webp",
+        alt: "Hakan, Yusuf, Angela, and Koray returning to the Moonlit Library with the Keeper waiting",
+      },
+      {
+        title: "The Story Clock",
+        paragraphs: [
+          "A giant clock hung above the tallest shelf.",
+          "Instead of numbers, it held parts of a story: begin, trouble, choose, change, and end.",
+          "Three golden spaces were empty.",
+          "\"Find the missing pieces,\" said the Keeper, \"or stories will keep jumping ahead.\"",
+        ],
+        image: "assets/book-magic-clockwork-page-04.webp",
+        alt: "A giant magical Story Clock glowing above the Moonlit Library shelves",
+      },
+      {
+        title: "Angela's Margin Note",
+        paragraphs: [
+          "Angela opened an old book and touched a note in the margin.",
+          "\"A story grows one careful step at a time,\" she read.",
+          "The words glowed warm gold.",
+          "A little clock door swung open, and a tiny train whistle peeped from inside.",
+        ],
+        image: "assets/book-magic-clockwork-page-05.webp",
+        alt: "Angela reading a glowing margin note while the family gathers near the Story Clock",
+      },
+      {
+        title: "The Train of First Words",
+        paragraphs: [
+          "A train made of paper puffed around a shelf.",
+          "At the station, one shy first sentence would not climb aboard.",
+          "Hakan knelt low. \"You can start small,\" he whispered.",
+          "The sentence hopped on, and the Tick of Beginning appeared in Hakan's hand.",
+        ],
+        image: "assets/book-magic-clockwork-page-06.webp",
+        alt: "Hakan helping a shy paper sentence board a tiny train of first words while Yusuf smiles",
+      },
+      {
+        title: "Yusuf Spots the Skip",
+        paragraphs: [
+          "Yusuf watched the clock hands move.",
+          "Tick. Tock. Jump.",
+          "\"There,\" he said, marking the missing beat with blue chalk. \"It skips right before trouble.\"",
+          "A second door opened into a pop-up forest.",
+        ],
+        image: "assets/book-magic-clockwork-page-07.webp",
+        alt: "Yusuf marking a skipped beat near the Story Clock as a pop-up forest opens",
+      },
+      {
+        title: "The Trouble That Helps",
+        paragraphs: [
+          "In the pop-up forest, a paper rabbit stopped before a shiny puddle.",
+          "\"Poor rabbit,\" Hakan said. \"The puddle is in the way.\"",
+          "Then the rabbit found a leaf, made a little boat, and crossed with a proud hop.",
+          "Hakan smiled. \"Trouble helps the brave part happen.\"",
+        ],
+        image: "assets/book-magic-clockwork-page-08.webp",
+        alt: "A paper rabbit crossing a puddle in a pop-up forest while Hakan and Yusuf watch",
+      },
+      {
+        title: "Koray Fixes the Gear Path",
+        paragraphs: [
+          "The Tock of Trouble rolled out of the forest and bumped into the clock.",
+          "Clink. It stopped.",
+          "Koray bent close and found a tiny gear path twisted under the clock.",
+          "He turned it gently. \"Now the beginning can lead to the trouble.\"",
+        ],
+        image: "assets/book-magic-clockwork-page-09.webp",
+        alt: "Koray carefully fixing a tiny gear path under the magical Story Clock",
+      },
+      {
+        title: "The Paper Knight",
+        paragraphs: [
+          "The clock opened one last book.",
+          "Inside, a paper knight stood before two bridges.",
+          "\"Pick the big bridge,\" Yusuf said quickly.",
+          "Hakan listened. From the small bridge came a tiny cry for help.",
+        ],
+        image: "assets/book-magic-clockwork-page-10.webp",
+        alt: "A paper knight standing before two bridges in a pop-up castle book while the brothers decide",
+      },
+      {
+        title: "The Chime of Choice",
+        paragraphs: [
+          "The paper knight chose the small bridge.",
+          "At the other side, a little paper friend wiped away a tear.",
+          "The knight's shield shone, and the Chime of Choice rang clear.",
+          "Yusuf grinned. \"The best choice was the kind one.\"",
+        ],
+        image: "assets/book-magic-clockwork-page-11.webp",
+        alt: "The paper knight choosing the small bridge to help a friend as a golden chime appears",
+      },
+      {
+        title: "Middle Restored",
+        paragraphs: [
+          "Angela read the margin note again.",
+          "Koray turned the repaired gear.",
+          "Hakan placed the Tick. Yusuf placed the Tock. Together, they set the Chime in the clock.",
+          "The Story Clock hummed like a happy bedtime song.",
+        ],
+        image: "assets/book-magic-clockwork-page-12.webp",
+        alt: "Hakan and Yusuf placing the missing pieces into the Story Clock while Angela, Koray, and the Keeper help",
+      },
+      {
+        title: "The Bell Waits",
+        paragraphs: [
+          "The Last Page Bell floated above the open book.",
+          "It did not ring right away.",
+          "Pages filled with paths, problems, choices, and changes.",
+          "Yusuf smiled. \"It is waiting for the middle. Now the ending can mean something.\"",
+        ],
+        image: "assets/book-magic-clockwork-page-13.webp",
+        alt: "The Last Page Bell waiting above a repaired storybook as the family watches",
+      },
+      {
+        title: "A Blank Page Breathes",
+        paragraphs: [
+          "Back home, Hakan tucked the silver bookmark beside his pillow.",
+          "Yusuf stayed for one more page.",
+          "The book opened to a blank sheet. A tiny blue-black wing print appeared.",
+          "Then the page gave a soft little breath.",
+        ],
+        image: "assets/book-magic-clockwork-page-14.webp",
+        alt: "Hakan and Yusuf finding a tiny ink wing print on a blank page in Hakan's bedroom",
+      },
+    ],
+  },
+  {
+    title: "Hakan, Yusuf, and the Ink Dragon's Promise",
+    libraryKicker: "Book Magic Finale",
+    readerKicker: "A Moonlit Library story about brave mistakes",
+    description:
+      "A worried ink dragon teaches the family that a messy mark can become a better story.",
+    cover: "assets/book-cover-book-magic-ink-dragon.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Ink Dragon's Promise showing the family with a tiny ink dragon",
+    seriesId: "book-magic",
+    pages: [
+      {
+        title: "The Ink Wing Print",
+        paragraphs: [
+          "The blank page breathed again.",
+          "A tiny wing print lifted from the paper.",
+          "Blue-black ink drops floated into the air and made a trail.",
+          "Hakan whispered, \"Something is trying to show us the way.\"",
+        ],
+        image: "assets/book-magic-ink-dragon-page-01.webp",
+        alt: "A tiny ink wing print rising from a blank page while Hakan and Yusuf watch",
+      },
+      {
+        title: "Drops to the Door",
+        paragraphs: [
+          "The drops drifted down the hall.",
+          "Yusuf carried the silver bookmark. Hakan followed the shining trail.",
+          "Angela and Koray came too, because book magic had learned their address.",
+          "On the book door, a smudge curled like a dragon tail.",
+        ],
+        image: "assets/book-magic-ink-dragon-page-02.webp",
+        alt: "The family following blue ink drops to a glowing book door with a dragon-tail smudge",
+      },
+      {
+        title: "Blank Pages Everywhere",
+        paragraphs: [
+          "In the Moonlit Library, books floated open all around them.",
+          "Every page was blank.",
+          "The Keeper held one book with shaking hands. \"Someone is hiding the words.\"",
+          "From under his desk came the smallest sniffle.",
+        ],
+        image: "assets/book-magic-ink-dragon-page-03.webp",
+        alt: "Blank books floating through the Moonlit Library while the family and Keeper search for the hidden words",
+      },
+      {
+        title: "Nib Under the Desk",
+        paragraphs: [
+          "Hakan crouched and looked under the desk.",
+          "A tiny dragon sat in the shadows, blue-black as fresh ink.",
+          "His wings were folded tight. His eyes were wet.",
+          "\"I am Nib,\" he whispered. \"Please do not look at my mess.\"",
+        ],
+        image: "assets/book-magic-ink-dragon-page-04.webp",
+        alt: "Hakan gently finding Nib, a tiny blue-black ink dragon, hiding under the library desk",
+      },
+      {
+        title: "The Big Blot",
+        paragraphs: [
+          "Nib showed them a page with one giant blot.",
+          "\"I sneezed ink,\" he said. \"Now the story is ruined forever.\"",
+          "The blot wobbled on the paper like it wanted to run away.",
+          "Yusuf leaned closer. \"Maybe it is not finished yet.\"",
+        ],
+        image: "assets/book-magic-ink-dragon-page-05.webp",
+        alt: "Nib pointing sadly at a huge blue-black ink blot on an open storybook",
+      },
+      {
+        title: "Angela's Crossed-Out Note",
+        paragraphs: [
+          "Angela pulled a recipe card from her pocket.",
+          "It had crossed-out lines and little arrows all over it.",
+          "\"This card was messy,\" she said. \"Then it helped me make a better cake.\"",
+          "Nib blinked. \"A mistake can help?\"",
+        ],
+        image: "assets/book-magic-ink-dragon-page-06.webp",
+        alt: "Angela showing Nib a crossed-out recipe note while Hakan and Yusuf listen",
+      },
+      {
+        title: "The Ink River",
+        paragraphs: [
+          "The blot slipped off the page and became a small ink river.",
+          "Cream-colored pages floated on top like boats.",
+          "Yusuf studied the marks. \"These pages are out of order.\"",
+          "He began to line them up, one careful page at a time.",
+        ],
+        image: "assets/book-magic-ink-dragon-page-07.webp",
+        alt: "Yusuf leading the family by arranging floating page pieces on a glowing ink river",
+      },
+      {
+        title: "Koray's Blotter Bridge",
+        paragraphs: [
+          "The ink river grew too wide to step across.",
+          "Koray folded clean paper into a bridge.",
+          "The paper drank extra ink from the edges but kept the path bright.",
+          "\"A good fix does not erase everything,\" he said. \"It saves what matters.\"",
+        ],
+        image: "assets/book-magic-ink-dragon-page-08.webp",
+        alt: "Koray making a folded blotter-paper bridge over the ink river while Yusuf helps Hakan cross",
+      },
+      {
+        title: "Comma Clouds",
+        paragraphs: [
+          "Above the bridge, comma-shaped clouds drifted the wrong way.",
+          "Nib breathed tiny blue ink stars. They sparkled in short bursts.",
+          "Hakan listened to the spaces between the bursts.",
+          "\"Here,\" he said. \"The story needs a pause.\"",
+        ],
+        image: "assets/book-magic-ink-dragon-page-09.webp",
+        alt: "Hakan listening to Nib's tiny blue ink-star breath among comma-shaped clouds",
+      },
+      {
+        title: "The Promise Page",
+        paragraphs: [
+          "At the center of the library stood a glowing blank page.",
+          "It did not shout. It did not scold.",
+          "It waited.",
+          "The Keeper bowed. \"This is the Promise Page. It asks for only one promise: try again.\"",
+        ],
+        image: "assets/book-magic-ink-dragon-page-10.webp",
+        alt: "The family standing before a glowing blank Promise Page in the Moonlit Library",
+      },
+      {
+        title: "I Made a Mess",
+        paragraphs: [
+          "Nib shook from nose to tail.",
+          "\"I made a mess,\" he said.",
+          "Hakan knelt beside him. \"Then we can clean it, shape it, and keep going.\"",
+          "Yusuf nodded. \"And I will help put the pages in order.\"",
+        ],
+        image: "assets/book-magic-ink-dragon-page-11.webp",
+        alt: "Hakan comforting Nib beside a small ink blot while Yusuf stands protectively nearby",
+      },
+      {
+        title: "Yusuf Sets the Order",
+        paragraphs: [
+          "Yusuf placed the pages in a line.",
+          "Beginning. Trouble. Choice. Change.",
+          "Angela found the best lines. Koray held the bridge steady.",
+          "Hakan helped Nib press one tiny ink footprint onto the Promise Page.",
+        ],
+        image: "assets/book-magic-ink-dragon-page-12.webp",
+        alt: "Yusuf arranging floating pages while Hakan helps Nib make a promise on the glowing page",
+      },
+      {
+        title: "The Blot Becomes a Dragon",
+        paragraphs: [
+          "The big blot lifted from the book.",
+          "It stretched, curled, and sparkled.",
+          "Then it became a friendly dragon made of ink stars.",
+          "Nib laughed so hard a few blue stars popped from his nose.",
+        ],
+        image: "assets/book-magic-ink-dragon-page-13.webp",
+        alt: "A huge ink blot becoming a friendly dragon-shaped constellation above the family",
+      },
+      {
+        title: "Keepers of Better Drafts",
+        paragraphs: [
+          "The Keeper smiled at Hakan and Yusuf.",
+          "\"Stories need brave readers,\" he said, \"and careful fixers.\"",
+          "Back home, Hakan wrote one messy sentence, crossed out one word, and kept going.",
+          "Yusuf sat beside him. \"That,\" he said, \"is how a story gets braver.\"",
+        ],
+        image: "assets/book-magic-ink-dragon-page-14.webp",
+        alt: "Hakan writing bravely at his desk while Yusuf helps and Angela and Koray smile from the doorway",
       },
     ],
   },
@@ -842,6 +1177,7 @@ const books = [
     cover: "assets/book-cover-kitsune-moon-bridge.webp",
     coverAlt:
       "Cover art for Hakan and Yusuf and the Kitsune Moon Bridge showing the brothers with two white kitsunes at a moonlit shrine",
+    seriesId: "kitsune",
     pages: [
       {
         title: "Cherry Blossom Mountain",
@@ -986,6 +1322,7 @@ const books = [
     cover: "assets/book-cover-kitsune-star-garden.webp",
     coverAlt:
       "Cover art for Hakan and Yusuf and the Kitsune Star Garden showing the brothers with two white kitsunes in a glowing star garden",
+    seriesId: "kitsune",
     pages: [
       {
         title: "The Lantern That Stayed",
@@ -1130,6 +1467,7 @@ const books = [
     cover: "assets/book-cover-kitsune-dawn-crown.webp",
     coverAlt:
       "Cover art for Hakan and Yusuf and the Kitsune Dawn Crown showing Papa Bip and Bip Jr saving the fox gate at sunrise",
+    seriesId: "kitsune",
     pages: [
       {
         title: "The Star That Fell",
@@ -1323,6 +1661,26 @@ const collections = [
     cover: "assets/book-cover-cats-of-istanbul.webp",
     coverAlt:
       "Collection cover for The Cats of Istanbul Adventures showing Hakan, Yusuf, Misket, and Istanbul",
+  },
+  {
+    id: "book-magic",
+    title: "The Moonlit Library Adventures",
+    libraryKicker: "Book Magic Collection",
+    description:
+      "The secret Moonlit Library, the Last Page Bell, and connected book-magic mysteries.",
+    cover: "assets/book-cover-moonlit-library.webp",
+    coverAlt:
+      "Collection cover for The Moonlit Library Adventures showing Hakan and Yusuf in a glowing secret library",
+  },
+  {
+    id: "kitsune",
+    title: "The Kitsune Shrine Adventures",
+    libraryKicker: "Ancient Japan Collection",
+    description:
+      "Bip, Bip Jr., cherry blossoms, moon bridges, and three connected shrine quests.",
+    cover: "assets/book-cover-kitsune-moon-bridge.webp",
+    coverAlt:
+      "Collection cover for The Kitsune Shrine Adventures showing Hakan, Yusuf, and two white kitsunes at a mountain shrine",
   },
 ];
 
