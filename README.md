@@ -12,12 +12,14 @@ Included stories:
 - _Hakan, Yusuf, and the Ink Dragon's Promise_
 - _Hakan and the Lanterns of Cappadocia_
 - _Hakan and the Little Lost Moon_
+- _Hakan, Yusuf, and the Comet Key_
+- _Hakan, Yusuf, and the Starlight Harbor_
 - _Hakan and Yusuf and the Kitsune Moon Bridge_
 - _Hakan and Yusuf and the Kitsune Star Garden_
 - _Hakan and Yusuf and the Kitsune Dawn Crown_
 - _Yusie and the Marvel Tree Dragon_
 
-This is a static HTML, CSS, and JavaScript storybook library with a front landing page, collection cards, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, fullscreen support where the browser allows it, and fixed two-page book spreads on larger screens. The Cats of Istanbul, Moonlit Library, and Kitsune stories are grouped under umbrella collection cards so readers can choose among connected sequels.
+This is a static HTML, CSS, and JavaScript storybook library with a front landing page, collection cards, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, fullscreen support where the browser allows it, and fixed two-page book spreads on larger screens. The Cats of Istanbul, Moonlit Library, Kitsune, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
 
 ## Reading Level
 

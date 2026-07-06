@@ -1000,6 +1000,7 @@ const books = [
     cover: "assets/book-cover-little-lost-moon.webp",
     coverAlt:
       "Cover art for Hakan and the Little Lost Moon showing Hakan, Yusuf, Glim, Blip, Pidge, and a glowing comet in space",
+    seriesId: "space-team",
     pages: [
       {
         title: "Blast Off",
@@ -1165,6 +1166,340 @@ const books = [
         ],
         image: "assets/little-moon-page-15.webp",
         alt: "Hakan smiling sleepily at a distant winking comet through the starship window",
+      },
+    ],
+  },
+  {
+    title: "Hakan, Yusuf, and the Comet Key",
+    libraryKicker: "Space Team Sequel",
+    readerKicker: "A glowing space rescue with the comet from before",
+    description:
+      "The comet returns with its tail tied in knots, and the brothers must make a key from helper lights.",
+    cover: "assets/book-cover-space-comet-key.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Comet Key showing the brothers, the family starship, and a knotted comet",
+    seriesId: "space-team",
+    pages: [
+      {
+        title: "The Comet Wink Returns",
+        paragraphs: [
+          "Hakan's moonlight gift blinked at bedtime.",
+          "He sat up fast. Outside the window, the same comet from their first space trip shone in the sky.",
+          "It winked once. Then it winked again.",
+          "Yusuf came to the door. \"That comet is not saying hello,\" he said. \"It is asking for help.\"",
+        ],
+        image: "assets/space-comet-key-page-01.webp",
+        alt: "Hakan holding his moonlight gift while Yusuf watches the comet wink through the bedroom window",
+      },
+      {
+        title: "A Tail Full of Knots",
+        paragraphs: [
+          "The family starship lifted into the dark blue sky.",
+          "Soon the comet floated beside them, bright and silver.",
+          "But its long tail was tied in glowing knots.",
+          "Angela gasped. Koray leaned over the controls. \"No comet can fly far like that.\"",
+        ],
+        image: "assets/space-comet-key-page-02.webp",
+        alt: "The family looking through the starship window at a comet with a silver-blue tail tied in knots",
+      },
+      {
+        title: "Glim's Message",
+        paragraphs: [
+          "The moon-screen flickered on.",
+          "Glim's round blue face appeared, worried but brave.",
+          "\"The comet cannot pass the next star gate,\" Glim said. \"It needs the Comet Key.\"",
+          "Hakan touched the screen. \"Then we will find it.\"",
+        ],
+        image: "assets/space-comet-key-page-03.webp",
+        alt: "Glim appearing on the starship moon-screen while Hakan and Yusuf listen",
+      },
+      {
+        title: "No Key to Find",
+        paragraphs: [
+          "Yusuf spread the star map over the table.",
+          "He searched every moon, ring, and tiny blue dot.",
+          "\"The key is not on the map,\" he said slowly.",
+          "Glim nodded. \"That is because you do not find a Comet Key. You make one.\"",
+        ],
+        image: "assets/space-comet-key-page-04.webp",
+        alt: "Yusuf studying a glowing star map with Hakan, Angela, Koray, and their space friends nearby",
+      },
+      {
+        title: "Angela's Spark Song",
+        paragraphs: [
+          "Their first stop was the Spark Garden.",
+          "Little star sparks bounced so fast they bumped into crystal flowers.",
+          "Angela clapped a soft rhythm. Clap, pause, clap-clap.",
+          "The sparks slowed down. One calm spark became the Brave Path light.",
+        ],
+        image: "assets/space-comet-key-page-05.webp",
+        alt: "Angela calming bouncing star sparks in a glowing space garden while the family watches",
+      },
+      {
+        title: "The Crystal Ring",
+        paragraphs: [
+          "Next, the starship reached a ring of floating crystal stones.",
+          "The safe path kept changing.",
+          "Yusuf counted under his breath. \"One, two, wait. One, two, step.\"",
+          "Hakan wanted to hurry, but this time he waited.",
+        ],
+        image: "assets/space-comet-key-page-06.webp",
+        alt: "Yusuf counting a safe path through floating crystal stones while Hakan waits beside him",
+      },
+      {
+        title: "Yusuf Pulls Him Back",
+        paragraphs: [
+          "A crystal turned without warning.",
+          "Hakan drifted too close to the bright edge.",
+          "Yusuf caught his sleeve and pulled him gently back.",
+          "Between them, the Careful Count light appeared, steady and gold.",
+        ],
+        image: "assets/space-comet-key-page-07.webp",
+        alt: "Yusuf pulling Hakan safely back from a shifting crystal path in space",
+      },
+      {
+        title: "Koray's Loose Ring",
+        paragraphs: [
+          "At the comet's engine, Koray found a loose golden ring.",
+          "It rattled each time the comet tried to move.",
+          "Koray tightened it with a tiny space tool.",
+          "The tail knots loosened just a little, as if the comet had taken a deep breath.",
+        ],
+        image: "assets/space-comet-key-page-08.webp",
+        alt: "Koray repairing a loose golden ring near the glowing comet tail while the family watches",
+      },
+      {
+        title: "Pidge's Big Promise",
+        paragraphs: [
+          "One small spark trembled near the last knot.",
+          "Pidge puffed up. \"I can fly fast!\"",
+          "The spark shook even harder.",
+          "So Pidge folded his wings a little. \"Then I will fly slow beside you.\"",
+        ],
+        image: "assets/space-comet-key-page-09.webp",
+        alt: "Pidge flying gently beside a shy golden spark near the comet tail",
+      },
+      {
+        title: "The Kind Promise Light",
+        paragraphs: [
+          "The shy spark glowed warmer.",
+          "Hakan held out both hands. \"You are safe with us.\"",
+          "The spark spun once around Pidge, then became the Kind Promise light.",
+          "Yusuf smiled. \"That is the brightest one yet.\"",
+        ],
+        image: "assets/space-comet-key-page-10.webp",
+        alt: "The shy spark becoming a warm Kind Promise light beside Hakan, Yusuf, and Pidge",
+      },
+      {
+        title: "Making the Comet Key",
+        paragraphs: [
+          "The Brave Path light, the Careful Count light, and the Kind Promise light floated together.",
+          "Angela held the rhythm steady.",
+          "Koray kept the comet ring in place.",
+          "Hakan and Yusuf touched the lights at the same time. A tiny silver key appeared.",
+        ],
+        image: "assets/space-comet-key-page-11.webp",
+        alt: "Hakan and Yusuf forming the silver Comet Key from three glowing helper lights",
+      },
+      {
+        title: "Unlocking the Tail",
+        paragraphs: [
+          "Yusuf guided the key toward the first bright knot.",
+          "Hakan held the shy spark's hand so it would not be afraid.",
+          "Click.",
+          "The comet tail opened into one long ribbon of silver-blue light.",
+        ],
+        image: "assets/space-comet-key-page-12.webp",
+        alt: "Yusuf guiding the Comet Key while Hakan helps the shy spark as the comet tail unties",
+      },
+      {
+        title: "The Star Gate Opens",
+        paragraphs: [
+          "The comet sailed forward, free at last.",
+          "A huge star gate opened like a circle of morning.",
+          "The comet passed through it with a happy flash.",
+          "Behind the gate, a new map appeared, made from tiny blue dots.",
+        ],
+        image: "assets/space-comet-key-page-13.webp",
+        alt: "The freed comet passing through a glowing star gate while a blue-dot map appears",
+      },
+      {
+        title: "To Starlight Harbor",
+        paragraphs: [
+          "The blue-dot map floated above the starship table.",
+          "One dot blinked at the far edge of space.",
+          "Glim grew quiet. \"That is Starlight Harbor,\" he said. \"Lost ships wait there.\"",
+          "Hakan looked at Yusuf. Yusuf nodded. The Space Team was not finished yet.",
+        ],
+        image: "assets/space-comet-key-page-14.webp",
+        alt: "Hakan and Yusuf studying the blue-dot map to Starlight Harbor inside the starship",
+      },
+    ],
+  },
+  {
+    title: "Hakan, Yusuf, and the Starlight Harbor",
+    libraryKicker: "Space Team Finale",
+    readerKicker: "A lighthouse rescue at the edge of space",
+    description:
+      "The comet's map leads the family to a dark harbor where little ships need a light home.",
+    cover: "assets/book-cover-space-starlight-harbor.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Starlight Harbor showing the brothers, the family, and a glowing space lighthouse",
+    seriesId: "space-team",
+    pages: [
+      {
+        title: "The Blue-Dot Map",
+        paragraphs: [
+          "That night, the blue-dot map floated above Hakan's bed.",
+          "Yusuf turned it slowly, careful not to lose the blinking light.",
+          "\"There,\" he said. \"The harbor is still calling.\"",
+          "Hakan held his moonlight gift. It felt warm, like it remembered the way.",
+        ],
+        image: "assets/space-starlight-harbor-page-01.webp",
+        alt: "Hakan and Yusuf studying a glowing blue-dot map above Hakan's bed",
+      },
+      {
+        title: "Edge of Space",
+        paragraphs: [
+          "The starship followed the map past the last bright planets.",
+          "At the edge of space, stars lay below them like a quiet sea.",
+          "Tiny ships rocked in the dark.",
+          "Their lights were dim, and none of them knew which way was home.",
+        ],
+        image: "assets/space-starlight-harbor-page-02.webp",
+        alt: "The family starship arriving at a quiet sea of stars with tiny lost ships in the distance",
+      },
+      {
+        title: "The Dark Lighthouse",
+        paragraphs: [
+          "A tall silver lighthouse stood on a moon-rock island.",
+          "Its glass lens was cracked and dull.",
+          "Yusuf looked through his small telescope. \"Three pieces are missing.\"",
+          "Hakan looked at the waiting ships. \"Then we need three pieces fast.\"",
+        ],
+        image: "assets/space-starlight-harbor-page-03.webp",
+        alt: "Hakan and Yusuf looking up at the dark Starlight Harbor lighthouse with a cracked lens",
+      },
+      {
+        title: "Sleepy Star Turtles",
+        paragraphs: [
+          "On the moon-rock beach, three star turtles slept under glowing shells.",
+          "One lens piece shone on the biggest shell.",
+          "Hakan offered a moon-snack and whispered, \"Good morning, sleepy friends.\"",
+          "The turtles opened their eyes and blinked like tiny lanterns.",
+        ],
+        image: "assets/space-starlight-harbor-page-04.webp",
+        alt: "Hakan waking sleepy star turtles with glowing snacks while Yusuf holds the map",
+      },
+      {
+        title: "Yusuf Chooses Slow",
+        paragraphs: [
+          "The next path crossed soft purple star mud.",
+          "Blip bounced once. \"I can jump it!\"",
+          "Yusuf shook his head. \"The safe way curves around.\"",
+          "It took longer, but everyone crossed with clean boots and happy feet.",
+        ],
+        image: "assets/space-starlight-harbor-page-05.webp",
+        alt: "Yusuf leading Hakan and Blip along the slower safe path around glowing star mud",
+      },
+      {
+        title: "The Cloud Sailor",
+        paragraphs: [
+          "A tiny cloud sailor drifted by in a boat made of mist.",
+          "The second lens piece was tangled in his silver sail.",
+          "Angela hummed the same rhythm that calmed the sparks.",
+          "The sail softened, the knot slipped loose, and the sailor tipped his hat.",
+        ],
+        image: "assets/space-starlight-harbor-page-06.webp",
+        alt: "Angela helping a tiny cloud sailor untangle a lens piece from a silver sail",
+      },
+      {
+        title: "Koray Fixes the Frame",
+        paragraphs: [
+          "At the top of the lighthouse, the lens frame was bent.",
+          "Koray opened his little repair kit.",
+          "Tap. Turn. Click.",
+          "\"Now the pieces have a place to sit,\" he said.",
+        ],
+        image: "assets/space-starlight-harbor-page-07.webp",
+        alt: "Koray repairing the silver lens frame inside the Starlight Harbor lighthouse",
+      },
+      {
+        title: "Lantern Moons",
+        paragraphs: [
+          "Tiny lantern moons drifted away from the balcony.",
+          "Pidge puffed up, then remembered his promise.",
+          "He flew slowly in front of them, one careful wingbeat at a time.",
+          "The lantern moons followed him back in a glowing line.",
+        ],
+        image: "assets/space-starlight-harbor-page-08.webp",
+        alt: "Pidge guiding tiny lantern moons back toward the lighthouse balcony",
+      },
+      {
+        title: "The Missing Piece",
+        paragraphs: [
+          "The first two lens pieces fit into the frame.",
+          "But one empty space still glowed in the center.",
+          "Glim looked at Hakan's moonlight gift and grew quiet.",
+          "Hakan looked at the lost ships. Then he looked at the gift in his hands.",
+        ],
+        image: "assets/space-starlight-harbor-page-09.webp",
+        alt: "Hakan holding his moonlight gift beside the lighthouse lens with one empty space",
+      },
+      {
+        title: "Hakan Understands",
+        paragraphs: [
+          "The gift was from Glim's moon.",
+          "It was warm because it had always been a helping light.",
+          "Hakan's fingers closed around it for one more second.",
+          "Then he smiled a brave little smile. \"I know where it goes.\"",
+        ],
+        image: "assets/space-starlight-harbor-page-10.webp",
+        alt: "Hakan understanding that his moonlight gift can complete the Starlight Harbor lens",
+      },
+      {
+        title: "One Gift for Many",
+        paragraphs: [
+          "Hakan placed the moonlight gift into the center of the lens.",
+          "Yusuf put a hand gently on his shoulder.",
+          "\"That was your gift,\" Yusuf said.",
+          "\"Now it can help everyone,\" Hakan answered.",
+        ],
+        image: "assets/space-starlight-harbor-page-11.webp",
+        alt: "Hakan placing his moonlight gift into the lighthouse lens while Yusuf supports him",
+      },
+      {
+        title: "Angela Lights the Song",
+        paragraphs: [
+          "Angela hummed the spark rhythm one more time.",
+          "Koray turned the repaired frame.",
+          "The lens woke up with a soft golden-blue shine.",
+          "Hakan and Yusuf watched the light grow wider and wider.",
+        ],
+        image: "assets/space-starlight-harbor-page-12.webp",
+        alt: "Angela and Koray lighting the repaired Starlight Harbor lens while Hakan and Yusuf watch",
+      },
+      {
+        title: "Ships Going Home",
+        paragraphs: [
+          "The lighthouse sent gentle paths across the star sea.",
+          "One little ship followed. Then another. Then many.",
+          "Blip bounced in place. Pidge bowed like a mighty captain.",
+          "Glim glowed bright blue. \"They can find home now.\"",
+        ],
+        image: "assets/space-starlight-harbor-page-13.webp",
+        alt: "The restored lighthouse guiding tiny ships home across the star sea",
+      },
+      {
+        title: "The Star Team",
+        paragraphs: [
+          "Back in bed, Hakan and Yusuf found two tiny star badges on the blanket.",
+          "Angela and Koray smiled from the doorway.",
+          "Outside the window, the comet winked once.",
+          "This time it was not asking for help. It was saying thank you.",
+        ],
+        image: "assets/space-starlight-harbor-page-14.webp",
+        alt: "Hakan and Yusuf holding tiny star badges in Hakan's bedroom while the comet winks outside",
       },
     ],
   },
@@ -1681,6 +2016,16 @@ const collections = [
     cover: "assets/book-cover-kitsune-moon-bridge.webp",
     coverAlt:
       "Collection cover for The Kitsune Shrine Adventures showing Hakan, Yusuf, and two white kitsunes at a mountain shrine",
+  },
+  {
+    id: "space-team",
+    title: "The Space Team Adventures",
+    libraryKicker: "Space Team Collection",
+    description:
+      "Glim, Blip, Pidge, a grateful comet, and three connected star rescues.",
+    cover: "assets/book-cover-little-lost-moon.webp",
+    coverAlt:
+      "Collection cover for The Space Team Adventures showing Hakan, Yusuf, Glim, Blip, Pidge, and a comet in space",
   },
 ];
 
