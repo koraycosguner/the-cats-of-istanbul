@@ -1975,6 +1975,534 @@ const books = [
     ],
   },
   {
+    "title": "Hakan, Yusuf, and the Hearthfolk Lantern",
+    "libraryKicker": "Epic Fantasy Quest",
+    "readerKicker": "A hill-road adventure with brave small friends",
+    "description": "Hakan and Yusuf carry the Ember Lantern through a hill realm before the Ashen Guard can steal its light.",
+    "cover": "assets/book-cover-fantasy-hearthfolk-lantern.webp",
+    "coverAlt": "Cover art for Hakan, Yusuf, and the Hearthfolk Lantern showing the family, Hearthfolk, Button the pony, and the glowing Ember Lantern",
+    "seriesId": "epic-fantasy",
+    "pages": [
+      {
+        "title": "The Map Under the Rug",
+        "paragraphs": [
+          "Hakan's 999-speed boots blinked under his bed.",
+          "A golden line zipped across the floor and slipped under the living room rug.",
+          "Yusuf lifted the rug and found a tiny map glowing like toast.",
+          "It showed three roads: hill, forest, and mountain."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-01.webp",
+        "alt": "Hakan and Yusuf finding a glowing map under the living room rug"
+      },
+      {
+        "title": "The Round Door",
+        "paragraphs": [
+          "A round door opened in the baseboard with a pop.",
+          "Inside the doorway, a small voice cried, \"The hill road is going dark!\"",
+          "Angela wrapped a rust-orange scarf around Hakan. Koray handed Yusuf a pocket compass.",
+          "\"Stay together,\" Koray said. The tiny door grew just big enough."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-02.webp",
+        "alt": "Angela and Koray helping Hakan and Yusuf step through a glowing round door"
+      },
+      {
+        "title": "Hillhome Calls",
+        "paragraphs": [
+          "The family stepped into a green valley full of round doors and smoking chimneys.",
+          "Hearthfolk hurried everywhere, carrying lanterns that flickered low.",
+          "A little pony named Button trotted by with a biscuit basket on his back.",
+          "Far above the hills, thorn-crows circled like black leaves."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-03.webp",
+        "alt": "Hakan, Yusuf, Angela, and Koray arriving in Hillhome with Hearthfolk and Button the pony"
+      },
+      {
+        "title": "Milo Crumb's Mission",
+        "paragraphs": [
+          "Milo Crumb, a brave Hearthfolk baker, carried one bright Ember Lantern.",
+          "\"This must reach Hillhome before sunset,\" he said. \"It wakes every home-light.\"",
+          "A horn sounded from the far road.",
+          "Milo gulped. \"The Ashen Guard heard it shine.\""
+        ],
+        "image": "assets/fantasy-hearthfolk-page-04.webp",
+        "alt": "Milo Crumb giving the Ember Lantern mission to Hakan and Yusuf"
+      },
+      {
+        "title": "Thorn-Crows Above",
+        "paragraphs": [
+          "The thorn-crows dived for the lantern.",
+          "Hakan's boots flashed. He dashed under the apple trees so fast the crows chased only his golden blur.",
+          "Yusuf pulled the real lantern under Button's biscuit blanket.",
+          "The crows snapped at empty air and squawked with surprise."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-05.webp",
+        "alt": "Hakan making a golden speed blur while Yusuf hides the real Ember Lantern"
+      },
+      {
+        "title": "Yusuf's Safe Path",
+        "paragraphs": [
+          "The open road looked faster, but Yusuf studied the map.",
+          "\"Too straight,\" he said. \"That is where someone would wait.\"",
+          "He led them through a sheep trail behind soft green hills.",
+          "At the top, they saw black flags blocking the open road below."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-06.webp",
+        "alt": "Yusuf leading the family onto a hidden sheep trail while black flags block the open road"
+      },
+      {
+        "title": "The Ashen Scouts",
+        "paragraphs": [
+          "Ashen Guard scouts stepped onto the sheep trail.",
+          "Their cloaks puffed smoke, and their boots made no sound.",
+          "The Hearthfolk trembled until Angela whispered, \"Find a rhythm.\"",
+          "Soon pots, pans, and biscuit tins rang out: clang, clap, clang!"
+        ],
+        "image": "assets/fantasy-hearthfolk-page-07.webp",
+        "alt": "Angela helping Hearthfolk make a pot and pan rhythm as Ashen scouts block the trail"
+      },
+      {
+        "title": "The Golden Blur Plan",
+        "paragraphs": [
+          "Hakan ran a 999-speed circle around the scouts.",
+          "Dust spun up like a tiny friendly storm.",
+          "Yusuf called, \"Left now!\" and the Hearthfolk slipped past with the lantern.",
+          "When the dust settled, the scouts were facing the wrong hill."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-08.webp",
+        "alt": "Hakan running a golden circle while Yusuf leads the Hearthfolk past the confused scouts"
+      },
+      {
+        "title": "Angela's Bread Song",
+        "paragraphs": [
+          "The sheep trail ended at an old field with no path at all.",
+          "Angela began a bread-kneading song: press, turn, pat, wait.",
+          "The Hearthfolk joined in, clapping floury hands.",
+          "One by one, old stepping stones woke under the grass."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-09.webp",
+        "alt": "Angela leading a bread song that wakes glowing stepping stones in the grass"
+      },
+      {
+        "title": "The Grumble at the Bridge",
+        "paragraphs": [
+          "A big bridge grumble sat in the road, blocking the river.",
+          "\"No crossing,\" he grumped. \"My cart wheel broke, and now everything is terrible.\"",
+          "Koray knelt beside the cart. \"That I can fix.\"",
+          "Milo offered warm seed cakes, and the grumble's frown got smaller."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-10.webp",
+        "alt": "Koray fixing a cart wheel for a friendly bridge grumble while Milo offers seed cakes"
+      },
+      {
+        "title": "Wind at the Old Gate",
+        "paragraphs": [
+          "A cold wind rushed from the trees and almost blew out the Ember Lantern.",
+          "Yusuf wrapped his coat around the light.",
+          "Hakan raced ahead and slammed the old gate shut before more wind could pour through.",
+          "Behind them, an Ashen horn blew again, much closer."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-11.webp",
+        "alt": "Yusuf shielding the Ember Lantern while Hakan races to shut an old windy gate"
+      },
+      {
+        "title": "Hillhome at Sunset",
+        "paragraphs": [
+          "Hillhome appeared just as the sun touched the hills.",
+          "Round windows waited dark and sleepy.",
+          "Then the Ashen Guard rushed from the trees for one last try.",
+          "Button stamped his little hooves, and the Hearthfolk raised pot-lid shields."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-12.webp",
+        "alt": "Hakan, Yusuf, and Hearthfolk reaching Hillhome at sunset as the Ashen Guard approaches"
+      },
+      {
+        "title": "Small Shields, Big Hearts",
+        "paragraphs": [
+          "The pot lids flashed in the sunset.",
+          "Angela sang the bread rhythm. Koray rang the grumble's repaired cart bell.",
+          "Hakan and Yusuf lifted the Ember Lantern together.",
+          "Warm light rolled over the Ashen Guard, and the smoky cloaks blew backward like old dust."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-13.webp",
+        "alt": "Hakan and Yusuf lifting the Ember Lantern as Angela and Koray help with song and bell"
+      },
+      {
+        "title": "The Hill Lights Wake",
+        "paragraphs": [
+          "Every round window in Hillhome glowed gold.",
+          "Hearthfolk cheered, Button ate three biscuits, and Milo Crumb bowed so low his hat fell off.",
+          "The map in Yusuf's hand changed.",
+          "A silver-green road grew from the hills into a dark forest."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-14.webp",
+        "alt": "Hillhome glowing gold while Yusuf's map reveals a silver-green forest road"
+      },
+      {
+        "title": "The Elf-Road Appears",
+        "paragraphs": [
+          "Milo looked at the new road and stopped smiling.",
+          "\"That is the Star-Elf Forest,\" he said. \"If it is calling, the trouble has reached the trees.\"",
+          "Hakan touched his boots. Yusuf folded the map carefully.",
+          "The next road was already waiting."
+        ],
+        "image": "assets/fantasy-hearthfolk-page-15.webp",
+        "alt": "Hakan and Yusuf facing a silver-green road into the Star-Elf Forest at twilight"
+      }
+    ]
+  },
+  {
+    "title": "Hakan, Yusuf, and the Star-Elf Forest",
+    "libraryKicker": "Epic Fantasy Quest",
+    "readerKicker": "A moonlit forest mission with star paths",
+    "description": "The brothers restore the Silverleaf Bowstring before mist hides the road to the mountain.",
+    "cover": "assets/book-cover-fantasy-star-elf-forest.webp",
+    "coverAlt": "Cover art for Hakan, Yusuf, and the Star-Elf Forest showing the family, Star-Elves, moon deer, and glowing forest road",
+    "seriesId": "epic-fantasy",
+    "pages": [
+      {
+        "title": "The Silver-Green Road",
+        "paragraphs": [
+          "The map glowed on Hakan's blanket after bedtime.",
+          "A silver-green road curled across the page like a leaf stem.",
+          "Yusuf traced it with one finger. \"It starts where the hill light ended.\"",
+          "Outside the window, one forest star blinked and went dark."
+        ],
+        "image": "assets/fantasy-star-elf-page-01.webp",
+        "alt": "Hakan and Yusuf studying a glowing forest road map on Hakan's blanket"
+      },
+      {
+        "title": "Under the Tall Trees",
+        "paragraphs": [
+          "The family stepped through the round door and into a forest of giant trees.",
+          "Leaves shone like stars above them.",
+          "Star-Elves waited on bridges woven from branches and moon-thread.",
+          "Their queen, Liora, held a great silver bow with no string."
+        ],
+        "image": "assets/fantasy-star-elf-page-02.webp",
+        "alt": "The family meeting Queen Liora and Star-Elves under giant glowing trees"
+      },
+      {
+        "title": "The Broken Bowstring",
+        "paragraphs": [
+          "\"This bow opens the safe road to the mountain,\" Queen Liora said.",
+          "\"But shadow moths stole the Silverleaf Bowstring.\"",
+          "Mist crawled between the trunks, hiding the path stones.",
+          "In the mist, something laughed without showing its face."
+        ],
+        "image": "assets/fantasy-star-elf-page-03.webp",
+        "alt": "Queen Liora showing the great silver bow with its missing string in the misty forest"
+      },
+      {
+        "title": "Piproot's Warning",
+        "paragraphs": [
+          "A shy tree sprite peeked from a knot in the bark.",
+          "\"I am Piproot,\" he whispered. \"The moths carried the thread toward the Whispering Hollow.\"",
+          "Hakan smiled gently. \"Can you show us?\"",
+          "Piproot sneezed a puff of leaves and pointed the wrong way first."
+        ],
+        "image": "assets/fantasy-star-elf-page-04.webp",
+        "alt": "Piproot the tree sprite sneezing leaves while Hakan and Yusuf listen"
+      },
+      {
+        "title": "Hakan's Fast Dash",
+        "paragraphs": [
+          "Tiny silver sparkles from the moth wings floated ahead.",
+          "Hakan's boots flashed, but Yusuf caught his sleeve.",
+          "\"Fast, but careful,\" Yusuf said. \"The flowers are sleeping.\"",
+          "Hakan dashed between blossoms without bending a single stem."
+        ],
+        "image": "assets/fantasy-star-elf-page-05.webp",
+        "alt": "Hakan dashing carefully between sleeping flowers with glowing boots"
+      },
+      {
+        "title": "Yusuf Reads the Branches",
+        "paragraphs": [
+          "The trail split into three misty paths.",
+          "One smelled like honey. One hummed softly. One was silent.",
+          "Yusuf looked up and saw the branches making arrows.",
+          "\"The quiet path is fake,\" he said. \"The forest is warning us.\""
+        ],
+        "image": "assets/fantasy-star-elf-page-06.webp",
+        "alt": "Yusuf reading branch arrows above three misty forest paths"
+      },
+      {
+        "title": "Mist Wolves",
+        "paragraphs": [
+          "Whisper wolves made of mist circled the real path.",
+          "They showed sharp shapes, but their paws made no marks.",
+          "Angela hummed the bread rhythm from Hillhome, slower and softer.",
+          "The elves raised light shields, and the wolves backed into fog."
+        ],
+        "image": "assets/fantasy-star-elf-page-07.webp",
+        "alt": "Angela humming while soft mist wolves fade near Star-Elf light shields"
+      },
+      {
+        "title": "The Moon Deer",
+        "paragraphs": [
+          "In the hollow, a moon deer stood with silver thread caught in its antlers.",
+          "Shadow moths fluttered around it, trying to tangle the thread tighter.",
+          "Hakan moved slowly, even though his boots wanted to run.",
+          "\"I will not pull,\" he whispered. \"I will help.\""
+        ],
+        "image": "assets/fantasy-star-elf-page-08.webp",
+        "alt": "Hakan and Yusuf carefully helping a moon deer with silver thread in its antlers"
+      },
+      {
+        "title": "Thorn-Crows Return",
+        "paragraphs": [
+          "The thorn-crows from the hill road burst through the leaves.",
+          "They dove for the silver thread.",
+          "Yusuf opened his pocket compass; its needle spun toward a hollow log.",
+          "\"Inside!\" he called, and everyone ducked as the crows crashed into a cloud of leaves."
+        ],
+        "image": "assets/fantasy-star-elf-page-09.webp",
+        "alt": "Yusuf shielding Hakan and guiding everyone away from thorn-crows in the moonlit forest"
+      },
+      {
+        "title": "Ashen Riders at the Bridge",
+        "paragraphs": [
+          "Ashen riders galloped toward the branch bridge.",
+          "Koray spotted the bridge's loose vine latch.",
+          "\"Hold here,\" he told Yusuf.",
+          "Together, Koray and the elves dropped a glowing vine gate just in time."
+        ],
+        "image": "assets/fantasy-star-elf-page-10.webp",
+        "alt": "Koray and Star-Elves dropping a glowing vine gate on a branch bridge"
+      },
+      {
+        "title": "The Bowstring Restored",
+        "paragraphs": [
+          "Yusuf held the great silver bow steady.",
+          "Hakan and Piproot tied the moon deer's thread to the bow tips.",
+          "Queen Liora pulled the string once.",
+          "The whole forest rang like a bright, gentle bell."
+        ],
+        "image": "assets/fantasy-star-elf-page-11.webp",
+        "alt": "Yusuf holding the silver bow steady while Hakan and Piproot restore its bowstring"
+      },
+      {
+        "title": "Stars Like Arrows",
+        "paragraphs": [
+          "The bow sent harmless star-arrows into the mist.",
+          "Each arrow became a glowing path stone.",
+          "The shadow moths tried to cover them, but the moon deer stamped silver sparks.",
+          "The safe road began to shine."
+        ],
+        "image": "assets/fantasy-star-elf-page-12.webp",
+        "alt": "Harmless star-arrows becoming glowing path stones in the Star-Elf Forest"
+      },
+      {
+        "title": "The Forest Chooses",
+        "paragraphs": [
+          "The road did not open for the elves alone.",
+          "It did not open for Hakan's speed alone.",
+          "It opened when Hakan, Yusuf, Angela, Koray, Piproot, the elves, and the moon deer stepped together.",
+          "The trees bowed, making a tunnel of leaves."
+        ],
+        "image": "assets/fantasy-star-elf-page-13.webp",
+        "alt": "The family, Star-Elves, Piproot, and the moon deer stepping together as trees open a tunnel"
+      },
+      {
+        "title": "Road to the Mountain",
+        "paragraphs": [
+          "Beyond the forest, a far mountain smoked under red clouds.",
+          "The map burned one new line: Deep Dwarf Gate.",
+          "A small dwarf messenger stumbled from the rocks, dusty and out of breath.",
+          "\"The Ashen Guard is at our gate,\" he said. \"Bring the hill light and forest star!\""
+        ],
+        "image": "assets/fantasy-star-elf-page-14.webp",
+        "alt": "A dwarf messenger arriving as the forest road opens toward a smoky mountain"
+      },
+      {
+        "title": "The Mountain Calls",
+        "paragraphs": [
+          "Queen Liora gave Yusuf a silver leaf token.",
+          "Piproot gave Hakan an acorn helmet that was much too small but very brave.",
+          "The mountain road shook once under their feet.",
+          "Somewhere deep below, a forge bell rang for help."
+        ],
+        "image": "assets/fantasy-star-elf-page-15.webp",
+        "alt": "Queen Liora and Piproot giving gifts to Yusuf and Hakan before the mountain road"
+      }
+    ]
+  },
+  {
+    "title": "Hakan, Yusuf, and the Deep Dwarf Gate",
+    "libraryKicker": "Epic Fantasy Quest",
+    "readerKicker": "A mountain-forge finale with every ally together",
+    "description": "Hakan and Yusuf repair the Sunforge Key and close the Ashen Gate with help from every friend they made.",
+    "cover": "assets/book-cover-fantasy-deep-dwarf-gate.webp",
+    "coverAlt": "Cover art for Hakan, Yusuf, and the Deep Dwarf Gate showing the family, Bruni, allies, and the glowing mountain gate",
+    "seriesId": "epic-fantasy",
+    "pages": [
+      {
+        "title": "Mountain Smoke",
+        "paragraphs": [
+          "The map now glowed red at the mountain gate.",
+          "The dwarf messenger led Hakan, Yusuf, Angela, and Koray up a stone road.",
+          "Hakan's boots sparked on the rocks.",
+          "Yusuf held the map tight as the mountain rumbled like a sleepy drum."
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-01.webp",
+        "alt": "The family following a dwarf messenger up a stone road toward a smoky mountain"
+      },
+      {
+        "title": "The Deep Dwarf Hall",
+        "paragraphs": [
+          "Inside the mountain, dwarfs hammered glowing metal.",
+          "Sparks flew safely into glass jars.",
+          "Forge Master Bruni Stonehand showed them a cracked golden key as long as Hakan's arm.",
+          "\"The Sunforge Key closes the Ashen Gate,\" Bruni said. \"But three sparks are missing.\""
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-02.webp",
+        "alt": "Forge Master Bruni showing Hakan and Yusuf the cracked Sunforge Key"
+      },
+      {
+        "title": "Three Missing Sparks",
+        "paragraphs": [
+          "The key needed Hill Warmth, Forest Star, and Mountain Courage.",
+          "Hill Warmth glowed in a jar from Hillhome.",
+          "Forest Star shone inside Queen Liora's leaf token.",
+          "Before anyone could cheer, little cave sneaks snatched the Hill Warmth jar and ran."
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-03.webp",
+        "alt": "Cute pebble-like cave sneaks stealing the Hill Warmth jar from Bruni's forge table"
+      },
+      {
+        "title": "Cave Sneaks",
+        "paragraphs": [
+          "The cave sneaks were quick, but Hakan was quicker.",
+          "His 999-speed boots flashed through crystal tunnels.",
+          "The sneaks tossed the jar from one to another, giggling like rattling pebbles.",
+          "Then the tunnel split into seven dark mouths."
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-04.webp",
+        "alt": "Hakan chasing cute cave sneaks through sparkling crystal tunnels"
+      },
+      {
+        "title": "Yusuf's Echo Map",
+        "paragraphs": [
+          "\"Stop!\" Yusuf called.",
+          "Hakan skidded to a sparkly halt.",
+          "Yusuf tapped the stone wall and listened to the echoes.",
+          "\"Only one tunnel answers twice,\" he said. \"That is where they went.\""
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-05.webp",
+        "alt": "Yusuf listening to echoes at seven crystal tunnel mouths while Hakan stops beside him"
+      },
+      {
+        "title": "Crystal Goat Rescue",
+        "paragraphs": [
+          "They found the cave sneaks on a ledge with a crystal goat.",
+          "The goat had Forest Star caught in its curly horn and was too scared to move.",
+          "Angela sang softly while Koray made a rope pulley.",
+          "Hakan returned the Hill Warmth jar, and Yusuf guided the goat down."
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-06.webp",
+        "alt": "Angela calming a crystal goat while Koray builds a rope pulley and the brothers help"
+      },
+      {
+        "title": "The Ash Hounds",
+        "paragraphs": [
+          "Ash hounds blocked the forge stairs, breathing puffs of gray smoke.",
+          "The dwarfs raised shield-drums.",
+          "Boom-boom, boom-boom, BOOM.",
+          "The sound shook the smoke apart until the hounds became harmless soot clouds."
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-07.webp",
+        "alt": "Dwarfs beating shield-drums while soft soot-cloud hounds dissolve on forge stairs"
+      },
+      {
+        "title": "Mountain Courage",
+        "paragraphs": [
+          "Only Mountain Courage was missing.",
+          "Hakan wanted to race ahead and find it first.",
+          "But the path crossed a thin stone bridge, and Yusuf looked worried.",
+          "Hakan held out his hand. \"Then we go together.\""
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-08.webp",
+        "alt": "Hakan holding out his hand to Yusuf before a safe stone bridge in a crystal cavern"
+      },
+      {
+        "title": "Brother Spark",
+        "paragraphs": [
+          "When the brothers stepped onto the bridge together, the mountain grew quiet.",
+          "A warm red spark rose between their hands.",
+          "Bruni smiled. \"That is Mountain Courage.\"",
+          "Yusuf whispered, \"It waited for both of us.\""
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-09.webp",
+        "alt": "Hakan and Yusuf holding hands as Mountain Courage glows between them"
+      },
+      {
+        "title": "Bruni's Forge",
+        "paragraphs": [
+          "Bruni heated the Sunforge Key in a golden fire.",
+          "Yusuf set the three sparks in the right order.",
+          "Hakan turned the tiny locking pin with careful fingers.",
+          "The key became whole and rang like sunrise."
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-10.webp",
+        "alt": "Bruni, Yusuf, Hakan, Angela, and Koray repairing the Sunforge Key in the forge"
+      },
+      {
+        "title": "The Ashen Captain",
+        "paragraphs": [
+          "The Ashen Captain reached the gate in a cloak of smoke.",
+          "\"Too late,\" he hissed. \"I will lock every warm road.\"",
+          "The Ashen Guard filled the tunnel behind him.",
+          "For one breath, even the dwarfs were silent."
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-11.webp",
+        "alt": "The Ashen Captain appearing as a soft smoke silhouette near the glowing mountain gate"
+      },
+      {
+        "title": "Allies Arrive",
+        "paragraphs": [
+          "Then a pot-lid shield clanged.",
+          "Milo Crumb and the Hearthfolk rolled in with Button and baskets of courage biscuits.",
+          "Queen Liora and the Star-Elves lit the tunnel with silver leaves.",
+          "Piproot sneezed at the Ashen Captain, which was not part of the plan but helped."
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-12.webp",
+        "alt": "Hearthfolk, Star-Elves, Button, Piproot, and the moon deer arriving to help at the Deep Dwarf Gate"
+      },
+      {
+        "title": "The Final Stand",
+        "paragraphs": [
+          "No one fought alone.",
+          "Hakan ran a 999-speed circle of golden light around the gate.",
+          "Yusuf led the shield line: Hearthfolk low, elves high, dwarfs strong in the middle.",
+          "Angela sang the road song, and Koray rang the forge bell until the whole mountain answered."
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-13.webp",
+        "alt": "Hakan making a golden speed circle while Yusuf leads the allies in front of the gate"
+      },
+      {
+        "title": "The Gate Closes",
+        "paragraphs": [
+          "Bruni lifted the Sunforge Key, but it was too heavy for one person.",
+          "Hakan and Yusuf took the middle. Angela, Koray, Bruni, Milo, and Liora helped from both sides.",
+          "The key turned.",
+          "The Ashen Gate closed with a deep golden boom, and the Ashen Captain's smoke cloak blew away into harmless gray dust."
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-14.webp",
+        "alt": "Hakan, Yusuf, Angela, Koray, Bruni, Milo, and Liora turning the Sunforge Key together"
+      },
+      {
+        "title": "Friends of the Realm",
+        "paragraphs": [
+          "The three roads glowed at once: hill gold, forest silver, mountain red.",
+          "Warm light ran all the way back to Hakan's living room rug.",
+          "Bruni bowed. Liora smiled. Milo waved a biscuit.",
+          "\"Hakan and Yusuf,\" they said together, \"Friends of the Hearthlight Realm.\""
+        ],
+        "image": "assets/fantasy-deep-dwarf-page-15.webp",
+        "alt": "Hakan and Yusuf being honored as friends of the Hearthlight Realm while all allies celebrate"
+      }
+    ]
+  },
+  {
     title: "Yusie and the Marvel Tree Dragon",
     libraryKicker: "Yusuf Dragon Adventure",
     description:
@@ -2016,6 +2544,14 @@ const collections = [
     cover: "assets/book-cover-kitsune-moon-bridge.webp",
     coverAlt:
       "Collection cover for The Kitsune Shrine Adventures showing Hakan, Yusuf, and two white kitsunes at a mountain shrine",
+  },
+  {
+    "id": "epic-fantasy",
+    "title": "The Hearthlight Realm Adventures",
+    "libraryKicker": "Epic Fantasy Collection",
+    "description": "A three-book quest through hill homes, star forests, and deep mountain gates.",
+    "cover": "assets/book-cover-fantasy-hearthfolk-lantern.webp",
+    "coverAlt": "Collection cover for The Hearthlight Realm Adventures showing Hakan, Yusuf, the family, Hearthfolk, and the Ember Lantern"
   },
   {
     id: "space-team",
