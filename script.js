@@ -870,7 +870,7 @@ const books = [
     ],
   },
   {
-    title: "Hakan and the Lanterns of Cappadocia",
+    title: "Hakan, Yusuf, and the Lanterns of Cappadocia",
     libraryKicker: "Cappadocia Quest",
     readerKicker: "A sunrise adventure above the valleys",
     description:
@@ -878,6 +878,7 @@ const books = [
     cover: "assets/book-cover-lanterns-cappadocia.webp",
     coverAlt:
       "Cover art for Hakan and the Lanterns of Cappadocia showing Hakan, Yusuf, balloons, and a glowing lantern",
+    seriesId: "cappadocia-lanterns",
     pages: [
       {
         title: "Before the Balloons",
@@ -988,6 +989,296 @@ const books = [
         ],
         image: "assets/cappadocia-page-10.webp",
         alt: "Hakan holding a tiny lantern charm at breakfast with Yusuf, Angela, and Koray nearby",
+      },
+    ],
+  },
+  {
+    title: "Hakan, Yusuf, and the Underground Star River",
+    libraryKicker: "Cappadocia Quest",
+    readerKicker: "A hidden river below the fairy chimneys",
+    description:
+      "The brothers follow the lantern charm into a cave city to restart Cappadocia's star-river.",
+    cover: "assets/book-cover-cappadocia-underground-star-river.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Underground Star River showing the brothers, Toprak, and a glowing river below Cappadocia",
+    seriesId: "cappadocia-lanterns",
+    pages: [
+      {
+        title: "The Charm Blinks Twice",
+        paragraphs: [
+          "Breakfast was almost over when Hakan's tiny lantern charm blinked blue, then green.",
+          "Yusuf leaned close. \"That means it knows a new secret.\"",
+          "The charm warmed in Hakan's palm and pointed toward the fairy chimneys.",
+          "Outside, one balloon rose with no glow at all.",
+        ],
+        image: "assets/cappadocia-underground-page-01.webp",
+        alt: "Hakan and Yusuf discovering the lantern charm blinking at breakfast while an unglowing balloon rises outside",
+      },
+      {
+        title: "The Door in the Stone",
+        paragraphs: [
+          "The kind balloon captain from before was waiting by a tall stone tower.",
+          "\"I am Captain Selma,\" she said. \"The valley lights are fading.\"",
+          "Angela tied Hakan's scarf. Koray checked Yusuf's flashlight.",
+          "A little round door opened in the stone with a soft clack.",
+        ],
+        image: "assets/cappadocia-underground-page-02.webp",
+        alt: "Captain Selma showing Hakan, Yusuf, Angela, and Koray a secret round door in a Cappadocia stone tower",
+      },
+      {
+        title: "Down to the Cave City",
+        paragraphs: [
+          "Stone steps curled down into cool rooms under the hill.",
+          "Tiny blue lights slept in jars along the walls.",
+          "Yusuf drew the turns with his finger in the dust.",
+          "\"If we get lost,\" he said, \"we follow my map back.\"",
+        ],
+        image: "assets/cappadocia-underground-page-03.webp",
+        alt: "Yusuf mapping the underground cave city while Hakan follows the glowing jars",
+      },
+      {
+        title: "Toprak the Pottery Turtle",
+        paragraphs: [
+          "In the deepest room sat a clay turtle with painted blue flowers on his shell.",
+          "\"I am Toprak,\" he said slowly. \"The star-river has stopped.\"",
+          "He pointed to a dry channel in the floor.",
+          "Far away, something made a tiny cloudy sneeze.",
+        ],
+        image: "assets/cappadocia-underground-page-04.webp",
+        alt: "Toprak the painted pottery turtle explaining the stopped star-river to Hakan and Yusuf",
+      },
+      {
+        title: "Yusuf Counts the Air Holes",
+        paragraphs: [
+          "Three tunnels waited ahead.",
+          "One sparkled too brightly. One smelled like smoke. One had cool air brushing out.",
+          "Yusuf counted the little air holes near the ceiling.",
+          "\"This way,\" he said. \"A river needs breath.\"",
+        ],
+        image: "assets/cappadocia-underground-page-05.webp",
+        alt: "Yusuf choosing the correct tunnel by counting air holes while Hakan holds the lantern charm",
+      },
+      {
+        title: "Hakan's Careful Dash",
+        paragraphs: [
+          "Blue glow seeds floated above the path.",
+          "Hakan wanted to zoom, but Toprak shook his clay head.",
+          "\"Too much dust will hide the seeds.\"",
+          "So Hakan dashed gently, catching each seed in the lantern's warm light.",
+        ],
+        image: "assets/cappadocia-underground-page-06.webp",
+        alt: "Hakan carefully catching blue glow seeds in the lantern light while Yusuf and Toprak watch",
+      },
+      {
+        title: "Angela's Echo Song",
+        paragraphs: [
+          "The tunnel ended at a wall with no door.",
+          "Angela sang one soft note.",
+          "The note bounced back as three notes, then five.",
+          "Stone doves opened their eyes in the wall and fluttered into the dark.",
+        ],
+        image: "assets/cappadocia-underground-page-07.webp",
+        alt: "Angela singing in the cave while stone doves wake and Hakan and Yusuf follow the echo",
+      },
+      {
+        title: "Koray and the Little Wheel",
+        paragraphs: [
+          "The stone doves led them to a tiny water wheel stuck with sand.",
+          "Koray knelt beside it. \"This wheel has been waiting for one small fix.\"",
+          "He cleaned the axle with Yusuf's handkerchief.",
+          "Drip, drip, drip. The first water began to move.",
+        ],
+        image: "assets/cappadocia-underground-page-08.webp",
+        alt: "Koray fixing a tiny underground water wheel while Hakan and Yusuf help",
+      },
+      {
+        title: "The Sleeping Chimney",
+        paragraphs: [
+          "The water ran to a narrow chimney that should have carried wind upward.",
+          "Inside was a baby balloon-cloud, round as a puppy and very stuck.",
+          "In its soft cloud paws was a blue Wind Pebble.",
+          "\"I only wanted a nap,\" it whispered.",
+        ],
+        image: "assets/cappadocia-underground-page-09.webp",
+        alt: "Hakan and Yusuf finding a baby balloon-cloud stuck in a narrow chimney with a blue Wind Pebble",
+      },
+      {
+        title: "The Brother Lift",
+        paragraphs: [
+          "Yusuf tied a safe rope and climbed first to check the ledge.",
+          "\"Ready,\" he called. \"I can see the pebble.\"",
+          "Hakan zipped up the rope in one careful flash and tickled the cloud's nose with his scarf.",
+          "The cloud sneezed, popped free, and dropped the Wind Pebble into Hakan's hands.",
+        ],
+        image: "assets/cappadocia-underground-page-10.webp",
+        alt: "Yusuf anchoring a safe rope while Hakan climbs to free the baby balloon-cloud",
+      },
+      {
+        title: "River of Blue Lights",
+        paragraphs: [
+          "Toprak placed the Wind Pebble in the dry channel.",
+          "Water, wind, and blue light rushed together.",
+          "The star-river woke with a sound like tiny bells underwater.",
+          "Every jar in the cave city blinked awake.",
+        ],
+        image: "assets/cappadocia-underground-page-11.webp",
+        alt: "Toprak placing the Wind Pebble into the channel as the underground star-river wakes",
+      },
+      {
+        title: "A Second Light",
+        paragraphs: [
+          "By sunrise, the balloons glowed softly again.",
+          "Captain Selma bowed to Hakan and Yusuf. \"The sky can see us now.\"",
+          "The lantern charm gained a second light: one blue, one green.",
+          "Then both lights pointed up, higher than any balloon.",
+        ],
+        image: "assets/cappadocia-underground-page-12.webp",
+        alt: "Captain Selma thanking Hakan and Yusuf at sunrise as the lantern charm shines blue and green",
+      },
+    ],
+  },
+  {
+    title: "Hakan, Yusuf, and the Sky Lantern Caravan",
+    libraryKicker: "Cappadocia Quest",
+    readerKicker: "A sunrise rescue above Red Valley",
+    description:
+      "A torn sky map leads Hakan and Yusuf into the clouds to guide Cappadocia's lost lantern caravan home.",
+    cover: "assets/book-cover-cappadocia-sky-lantern-caravan.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Sky Lantern Caravan showing the brothers in a balloon above Cappadocia with glowing lanterns",
+    seriesId: "cappadocia-lanterns",
+    pages: [
+      {
+        title: "Two Lights at Night",
+        paragraphs: [
+          "That night, Hakan's lantern charm blinked blue and green on his pillow.",
+          "A paper sky lantern tapped the window.",
+          "It had a tiny hole in its side and a torn map tucked inside.",
+          "Yusuf whispered, \"This is definitely not bedtime anymore.\"",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-01.webp",
+        alt: "Hakan and Yusuf discovering a damaged paper sky lantern tapping their Cappadocia window at night",
+      },
+      {
+        title: "Before the Balloon Field",
+        paragraphs: [
+          "Captain Selma met them before sunrise with a worried face.",
+          "\"The sky lantern caravan is lost above Red Valley,\" she said.",
+          "Angela packed warm bread and apricots.",
+          "Koray checked the balloon basket ropes twice.",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-02.webp",
+        alt: "Captain Selma meeting Hakan, Yusuf, Angela, and Koray at the balloon field before sunrise",
+      },
+      {
+        title: "Koray's Basket Fix",
+        paragraphs: [
+          "One basket strap snapped with a sharp twang.",
+          "Hakan gasped, but Koray was already moving.",
+          "He wrapped, tied, pulled, and tested the strap.",
+          "\"Now it is stronger than before,\" he said, and the balloon lifted.",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-03.webp",
+        alt: "Koray fixing a snapped balloon basket strap while Hakan and Yusuf help hold the ropes",
+      },
+      {
+        title: "The Cloud Road",
+        paragraphs: [
+          "The balloon rose into peach-colored morning.",
+          "A road of tiny clouds appeared beside the basket.",
+          "On it stood Nefes, the wind shepherd, with a flock of cloud-lambs.",
+          "\"The caravan cannot hear the Dawn Bell,\" Nefes said.",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-04.webp",
+        alt: "Nefes the wind shepherd standing on a cloud road beside the balloon basket",
+      },
+      {
+        title: "Yusuf Reads the Wind Ribbons",
+        paragraphs: [
+          "Red, blue, and silver ribbons of wind twisted ahead.",
+          "The red ribbon looked fastest.",
+          "Yusuf watched dry leaves spin below it. \"Fast is not safe today.\"",
+          "He pointed to the silver ribbon, turning steady and slow.",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-05.webp",
+        alt: "Yusuf choosing the steady silver wind ribbon while Hakan watches from the balloon basket",
+      },
+      {
+        title: "Hakan on the Wind Steps",
+        paragraphs: [
+          "A torn piece of sky-map fluttered away.",
+          "Hakan's boots glowed.",
+          "Wind steps appeared under his feet, one after another.",
+          "He ran across the air, grabbed the map piece, and bounced back into the basket laughing.",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-06.webp",
+        alt: "Hakan running across glowing wind steps to catch a torn sky-map piece while Yusuf holds the safety rope",
+      },
+      {
+        title: "Paper Kite Foxes",
+        paragraphs: [
+          "A pack of paper kite foxes swooped from a cloud.",
+          "They tugged the balloon ropes and giggled in crinkly voices.",
+          "\"They are not mean,\" Angela said. \"They are bored.\"",
+          "One fox wore a ribbon shaped like a bell.",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-07.webp",
+        alt: "Paper kite foxes tugging balloon ropes while Hakan and Yusuf look for the bell-shaped ribbon",
+      },
+      {
+        title: "Angela's Warm Song",
+        paragraphs: [
+          "Angela sang the bread song from the cave city, soft and warm.",
+          "The kite foxes stopped tugging.",
+          "They folded themselves into a paper arrow.",
+          "The arrow pointed toward one silent fairy chimney on the ridge.",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-08.webp",
+        alt: "Angela singing as paper kite foxes fold into an arrow pointing to a silent fairy chimney",
+      },
+      {
+        title: "The Silent Dawn Bell",
+        paragraphs: [
+          "On top of the chimney hung the Dawn Bell, silver and still.",
+          "Frost from a night cloud had stuck the clapper in place.",
+          "Without the bell, the sky lantern caravan could not find morning.",
+          "Yusuf looked at Hakan. \"I will go first.\"",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-09.webp",
+        alt: "Yusuf preparing a safety rope beside Hakan below the frosty silver Dawn Bell",
+      },
+      {
+        title: "The Brother Bell Plan",
+        paragraphs: [
+          "Yusuf climbed carefully and tied the safety rope.",
+          "Hakan raced around the bell in a warm golden circle.",
+          "Koray fixed the loose clapper pin with one tiny tool.",
+          "Angela counted the rhythm: one, two, three, ring!",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-10.webp",
+        alt: "Hakan racing around the Dawn Bell while Yusuf anchors the rope and Koray fixes the clapper",
+      },
+      {
+        title: "The Caravan Returns",
+        paragraphs: [
+          "The Dawn Bell rang across Cappadocia.",
+          "From behind the clouds came hundreds of tiny lanterns, glowing like friendly stars.",
+          "They followed the bell, the silver wind ribbon, and Hakan's golden boot trail.",
+          "Captain Selma laughed. \"They found the road home!\"",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-11.webp",
+        alt: "Hundreds of glowing sky lanterns returning across Cappadocia as Hakan and Yusuf guide them",
+      },
+      {
+        title: "Lantern Keepers",
+        paragraphs: [
+          "At breakfast, three lights shone inside Hakan's charm: star blue, river green, and dawn gold.",
+          "Captain Selma gave Yusuf a tiny sky-map patch.",
+          "Angela kissed the top of Hakan's head. Koray ruffled Yusuf's short hair.",
+          "Above the valleys, the balloons, lanterns, and morning all rose together.",
+        ],
+        image: "assets/cappadocia-sky-caravan-page-12.webp",
+        alt: "Hakan holding the three-light lantern charm while Yusuf receives a sky-map patch at breakfast",
       },
     ],
   },
@@ -2534,6 +2825,16 @@ const collections = [
     cover: "assets/book-cover-moonlit-library.webp",
     coverAlt:
       "Collection cover for The Moonlit Library Adventures showing Hakan and Yusuf in a glowing secret library",
+  },
+  {
+    id: "cappadocia-lanterns",
+    title: "The Cappadocia Lantern Adventures",
+    libraryKicker: "Cappadocia Lantern Collection",
+    description:
+      "Three connected quests with lost stars, hidden cave rivers, sky lanterns, and the Dawn Bell.",
+    cover: "assets/book-cover-cappadocia-sky-lantern-caravan.webp",
+    coverAlt:
+      "Collection cover for The Cappadocia Lantern Adventures showing Hakan and Yusuf guiding sky lanterns over Cappadocia",
   },
   {
     id: "kitsune",
