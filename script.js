@@ -2582,6 +2582,8 @@ const progressLabel = document.getElementById("progressLabel");
 const progressBar = document.getElementById("progressBar");
 const backButton = document.getElementById("backButton");
 const nextButton = document.getElementById("nextButton");
+const readButton = document.getElementById("readButton");
+const stopButton = document.getElementById("stopButton");
 const fullscreenButton = document.getElementById("fullscreenButton");
 const bookCard = document.querySelector(".book-card");
 const bookGrid = document.getElementById("bookGrid");
@@ -2593,6 +2595,10 @@ const libraryButton = document.getElementById("libraryButton");
 const libraryTitle = document.getElementById("library-title");
 const libraryDescription = document.getElementById("libraryDescription");
 const collectionBackButton = document.getElementById("collectionBackButton");
+const speechSupported =
+  "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+
+let activeUtterance = null;
 
 function createBookTile(item, onClick, index = 1) {
   const button = document.createElement("button");
@@ -2702,6 +2708,61 @@ function renderStoryText(page) {
   });
 }
 
+function setSpeechButtons(isReading = false) {
+  if (!speechSupported) {
+    readButton.hidden = true;
+    stopButton.hidden = true;
+    return;
+  }
+
+  readButton.hidden = false;
+  stopButton.hidden = false;
+  readButton.disabled = isReading;
+  readButton.textContent = isReading ? "Reading..." : "Read to me";
+  stopButton.disabled = !isReading;
+}
+
+function stopReading() {
+  if (!speechSupported) return;
+
+  window.speechSynthesis.cancel();
+  activeUtterance = null;
+  setSpeechButtons(false);
+}
+
+function getCurrentSpeechText() {
+  const page = activeBook.pages[currentPage];
+  const pageNumber = currentPage + 1;
+
+  return [
+    activeBook.title,
+    `Page ${pageNumber}. ${page.title}.`,
+    ...page.paragraphs,
+  ].join(" ");
+}
+
+function readCurrentPage() {
+  if (!speechSupported) return;
+
+  stopReading();
+
+  const utterance = new SpeechSynthesisUtterance(getCurrentSpeechText());
+  utterance.lang = "en-US";
+  utterance.rate = 0.92;
+  utterance.pitch = 1.03;
+  utterance.onend = () => {
+    if (activeUtterance === utterance) {
+      activeUtterance = null;
+      setSpeechButtons(false);
+    }
+  };
+  utterance.onerror = utterance.onend;
+
+  activeUtterance = utterance;
+  setSpeechButtons(true);
+  window.speechSynthesis.speak(utterance);
+}
+
 function preloadNextPage() {
   const nextPage = activeBook.pages[currentPage + 1];
   if (!nextPage) return;
@@ -2711,6 +2772,8 @@ function preloadNextPage() {
 }
 
 function renderPage(direction = 1) {
+  stopReading();
+
   const page = activeBook.pages[currentPage];
   const pageNumber = currentPage + 1;
 
@@ -2734,6 +2797,8 @@ function renderPage(direction = 1) {
 }
 
 function showReader(bookIndex) {
+  stopReading();
+
   activeBook = books[bookIndex];
   currentPage = 0;
   libraryView.hidden = true;
@@ -2747,6 +2812,8 @@ function showReader(bookIndex) {
 }
 
 function showCollection(collectionId) {
+  stopReading();
+
   activeCollectionId = collectionId;
   readerView.hidden = true;
   libraryView.hidden = false;
@@ -2757,6 +2824,8 @@ function showCollection(collectionId) {
 }
 
 async function showLibrary() {
+  stopReading();
+
   if (document.fullscreenElement) {
     await document.exitFullscreen();
   }
@@ -2814,8 +2883,12 @@ async function toggleFullscreen() {
 
 backButton.addEventListener("click", previousPage);
 nextButton.addEventListener("click", nextPage);
+readButton.addEventListener("click", readCurrentPage);
+stopButton.addEventListener("click", stopReading);
 libraryButton.addEventListener("click", showLibrary);
 collectionBackButton.addEventListener("click", showLibrary);
+window.addEventListener("beforeunload", stopReading);
+setSpeechButtons(false);
 
 if (bookCard.requestFullscreen && document.exitFullscreen) {
   fullscreenButton.addEventListener("click", toggleFullscreen);

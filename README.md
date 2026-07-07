@@ -22,7 +22,7 @@ Included stories:
 - _Hakan, Yusuf, and the Deep Dwarf Gate_
 - _Yusie and the Marvel Tree Dragon_
 
-This is a static HTML, CSS, and JavaScript storybook library with a front landing page, collection cards, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, fullscreen support where the browser allows it, and fixed two-page book spreads on larger screens. The Cats of Istanbul, Moonlit Library, Kitsune, Hearthlight Realm, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
+This is a static HTML, CSS, and JavaScript storybook library with a front landing page, collection cards, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, browser read-aloud controls, fullscreen support where the browser allows it, and fixed two-page book spreads on larger screens. The Cats of Istanbul, Moonlit Library, Kitsune, Hearthlight Realm, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
 
 ## Reading Level
 
@@ -75,7 +75,7 @@ Settings -> Pages -> Deploy from branch -> main -> root
 
 - `index.html` - semantic storybook markup
 - `style.css` - responsive open-book styling
-- `script.js` - main library data, page navigation, swipe controls, progress, and story text
+- `script.js` - main library data, page navigation, swipe controls, read-aloud controls, progress, and story text
 - `yusuf/` - Yusuf's standalone Yusie dragon picture book
 - `assets/*.webp` - optimized generated cover and storybook artwork used by the site
 - `assets/page-01.png` through `assets/page-10.png` - source-quality generated artwork backups for the first book
@@ -85,6 +85,6 @@ Settings -> Pages -> Deploy from branch -> main -> root
 
 - No backend is required.
 - No external libraries are used.
-- No browser text-to-speech is included, because realistic paid-app narration requires real human or neural audio assets.
+- Browser text-to-speech is included through the built-in SpeechSynthesis API, with a stop button for ending playback.
 - The website works on GitHub Pages.
 - The story images are local assets, so there are no remote image dependencies.
