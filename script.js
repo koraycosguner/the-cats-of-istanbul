@@ -1406,6 +1406,129 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Whispering Spellbook",
+    libraryKicker: "Starlit School Adventure",
+    readerKicker: "A living-library mystery",
+    description:
+      "The nervous silver spellbook has lost its page-feathers, and Asterhall's living library will only help students who listen.",
+    cover: "assets/book-cover-starlit-whispering-spellbook.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Whispering Spellbook showing the brothers with a glowing silver spellbook in Asterhall's living library",
+    seriesId: "starlit-school",
+    pages: [
+      {
+        title: "The Book That Whispered",
+        paragraphs: [
+          "The silver spellbook trembled on the hidden shelf.",
+          "Its pages fluttered like tiny white feathers, but the feathers did not land.",
+          "\"Help,\" it whispered again.",
+          "Yusuf stepped closer first. \"We hear you,\" he said. Hakan lifted his spell-lantern so the book would not feel alone.",
+        ],
+        image: "assets/starlit-whispering-spellbook-page-01.webp",
+        alt: "Hakan and Yusuf listening to a nervous silver spellbook on a hidden shelf at Asterhall",
+      },
+      {
+        title: "The Living Library",
+        paragraphs: [
+          "The shelf opened into a library that breathed softly in the walls.",
+          "Curved bookcases leaned like sleepy trees. Little ladders walked by themselves.",
+          "Page-feathers drifted over the boys' heads.",
+          "Hakan reached up, but the nearest feather slid away and tucked itself behind a moonlit window.",
+        ],
+        image: "assets/starlit-whispering-spellbook-page-02.webp",
+        alt: "Hakan and Yusuf entering Asterhall's living library with curved shelves and floating page-feathers",
+      },
+      {
+        title: "The Librarian Moth",
+        paragraphs: [
+          "A tiny amber moth flew out from between two books.",
+          "It wore no glasses, carried no list, and still looked exactly like a librarian.",
+          "\"This book lost its page-feathers,\" the moth hummed. \"Students rushed past its whispers and never listened to the end.\"",
+          "Yusuf nodded slowly. \"Then we start by listening.\"",
+        ],
+        image: "assets/starlit-whispering-spellbook-page-03.webp",
+        alt: "A glowing librarian moth explaining the lost page-feathers to Hakan and Yusuf",
+      },
+      {
+        title: "Shelves That Move",
+        paragraphs: [
+          "Hakan hurried after a feather, and the shelves clicked into a maze.",
+          "A book ladder scooted backward. A row of storybooks folded itself shut.",
+          "\"Wait,\" Yusuf said.",
+          "He stood very still. The shelves stopped too, as if the whole library had been waiting for someone to notice its breathing.",
+        ],
+        image: "assets/starlit-whispering-spellbook-page-04.webp",
+        alt: "The living library shelves forming a gentle maze while Yusuf calmly reads the pattern",
+      },
+      {
+        title: "The Sad Ink",
+        paragraphs: [
+          "Near a reading alcove, silver ink puddled on the floor.",
+          "It rose into little droplet faces, all looking worried.",
+          "Hakan knelt and held his lantern close enough to warm them, but not close enough to frighten them.",
+          "\"We will not rush,\" he promised. The ink shapes shimmered and pointed toward the balcony.",
+        ],
+        image: "assets/starlit-whispering-spellbook-page-05.webp",
+        alt: "Hakan comforting sad silver ink shapes while Yusuf holds the spellbook nearby",
+      },
+      {
+        title: "Feather Wind",
+        paragraphs: [
+          "On the high reading balcony, the missing page-feathers spun in a moon-blue wind.",
+          "Hakan wanted to chase them, but Yusuf watched first.",
+          "\"They are not flying away,\" Yusuf said. \"They are making a sentence with their turns.\"",
+          "He pointed to the calmest curve, and Hakan followed with careful steps.",
+        ],
+        image: "assets/starlit-whispering-spellbook-page-06.webp",
+        alt: "Yusuf reading the pattern of swirling page-feathers while Hakan follows with a lantern",
+      },
+      {
+        title: "The Listening Corner",
+        paragraphs: [
+          "The feather trail ended in a round nook of deep blue cushions.",
+          "The boys sat beside the spellbook and did nothing at all.",
+          "At first, Hakan heard lanterns ticking. Then he heard the book breathe.",
+          "At last, one silver whisper floated up, soft as a bedtime line.",
+        ],
+        image: "assets/starlit-whispering-spellbook-page-07.webp",
+        alt: "Hakan and Yusuf sitting still in the Listening Corner while the spellbook glows softly",
+      },
+      {
+        title: "Feathers Come Home",
+        paragraphs: [
+          "The missing page-feathers circled back one by one.",
+          "Yusuf guided them with the quiet sentence he had learned.",
+          "Hakan held the lantern steady so every feather could find its page.",
+          "When the last feather landed, the spellbook's cracked silver cover mended with a happy glow.",
+        ],
+        image: "assets/starlit-whispering-spellbook-page-08.webp",
+        alt: "Hakan and Yusuf returning glowing page-feathers to the healed silver spellbook",
+      },
+      {
+        title: "Pictures Instead of Words",
+        paragraphs: [
+          "The spellbook opened wider than before.",
+          "It did not shout. It did not sparkle too hard.",
+          "It showed gentle picture-lights: a bell, a tower, a moon, and a path made of listening.",
+          "\"The book is teaching us,\" Yusuf whispered. Hakan smiled. \"And it is not scared anymore.\"",
+        ],
+        image: "assets/starlit-whispering-spellbook-page-09.webp",
+        alt: "The healed spellbook showing glowing picture clues while Hakan and Yusuf study them",
+      },
+      {
+        title: "The Midnight Bell",
+        paragraphs: [
+          "A black-and-silver note fluttered out of the spellbook.",
+          "It had no writing, only a folded star shape that pointed through the window.",
+          "Far across Asterhall, the bell tower stood under the moon.",
+          "The smallest bell gave one lonely ring. Hakan and Yusuf knew where their next lesson waited.",
+        ],
+        image: "assets/starlit-whispering-spellbook-page-10.webp",
+        alt: "Hakan and Yusuf finding a folded star note that points toward Asterhall's moonlit bell tower",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",
