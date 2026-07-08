@@ -13,6 +13,7 @@ Included stories:
 - _Hakan, Yusuf, and the Lanterns of Cappadocia_
 - _Hakan, Yusuf, and the Underground Star River_
 - _Hakan, Yusuf, and the Sky Lantern Caravan_
+- _Hakan, Yusuf, and the Starlit School Key_
 - _Hakan and the Little Lost Moon_
 - _Hakan, Yusuf, and the Comet Key_
 - _Hakan, Yusuf, and the Starlight Harbor_
@@ -24,7 +25,7 @@ Included stories:
 - _Hakan, Yusuf, and the Deep Dwarf Gate_
 - _The Yusie Dragon Adventures_
 
-This is a static HTML, CSS, and JavaScript storybook library with a front landing page, collection cards, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, browser read-aloud controls, fullscreen support where the browser allows it, and fixed two-page book spreads on larger screens. The Cats of Istanbul, Moonlit Library, Cappadocia Lantern, Kitsune, Hearthlight Realm, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
+This is a static HTML, CSS, and JavaScript storybook library with a front landing page, collection cards, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, browser read-aloud controls, fullscreen support where the browser allows it, and fixed two-page book spreads on larger screens. The Cats of Istanbul, Moonlit Library, Cappadocia Lantern, Starlit School, Kitsune, Hearthlight Realm, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
 
 ## Reading Level
 

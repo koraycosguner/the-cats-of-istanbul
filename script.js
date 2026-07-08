@@ -1283,6 +1283,129 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Starlit School Key",
+    libraryKicker: "Starlit School Adventure",
+    readerKicker: "A first night at Asterhall",
+    description:
+      "A moon-blue invitation leads Hakan and Yusuf to Asterhall, where a school key loses its three lights.",
+    cover: "assets/book-cover-starlit-school-key.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Starlit School Key showing the brothers at a glowing magical school with a three-light key",
+    seriesId: "starlit-school",
+    pages: [
+      {
+        title: "The Moon-Blue Invitation",
+        paragraphs: [
+          "The envelope arrived at breakfast without a stamp.",
+          "It unfolded by itself into a moon-blue map of towers, windows, and tiny walking stars.",
+          "Angela smiled at the boys over the table. Koray turned the map carefully so the light would not spill into the orange juice.",
+          "\"Asterhall School for Young Spellmakers,\" Yusuf read. Hakan whispered, \"It knows our names.\"",
+        ],
+        image: "assets/starlit-school-key-page-01.webp",
+        alt: "Angela, Koray, Hakan, and Yusuf studying a glowing moon-blue invitation at breakfast",
+      },
+      {
+        title: "The Lantern Tram",
+        paragraphs: [
+          "At sunset, a lantern tram rolled to the curb without making a sound.",
+          "Its windows shone with little constellations, and its floor drew a gold path under Hakan's shoes.",
+          "Yusuf checked the map twice, then tucked it under his arm like a serious student.",
+          "The tram bell chimed once. The city folded away, and Asterhall rose ahead under the evening stars.",
+        ],
+        image: "assets/starlit-school-key-page-02.webp",
+        alt: "Hakan and Yusuf stepping onto a glowing lantern tram bound for Asterhall",
+      },
+      {
+        title: "Asterhall Opens",
+        paragraphs: [
+          "The school doors were round and silver, with star marks turning slowly in the wood.",
+          "Inside, chalk constellations drifted across the ceiling. Midnight-blue capes waited on a brass rail.",
+          "A kind teacher named Mira fastened one cape around Hakan and one around Yusuf.",
+          "\"At Asterhall,\" she said, \"magic listens best to students who listen first.\"",
+        ],
+        image: "assets/starlit-school-key-page-03.webp",
+        alt: "Hakan and Yusuf receiving midnight-blue school capes beneath floating chalk stars",
+      },
+      {
+        title: "First Lantern Lesson",
+        paragraphs: [
+          "Their first class was Spell-Lanterns.",
+          "Each student set one small lantern on a desk and breathed gently toward the glass.",
+          "Hakan's lantern flashed too fast, bright-bright-bright, like it wanted to race around the room.",
+          "Yusuf put his long fingers beside the flame. \"Slow down with me,\" he said, and Hakan matched his breath.",
+        ],
+        image: "assets/starlit-school-key-page-04.webp",
+        alt: "Hakan and Yusuf learning to calm a glowing spell-lantern in a warm classroom",
+      },
+      {
+        title: "The Three Lights Fly Away",
+        paragraphs: [
+          "After class, Teacher Mira showed them the Starlit School Key.",
+          "It had three lights inside it: Door, Desk, and Bell.",
+          "But when Hakan leaned close, the key gave a worried little click.",
+          "Blue, gold, and green sparks flew out and vanished down three different halls.",
+        ],
+        image: "assets/starlit-school-key-page-05.webp",
+        alt: "The Starlit School Key losing three colored lights while Hakan and Yusuf watch",
+      },
+      {
+        title: "The Door Light",
+        paragraphs: [
+          "Hakan heard a tiny sniffle near the chalk wall.",
+          "The Door Light was hiding inside a shy comet drawn in silver dust.",
+          "Yusuf held the map steady while Hakan sat on the floor and spoke softly.",
+          "\"You do not have to open every door at once,\" Hakan told it. The Door Light glowed blue and curled into his palm.",
+        ],
+        image: "assets/starlit-school-key-page-06.webp",
+        alt: "Hakan comforting the blue Door Light hiding inside a chalk comet while Yusuf holds the map",
+      },
+      {
+        title: "The Desk Maze",
+        paragraphs: [
+          "The Desk Light had run into a room where the desks rearranged themselves.",
+          "When Hakan hurried forward, the desks clicked into a wall.",
+          "Yusuf watched the legs, shadows, and tiny scratches on the floor.",
+          "\"They move like a sentence,\" he said. He read the pattern aloud, and the gold Desk Light rolled into view.",
+        ],
+        image: "assets/starlit-school-key-page-07.webp",
+        alt: "Yusuf solving a moving desk maze while Hakan holds a lantern nearby",
+      },
+      {
+        title: "The Bell Tower Steps",
+        paragraphs: [
+          "The last light waited in the practice bell tower.",
+          "The stairs curled upward in a moonlit spiral, narrow but safe.",
+          "Hakan carried the lantern. Yusuf counted the bells, because each one hummed a different note.",
+          "At the top, the green Bell Light trembled under the smallest bell, afraid to ring too loudly.",
+        ],
+        image: "assets/starlit-school-key-page-08.webp",
+        alt: "Hakan and Yusuf climbing the moonlit practice bell tower to find the green Bell Light",
+      },
+      {
+        title: "The Key Wakes",
+        paragraphs: [
+          "Hakan placed the blue Door Light back first.",
+          "Yusuf fitted the gold Desk Light beside it, exactly where the key's lines met.",
+          "Together, they lifted the green Bell Light into the final space.",
+          "The Starlit School Key woke with a warm chime, and the First Lesson Hall opened in a circle of stars.",
+        ],
+        image: "assets/starlit-school-key-page-09.webp",
+        alt: "Hakan and Yusuf restoring three colored lights to the Starlit School Key",
+      },
+      {
+        title: "The Whispering Shelf",
+        paragraphs: [
+          "Teacher Mira bowed, but the key was not finished showing them secrets.",
+          "A hidden shelf slid open behind the lesson hall.",
+          "On it lay a silver spellbook with feather-soft pages and a nervous glow.",
+          "\"Help,\" whispered the book. Yusuf looked at Hakan. Hakan looked at Yusuf. Their second lesson had already begun.",
+        ],
+        image: "assets/starlit-school-key-page-10.webp",
+        alt: "Hakan and Yusuf discovering a nervous glowing spellbook on a hidden shelf at Asterhall",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",
@@ -2835,6 +2958,16 @@ const collections = [
     cover: "assets/book-cover-cappadocia-sky-lantern-caravan.webp",
     coverAlt:
       "Collection cover for The Cappadocia Lantern Adventures showing Hakan and Yusuf guiding sky lanterns over Cappadocia",
+  },
+  {
+    id: "starlit-school",
+    title: "The Starlit School Adventures",
+    libraryKicker: "Wizard School Collection",
+    description:
+      "An original magical-school series with spell-lanterns, listening magic, and Asterhall mysteries.",
+    cover: "assets/book-cover-starlit-school-key.webp",
+    coverAlt:
+      "Collection cover for The Starlit School Adventures showing Hakan and Yusuf at Asterhall with a glowing school key",
   },
   {
     id: "kitsune",
