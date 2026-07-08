@@ -2794,13 +2794,13 @@ const books = [
     ]
   },
   {
-    title: "Yusie and the Marvel Tree Dragon",
-    libraryKicker: "Yusuf Dragon Adventure",
+    title: "The Yusie Dragon Adventures",
+    libraryKicker: "Yusie Dragon Collection",
     description:
-      "A blue egg, 999-speed boots, and a red rooster-dragon by the Mediterranean.",
-    cover: "yusuf/assets/yusie-cover.webp",
+      "Yusie grows from Marvel Tree guardian to sea-and-sky dragon across three connected adventures.",
+    cover: "yusuf/assets/yusie-star-nest-cover.webp",
     coverAlt:
-      "Cover art for Yusie and the Marvel Tree Dragon showing Yusuf, Hakan, a blue egg, and a red rooster-dragon by the sea",
+      "Collection cover for The Yusie Dragon Adventures showing Yusie flying toward the star nest above the Marvel Tree",
     href: "yusuf/",
   },
 ];

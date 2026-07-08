@@ -22,7 +22,7 @@ Included stories:
 - _Hakan, Yusuf, and the Hearthfolk Lantern_
 - _Hakan, Yusuf, and the Star-Elf Forest_
 - _Hakan, Yusuf, and the Deep Dwarf Gate_
-- _Yusie and the Marvel Tree Dragon_
+- _The Yusie Dragon Adventures_
 
 This is a static HTML, CSS, and JavaScript storybook library with a front landing page, collection cards, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, browser read-aloud controls, fullscreen support where the browser allows it, and fixed two-page book spreads on larger screens. The Cats of Istanbul, Moonlit Library, Cappadocia Lantern, Kitsune, Hearthlight Realm, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
 

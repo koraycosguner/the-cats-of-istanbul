@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="A polished children's picture book for Yusuf: Yusie and the Marvel Tree Dragon."
+      content="A polished children's picture-book collection for Yusuf and Yusie the dragon."
     />
-    <title>Yusie and the Marvel Tree Dragon</title>
-    <link rel="preload" as="image" href="assets/yusie-page-01.webp" />
+    <title>The Yusie Dragon Adventures</title>
+    <link rel="preload" as="image" href="assets/yusie-cover.webp" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -22,14 +22,34 @@
     </div>
 
     <header class="site-header">
-      <p class="kicker">A Bozyazi dragon adventure</p>
-      <h1>Yusie and the Marvel Tree Dragon</h1>
+      <p class="kicker" id="siteKicker">Yusie Dragon Collection</p>
+      <h1 id="siteTitle">The Yusie Dragon Adventures</h1>
     </header>
 
     <main class="app-shell" aria-live="polite">
-      <section class="storybook" aria-label="Story reader">
+      <section
+        class="series-library"
+        id="libraryView"
+        aria-label="Yusie dragon books"
+      >
+        <div class="library-bar">
+          <a class="library-button" href="../">Library</a>
+          <span>Choose a dragon book</span>
+        </div>
+        <div class="book-grid" id="bookGrid"></div>
+      </section>
+
+      <section
+        class="storybook"
+        id="readerView"
+        aria-label="Story reader"
+        hidden
+      >
         <section class="book-card" aria-labelledby="story-title">
           <div class="progress-wrap" aria-label="Story progress">
+            <button type="button" class="library-button" id="seriesButton">
+              Books
+            </button>
             <a class="library-button" href="../">Library</a>
             <div class="progress-track">
               <div class="progress-bar" id="progressBar"></div>
