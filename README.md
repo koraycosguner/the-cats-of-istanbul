@@ -15,6 +15,7 @@ Included stories:
 - _Hakan, Yusuf, and the Sky Lantern Caravan_
 - _Hakan, Yusuf, and the Starlit School Key_
 - _Hakan, Yusuf, and the Whispering Spellbook_
+- _Hakan, Yusuf, and the Midnight Bell Tower_
 - _Hakan and the Little Lost Moon_
 - _Hakan, Yusuf, and the Comet Key_
 - _Hakan, Yusuf, and the Starlight Harbor_

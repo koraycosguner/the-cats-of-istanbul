@@ -1529,6 +1529,129 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Midnight Bell Tower",
+    libraryKicker: "Starlit School Adventure",
+    readerKicker: "A moonlit Asterhall finale",
+    description:
+      "When Asterhall's Midnight Bell loses its true note, Hakan and Yusuf must listen, lead, and ring the school lanterns awake.",
+    cover: "assets/book-cover-starlit-midnight-bell-tower.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Midnight Bell Tower showing the brothers beneath Asterhall's moonlit bell tower",
+    seriesId: "starlit-school",
+    pages: [
+      {
+        title: "The Note Points Up",
+        paragraphs: [
+          "The folded star note hovered above the healed spellbook.",
+          "It had no words, only a silver point aimed at the window.",
+          "Across Asterhall, the bell tower waited under the moon.",
+          "Then every lantern in the living library flickered once. Hakan held his lantern tighter. Yusuf tucked the note safely in his hand.",
+        ],
+        image: "assets/starlit-midnight-bell-tower-page-01.webp",
+        alt: "Hakan and Yusuf seeing the folded star note point toward Asterhall's moonlit bell tower",
+      },
+      {
+        title: "The Courtyard of Flickers",
+        paragraphs: [
+          "Teacher Mira led them into the midnight courtyard.",
+          "Windows blinked gold, then blue, then almost dark.",
+          "\"The Midnight Bell has lost its true note,\" she said. \"Without it, the school lanterns cannot rest or wake properly.\"",
+          "Yusuf looked at the tower. \"Then we need to find what it cannot say.\"",
+        ],
+        image: "assets/starlit-midnight-bell-tower-page-02.webp",
+        alt: "Hakan and Yusuf walking through Asterhall's moonlit courtyard toward the bell tower",
+      },
+      {
+        title: "Yusuf Maps the Echo",
+        paragraphs: [
+          "Inside the echo classroom, sound ripples floated in blue circles.",
+          "Yusuf watched each ripple turn, shrink, and fade.",
+          "Hakan moved his lantern low so the floor pattern shone clearly.",
+          "\"The missing note is not gone,\" Yusuf said. \"It is stuck between two rings.\"",
+        ],
+        image: "assets/starlit-midnight-bell-tower-page-03.webp",
+        alt: "Yusuf mapping blue sound ripples while Hakan lights the echo classroom floor",
+      },
+      {
+        title: "The Bell Spark",
+        paragraphs: [
+          "On the first tower steps, Hakan heard a tiny ting.",
+          "Under one stone step, a green-gold bell spark trembled.",
+          "It was not naughty. It was scared of being too loud.",
+          "Hakan knelt beside it. \"You can be small and still be heard,\" he whispered.",
+        ],
+        image: "assets/starlit-midnight-bell-tower-page-04.webp",
+        alt: "Hakan comforting a small green-gold bell spark under the tower steps while Yusuf watches",
+      },
+      {
+        title: "The Step Rhythm",
+        paragraphs: [
+          "The tower stairs rearranged whenever the boys climbed too quickly.",
+          "Yusuf tapped the railing: slow, slow, quick, rest.",
+          "One safe step glowed. Then another. Then three more.",
+          "Hakan followed the rhythm with the bell spark floating beside his lantern.",
+        ],
+        image: "assets/starlit-midnight-bell-tower-page-05.webp",
+        alt: "Yusuf finding the safe rhythm on the bell tower stairs while Hakan follows with the bell spark",
+      },
+      {
+        title: "The Missing Star-Chime",
+        paragraphs: [
+          "At the top of the tower, the great bells hung still.",
+          "A round moon window shone on the bell machine.",
+          "One star-shaped space was empty.",
+          "\"The spark belongs there,\" Yusuf said. \"But it needs a brave sound to carry it home.\"",
+        ],
+        image: "assets/starlit-midnight-bell-tower-page-06.webp",
+        alt: "Hakan and Yusuf finding the missing star-chime space in the moonlit bell tower mechanism",
+      },
+      {
+        title: "The Listening Circle",
+        paragraphs: [
+          "Teacher Mira and the classmates gathered their lanterns in a circle.",
+          "Yusuf lifted one hand. \"No rushing,\" he said. \"Listen for the smallest ring.\"",
+          "Everyone grew quiet.",
+          "Hakan carried the bell spark into the middle, and the spark glowed brighter because nobody tried to hurry it.",
+        ],
+        image: "assets/starlit-midnight-bell-tower-page-07.webp",
+        alt: "Yusuf leading a listening circle while Hakan carries the bell spark in his lantern",
+      },
+      {
+        title: "Family Light",
+        paragraphs: [
+          "A warm glow opened in the round tower window.",
+          "For one soft moment, Angela and Koray appeared like a golden reflection from home.",
+          "Hakan smiled, steadier than before.",
+          "Yusuf saw the bell rope's echo knot and loosened it gently, loop by loop.",
+        ],
+        image: "assets/starlit-midnight-bell-tower-page-08.webp",
+        alt: "A warm reflection of Angela and Koray appearing while Yusuf untangles the bell rope and Hakan steadies the lantern",
+      },
+      {
+        title: "The Midnight Bell Rings",
+        paragraphs: [
+          "Hakan placed the bell spark into the star-chime space.",
+          "Yusuf held the rope beside him.",
+          "Together, they pulled once.",
+          "The Midnight Bell rang silver and gold, and ribbons of sound flew across Asterhall, waking every lantern with a gentle glow.",
+        ],
+        image: "assets/starlit-midnight-bell-tower-page-09.webp",
+        alt: "Hakan and Yusuf ringing the Midnight Bell together as silver and gold sound ribbons relight Asterhall",
+      },
+      {
+        title: "Starlit Students",
+        paragraphs: [
+          "By dawn, Asterhall was calm and bright.",
+          "Teacher Mira gave Hakan and Yusuf two small star badges and two fresh notebooks.",
+          "\"You listened when magic was quiet,\" she said. \"That is how Asterhall learns your names.\"",
+          "The silver spellbook fluttered happily on the table. Hakan and Yusuf grinned. Their first three lessons had become a story of their own.",
+        ],
+        image: "assets/starlit-midnight-bell-tower-page-10.webp",
+        alt: "Teacher Mira giving Hakan and Yusuf Starlit Student badges at dawn in Asterhall",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",
@@ -3087,7 +3210,7 @@ const collections = [
     title: "The Starlit School Adventures",
     libraryKicker: "Wizard School Collection",
     description:
-      "An original magical-school series with spell-lanterns, listening magic, and Asterhall mysteries.",
+      "A three-book original magical-school series with spell-lanterns, listening magic, and Asterhall mysteries.",
     cover: "assets/book-cover-starlit-school-key.webp",
     coverAlt:
       "Collection cover for The Starlit School Adventures showing Hakan and Yusuf at Asterhall with a glowing school key",
