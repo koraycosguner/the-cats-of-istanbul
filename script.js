@@ -1652,6 +1652,129 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Underwater Star Reef",
+    libraryKicker: "Starlit School Adventure",
+    readerKicker: "An underwater Asterhall sequel",
+    description:
+      "A bubbling spell-lantern opens the Tideglass Door, sending Hakan and Yusuf to relight Asterhall's underwater reef classroom.",
+    cover: "assets/book-cover-starlit-underwater-star-reef.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Underwater Star Reef showing the brothers in Asterhall's glowing underwater reef classroom",
+    seriesId: "starlit-school",
+    pages: [
+      {
+        title: "Bubbles in the Lantern",
+        paragraphs: [
+          "The morning after the Midnight Bell rang, Asterhall felt calm and bright.",
+          "Hakan set his spell-lantern on the round table. One bubble rose inside it. Then another. Then ten.",
+          "Yusuf looked at his Starlit Student badge. A tiny blue wave had appeared beside the star.",
+          "Teacher Mira smiled. \"Asterhall has heard another lesson calling.\"",
+        ],
+        image: "assets/starlit-underwater-star-reef-page-01.webp",
+        alt: "Hakan and Yusuf watching a bubbling spell-lantern and blue wave badge mark in Asterhall's First Lesson Hall",
+      },
+      {
+        title: "The Tideglass Door",
+        paragraphs: [
+          "The moon-pool in the floor opened with a soft splash of light.",
+          "Glass-clear water rose into an archway, but not one drop spilled onto the stones.",
+          "Hakan's cape filled with a shining air bubble. Yusuf's current-map unfolded into blue ribbons.",
+          "Together, the brothers stepped through the Tideglass Door.",
+        ],
+        image: "assets/starlit-underwater-star-reef-page-02.webp",
+        alt: "Teacher Mira leading Hakan and Yusuf through the glowing Tideglass Door into an underwater corridor",
+      },
+      {
+        title: "Reef Hall",
+        paragraphs: [
+          "Below Asterhall waited Reef Hall, a classroom made of coral arches and shell desks.",
+          "Pearl lanterns hung everywhere, but most of them were dim.",
+          "A tiny reef sprite made of pearl light bowed to the boys. \"I am Nila,\" she said. \"Our Tide Bell cannot wake the reef.\"",
+          "Yusuf studied the bell. Hakan lifted his lantern so Nila could see they had come to help.",
+        ],
+        image: "assets/starlit-underwater-star-reef-page-03.webp",
+        alt: "Nila the pearl-light reef sprite showing Hakan and Yusuf the dim lanterns of Reef Hall",
+      },
+      {
+        title: "Yusuf Reads the Current",
+        paragraphs: [
+          "Outside Reef Hall, three current paths curled through the water.",
+          "One spun fast. One flashed bright. One turned slowly and stayed clear.",
+          "Yusuf watched the bubbles lean. \"The calm blue path is safest,\" he said.",
+          "Hakan followed with the lantern, and the water opened around them like a quiet hallway.",
+        ],
+        image: "assets/starlit-underwater-star-reef-page-04.webp",
+        alt: "Yusuf choosing the calm blue current path while Hakan follows with his underwater spell-lantern",
+      },
+      {
+        title: "The Pearl Spark",
+        paragraphs: [
+          "In a coral cave, Hakan heard a tiny plink.",
+          "A pearl spark hid inside a small coral cup, glowing and going dim, glowing and going dim.",
+          "Hakan knelt close. \"You do not have to shine alone,\" he whispered.",
+          "The pearl spark rolled gently into his lantern, warm and brave enough to travel.",
+        ],
+        image: "assets/starlit-underwater-star-reef-page-05.webp",
+        alt: "Hakan comforting a frightened pearl spark in a coral cave while Yusuf watches protectively",
+      },
+      {
+        title: "The Shell Maze",
+        paragraphs: [
+          "The current carried them to a maze of giant spiral shells.",
+          "Every shell sent out a bubble echo. Some echoes turned back. Some echoes crossed.",
+          "Yusuf waited until the bubbles made one clean curve.",
+          "\"This way,\" he said, and led them through the maze without waking a single sharp echo.",
+        ],
+        image: "assets/starlit-underwater-star-reef-page-06.webp",
+        alt: "Yusuf mapping bubble echoes through a giant shell maze while Hakan carries the pearl spark",
+      },
+      {
+        title: "The Shy Reef Ray",
+        paragraphs: [
+          "In the moon-kelp garden, a soft blue reef ray hid behind the leaves.",
+          "It carried a bubble note under one fin, but the kelp kept tangling around it.",
+          "Hakan held out his lantern. \"We can go slowly,\" he said.",
+          "Yusuf opened a safe path on the current-map, and the reef ray glided beside them.",
+        ],
+        image: "assets/starlit-underwater-star-reef-page-07.webp",
+        alt: "Hakan helping a shy pearl-blue reef ray while Yusuf guides them through the moon-kelp garden",
+      },
+      {
+        title: "The Moon-Kelp Knot",
+        paragraphs: [
+          "At the heart of the reef, the Tide Bell hung from a coral arch.",
+          "Its rope was tied in a glowing moon-kelp knot.",
+          "Yusuf read the twists the way he read currents and echoes.",
+          "Hakan shone warm light on the knot while Yusuf loosened it, loop by careful loop.",
+        ],
+        image: "assets/starlit-underwater-star-reef-page-08.webp",
+        alt: "Yusuf untangling the Tide Bell's moon-kelp knot while Hakan shines his lantern",
+      },
+      {
+        title: "The Tide Bell Rings",
+        paragraphs: [
+          "Hakan lifted the pearl spark into the bell.",
+          "Yusuf held the rope beside him.",
+          "They pulled together, once, gently.",
+          "The Tide Bell rang in silver-blue bubbles, and every coral lantern in the reef woke with a soft pearl glow.",
+        ],
+        image: "assets/starlit-underwater-star-reef-page-09.webp",
+        alt: "Hakan and Yusuf ringing the Tide Bell together as glowing bubbles relight the underwater Star Reef",
+      },
+      {
+        title: "The Blue Wave Mark",
+        paragraphs: [
+          "Back in Asterhall, the moon-pool settled flat and shining.",
+          "Teacher Mira touched each badge, and the tiny wave mark glowed blue.",
+          "Nila waved from the water before the Tideglass Door folded away.",
+          "Hakan kept one pearl bubble in his lantern. Yusuf folded the current-map into a neat ribbon. Asterhall had learned their names a little more.",
+        ],
+        image: "assets/starlit-underwater-star-reef-page-10.webp",
+        alt: "Teacher Mira adding blue wave marks to Hakan and Yusuf's badges after the underwater reef adventure",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",
@@ -3210,7 +3333,7 @@ const collections = [
     title: "The Starlit School Adventures",
     libraryKicker: "Wizard School Collection",
     description:
-      "A three-book original magical-school series with spell-lanterns, listening magic, and Asterhall mysteries.",
+      "A four-book original magical-school series with spell-lanterns, listening magic, Asterhall mysteries, and an underwater reef classroom.",
     cover: "assets/book-cover-starlit-school-key.webp",
     coverAlt:
       "Collection cover for The Starlit School Adventures showing Hakan and Yusuf at Asterhall with a glowing school key",
