@@ -98,6 +98,7 @@ button {
 
 .site-header,
 .app-shell,
+.format-view,
 .library-view,
 .storybook {
   position: relative;
@@ -139,6 +140,7 @@ h1 {
   display: none !important;
 }
 
+.format-view,
 .library-view {
   padding: clamp(4px, 1vw, 10px) 0 24px;
 }
@@ -163,6 +165,33 @@ h1 {
 
 .collection-back-button {
   margin-top: 16px;
+}
+
+.library-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.library-actions .collection-back-button {
+  margin-top: 0;
+}
+
+.format-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 360px));
+  justify-content: center;
+  gap: 22px;
+}
+
+.format-tile {
+  min-height: 100%;
+}
+
+.format-tile .cover-shell {
+  aspect-ratio: 4 / 5;
 }
 
 .book-grid {
@@ -376,6 +405,7 @@ h1 {
 }
 
 .illustration-frame,
+.comic-frame,
 .story-panel {
   position: relative;
   min-width: 0;
@@ -393,7 +423,8 @@ h1 {
   border-right: 1px solid rgba(126, 91, 54, 0.18);
 }
 
-.illustration-frame::after {
+.illustration-frame::after,
+.comic-frame::after {
   content: "";
   position: absolute;
   inset: clamp(14px, 1.7vw, 24px);
@@ -409,6 +440,44 @@ h1 {
   height: 100%;
   border-radius: 8px;
   object-fit: contain;
+}
+
+.comic-frame {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  margin: 0;
+  padding: clamp(10px, 1.3vw, 18px);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(180deg, #111927, #03060b);
+}
+
+.comic-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.comic-page-turn {
+  background: #05070c;
+  box-shadow:
+    inset 0 0 0 1px rgba(246, 206, 92, 0.2),
+    inset 0 -26px 55px rgba(0, 0, 0, 0.36);
+}
+
+.comic-page-turn .illustration-frame {
+  padding: clamp(10px, 1.3vw, 18px);
+  border-right-color: rgba(246, 206, 92, 0.16);
+  background: linear-gradient(180deg, #111927, #03060b);
+}
+
+.comic-page-turn .illustration-frame::after,
+.comic-page-turn .comic-frame::after {
+  inset: clamp(10px, 1.3vw, 18px);
+  border-color: rgba(246, 206, 92, 0.18);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.35);
 }
 
 .story-panel {
@@ -459,6 +528,16 @@ h2 {
   align-items: center;
   pointer-events: none;
   padding: 0;
+}
+
+.comic-book-open .controls {
+  position: static;
+  margin-top: 10px;
+  padding: 0 4px;
+}
+
+.comic-book-open .book-card {
+  background: linear-gradient(135deg, #201b17, #aa7741 18%, #f0d38d 50%, #9b6437 82%, #181512);
 }
 
 .nav-button {
@@ -611,6 +690,17 @@ h2 {
     aspect-ratio: 8 / 9;
     border-right: 0;
     border-bottom: 1px solid rgba(126, 91, 54, 0.18);
+  }
+
+  .comic-page-turn .illustration-frame,
+  .comic-frame {
+    aspect-ratio: 2 / 3;
+    min-height: auto;
+  }
+
+  .comic-frame {
+    border-left: 0;
+    border-top: 1px solid rgba(246, 206, 92, 0.16);
   }
 
   .story-panel {

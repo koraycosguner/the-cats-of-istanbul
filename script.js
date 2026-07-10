@@ -3297,6 +3297,118 @@ const books = [
   },
 ];
 
+const comicBooks = [
+  {
+    title: "Yusuf and Hakan: Guardians of Moonfire Cape",
+    libraryKicker: "Cinematic Comic",
+    readerKicker: "Starfire comic adventure",
+    description:
+      "Yusuf becomes the elder starfire guardian, Hakan his junior brother, and two trusted allies help them save Moonfire Cape.",
+    cover: "assets/comic-moonfire-cover.webp",
+    coverAlt:
+      "Comic cover for Yusuf and Hakan: Guardians of Moonfire Cape showing the brothers as starfire guardian creatures on a moonlit coast",
+    format: "comic",
+    pages: [
+      {
+        title: "The Watchers of Moonfire Cape",
+        paragraphs: [
+          "Yusuf, the elder starfire guardian, watched the coast with Hakan, his junior brother. The lighthouse kept their home safe.",
+        ],
+        image: "assets/comic-moonfire-panel-01.webp",
+        alt: "Yusuf as a large starfire guardian creature and Hakan as his junior version watching Moonfire Cape at sunrise",
+      },
+      {
+        title: "Arda in the Pines",
+        paragraphs: [
+          "They freed Arda, the sun-eagle, from shadow-kelp. A rescue became their first promise of friendship.",
+        ],
+        image: "assets/comic-moonfire-panel-02.webp",
+        alt: "Yusuf and Hakan freeing Arda the golden sun-eagle from shadow-kelp in cliffside pines",
+      },
+      {
+        title: "Mira's Warning",
+        paragraphs: [
+          "Below the turquoise sea, Mira the crystal turtle showed them the cracked moon pearl and warned of the Hollow Tide.",
+        ],
+        image: "assets/comic-moonfire-panel-03.webp",
+        alt: "Mira the crystal turtle warning Yusuf and Hakan beneath the sea near a cracked moon pearl",
+      },
+      {
+        title: "The Hollow Tide",
+        paragraphs: [
+          "The storm rose like a living wave. Yusuf shielded Hakan while their new friends held the line.",
+        ],
+        image: "assets/comic-moonfire-panel-04.webp",
+        alt: "The Hollow Tide rising from storm waves while Yusuf protects Hakan near Moonfire Cape",
+      },
+      {
+        title: "The Steady Wing",
+        paragraphs: [
+          "Yusuf taught Hakan the steady wingbeat: brave does not mean fast. Brave means flying together.",
+        ],
+        image: "assets/comic-moonfire-panel-05.webp",
+        alt: "Yusuf teaching Hakan a steady wingbeat above Moonfire Cape during the storm",
+      },
+      {
+        title: "The Broken Beacon",
+        paragraphs: [
+          "In the lighthouse chamber, the moonfire crystal had cracked. Hakan's small spark found the first golden line.",
+        ],
+        image: "assets/comic-moonfire-panel-06.webp",
+        alt: "Yusuf and Hakan examining the cracked moonfire crystal inside the lighthouse beacon chamber",
+      },
+      {
+        title: "Hakan's Dive",
+        paragraphs: [
+          "Hakan slipped into the glowing reef crack for the shard. Yusuf stayed close, lighting the deep water.",
+        ],
+        image: "assets/comic-moonfire-panel-07.webp",
+        alt: "Hakan diving into a glowing reef crack while Yusuf protects him and Mira watches",
+      },
+      {
+        title: "Yusuf Holds the Storm",
+        paragraphs: [
+          "Yusuf spread his wings against the Hollow Tide while Hakan carried the shard through Arda's path.",
+        ],
+        image: "assets/comic-moonfire-panel-08.webp",
+        alt: "Yusuf holding back the Hollow Tide while Hakan flies through Arda's safe path with the shard",
+      },
+      {
+        title: "Mira's Crystal Road",
+        paragraphs: [
+          "Mira lifted a crystal road from the sea. Every friend gave Hakan one more safe step toward the beacon.",
+        ],
+        image: "assets/comic-moonfire-panel-09.webp",
+        alt: "Mira raising a glowing crystal road from the sea as Yusuf and Arda help Hakan reach the lighthouse",
+      },
+      {
+        title: "United Moonfire",
+        paragraphs: [
+          "Brother fire met brother fire. The shard clicked home, and the beacon blazed blue and gold.",
+        ],
+        image: "assets/comic-moonfire-panel-10.webp",
+        alt: "Yusuf and Hakan combining starfire to restore the moonfire beacon crystal",
+      },
+      {
+        title: "The Storm Breaks",
+        paragraphs: [
+          "The Hollow Tide fell into harmless mist. Moonfire Cape shone brighter because they protected it together.",
+        ],
+        image: "assets/comic-moonfire-panel-11.webp",
+        alt: "Yusuf, Hakan, Arda, and Mira watching the restored lighthouse shine after the storm breaks",
+      },
+      {
+        title: "Guardians Together",
+        paragraphs: [
+          "That night, Yusuf, Hakan, Arda, and Mira watched the quiet sea. Far away, a new light waited.",
+        ],
+        image: "assets/comic-moonfire-panel-12.webp",
+        alt: "Yusuf, Hakan, Arda, and Mira resting together on Moonfire Cape at night",
+      },
+    ],
+  },
+];
+
 const collections = [
   {
     id: "cats-of-istanbul",
@@ -3371,8 +3483,35 @@ const collections = [
 const defaultLibraryTitle = "Choose Tonight's Adventure";
 const defaultLibraryDescription =
   "Cozy picture-book stories made for curious readers, gentle magic, and one more page before sleep.";
+const comicLibraryTitle = "Choose a Comic Adventure";
+const comicLibraryDescription =
+  "Cinematic captioned fantasy comics with full-picture pages, bold panel titles, and short readable captions.";
+
+const formatOptions = [
+  {
+    title: "Picture Books",
+    libraryKicker: "Classic Storybooks",
+    description:
+      "Open-book spreads with one illustration page and one story text page.",
+    cover: "assets/book-cover-cats-of-istanbul.webp",
+    coverAlt:
+      "Picture books shelf cover showing Hakan and Yusuf's storybook adventures",
+    action: "picture",
+  },
+  {
+    title: "Comic Books",
+    libraryKicker: "Cinematic Comics",
+    description:
+      "Two-page comic spreads with captions embedded directly in the artwork.",
+    cover: "assets/comic-moonfire-cover.webp",
+    coverAlt:
+      "Comic books shelf cover showing Yusuf and Hakan as starfire guardians",
+    action: "comic",
+  },
+];
 
 let activeBook = books[0];
+let activeFormat = null;
 let activeCollectionId = null;
 let currentPage = 0;
 let pointerStartX = 0;
@@ -3381,6 +3520,9 @@ const pageEl = document.getElementById("page");
 const storyImage = document.getElementById("storyImage");
 const titleEl = document.getElementById("story-title");
 const textEl = document.getElementById("storyText");
+const storyPanel = document.querySelector(".story-panel");
+const comicFrame = document.getElementById("comicFrame");
+const comicImageRight = document.getElementById("comicImageRight");
 const progressLabel = document.getElementById("progressLabel");
 const progressBar = document.getElementById("progressBar");
 const backButton = document.getElementById("backButton");
@@ -3394,10 +3536,13 @@ const siteKicker = document.getElementById("siteKicker");
 const siteTitle = document.getElementById("siteTitle");
 const libraryView = document.getElementById("libraryView");
 const readerView = document.getElementById("readerView");
+const formatView = document.getElementById("formatView");
+const formatGrid = document.getElementById("formatGrid");
 const libraryButton = document.getElementById("libraryButton");
 const libraryTitle = document.getElementById("library-title");
 const libraryDescription = document.getElementById("libraryDescription");
 const collectionBackButton = document.getElementById("collectionBackButton");
+const formatHomeButton = document.getElementById("formatHomeButton");
 const speechSupported =
   "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
 
@@ -3443,8 +3588,56 @@ function createBookTile(item, onClick, index = 1) {
   return button;
 }
 
+function renderFormatLanding() {
+  formatGrid.textContent = "";
+  activeFormat = null;
+  activeCollectionId = null;
+  formatView.hidden = false;
+  libraryView.hidden = true;
+  readerView.hidden = true;
+  siteKicker.textContent = "Story library";
+  siteTitle.textContent = "Hakan and Yusuf's Books";
+  document.body.classList.remove("reader-open", "drop-cap-book", "comic-book-open");
+
+  formatOptions.forEach((option, index) => {
+    const tile = createBookTile(
+      option,
+      () => {
+        if (option.action === "comic") {
+          showComicLibrary();
+          return;
+        }
+
+        showPictureLibrary();
+      },
+      index,
+    );
+    tile.classList.add("format-tile");
+    formatGrid.append(tile);
+  });
+}
+
 function renderLibrary() {
   bookGrid.textContent = "";
+
+  if (activeFormat === "comic") {
+    libraryTitle.textContent = comicLibraryTitle;
+    libraryDescription.textContent = comicLibraryDescription;
+    siteKicker.textContent = "Comic books";
+    siteTitle.textContent = "Yusuf's Comic Books";
+    collectionBackButton.hidden = true;
+    formatHomeButton.hidden = false;
+
+    comicBooks.forEach((book, index) => {
+      bookGrid.append(
+        createBookTile(book, () => {
+          showReader(index, comicBooks);
+        }, index),
+      );
+    });
+
+    return;
+  }
 
   if (activeCollectionId) {
     const collection = collections.find(({ id }) => id === activeCollectionId);
@@ -3457,6 +3650,7 @@ function renderLibrary() {
     siteKicker.textContent = "Story collection";
     siteTitle.textContent = collection.title;
     collectionBackButton.hidden = false;
+    formatHomeButton.hidden = false;
 
     collectionBooks.forEach((book) => {
       const bookIndex = books.indexOf(book);
@@ -3475,6 +3669,7 @@ function renderLibrary() {
   siteKicker.textContent = "Story library";
   siteTitle.textContent = "Hakan and Yusuf's Picture Books";
   collectionBackButton.hidden = true;
+  formatHomeButton.hidden = false;
 
   collections.forEach((collection, index) => {
     bookGrid.append(
@@ -3534,6 +3729,17 @@ function stopReading() {
 }
 
 function getCurrentSpeechText() {
+  if (activeBook.format === "comic") {
+    const firstPageIndex = currentPage * 2;
+    const spreadPages = activeBook.pages.slice(firstPageIndex, firstPageIndex + 2);
+
+    return [
+      activeBook.title,
+      `Spread ${currentPage + 1}.`,
+      ...spreadPages.flatMap((page) => [page.title, ...page.paragraphs]),
+    ].join(" ");
+  }
+
   const page = activeBook.pages[currentPage];
   const pageNumber = currentPage + 1;
 
@@ -3567,19 +3773,57 @@ function readCurrentPage() {
 }
 
 function preloadNextPage() {
-  const nextPage = activeBook.pages[currentPage + 1];
-  if (!nextPage) return;
+  const nextPageIndex =
+    activeBook.format === "comic" ? (currentPage + 1) * 2 : currentPage + 1;
+  const nextPages = activeBook.pages.slice(
+    nextPageIndex,
+    nextPageIndex + (activeBook.format === "comic" ? 2 : 1),
+  );
 
-  const image = new Image();
-  image.src = nextPage.image;
+  nextPages.forEach((page) => {
+    const image = new Image();
+    image.src = page.image;
+  });
 }
 
 function renderPage(direction = 1) {
   stopReading();
 
+  if (activeBook.format === "comic") {
+    const spreadCount = Math.ceil(activeBook.pages.length / 2);
+    const leftPage = activeBook.pages[currentPage * 2];
+    const rightPage = activeBook.pages[currentPage * 2 + 1];
+    const spreadNumber = currentPage + 1;
+
+    storyImage.src = leftPage.image;
+    storyImage.alt = leftPage.alt;
+    titleEl.textContent = leftPage.title;
+    storyPanel.hidden = true;
+    comicFrame.hidden = !rightPage;
+    comicImageRight.src = rightPage?.image || "";
+    comicImageRight.alt = rightPage?.alt || "";
+    pageEl.classList.add("comic-page-turn");
+    progressLabel.textContent = `Spread ${spreadNumber} of ${spreadCount}`;
+    progressBar.style.width = `${(spreadNumber / spreadCount) * 100}%`;
+    backButton.disabled = currentPage === 0;
+    nextButton.disabled = currentPage === spreadCount - 1;
+
+    pageEl.classList.remove("turning");
+    pageEl.style.setProperty("--turn-direction", direction);
+    window.requestAnimationFrame(() => {
+      pageEl.classList.add("turning");
+    });
+
+    preloadNextPage();
+    return;
+  }
+
   const page = activeBook.pages[currentPage];
   const pageNumber = currentPage + 1;
 
+  storyPanel.hidden = false;
+  comicFrame.hidden = true;
+  pageEl.classList.remove("comic-page-turn");
   storyImage.src = page.image;
   storyImage.alt = page.alt;
   titleEl.textContent = page.title;
@@ -3599,16 +3843,21 @@ function renderPage(direction = 1) {
   preloadNextPage();
 }
 
-function showReader(bookIndex) {
+function showReader(bookIndex, sourceBooks = books) {
   stopReading();
 
-  activeBook = books[bookIndex];
+  activeBook = sourceBooks[bookIndex];
   currentPage = 0;
+  formatView.hidden = true;
   libraryView.hidden = true;
   readerView.hidden = false;
   siteKicker.textContent = activeBook.readerKicker;
   siteTitle.textContent = activeBook.title;
-  document.body.classList.toggle("drop-cap-book", bookIndex === 0);
+  document.body.classList.toggle(
+    "drop-cap-book",
+    sourceBooks === books && bookIndex === 0,
+  );
+  document.body.classList.toggle("comic-book-open", activeBook.format === "comic");
   document.body.classList.add("reader-open");
   renderPage(1);
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -3617,12 +3866,47 @@ function showReader(bookIndex) {
 function showCollection(collectionId) {
   stopReading();
 
+  activeFormat = "picture";
   activeCollectionId = collectionId;
+  formatView.hidden = true;
   readerView.hidden = true;
   libraryView.hidden = false;
   document.body.classList.remove("reader-open");
   document.body.classList.remove("drop-cap-book");
   renderLibrary();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function showPictureLibrary() {
+  activeFormat = "picture";
+  activeCollectionId = null;
+  formatView.hidden = true;
+  readerView.hidden = true;
+  libraryView.hidden = false;
+  document.body.classList.remove("reader-open", "drop-cap-book", "comic-book-open");
+  renderLibrary();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function showComicLibrary() {
+  activeFormat = "comic";
+  activeCollectionId = null;
+  formatView.hidden = true;
+  readerView.hidden = true;
+  libraryView.hidden = false;
+  document.body.classList.remove("reader-open", "drop-cap-book", "comic-book-open");
+  renderLibrary();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+async function showFormatLanding() {
+  stopReading();
+
+  if (document.fullscreenElement) {
+    await document.exitFullscreen();
+  }
+
+  renderFormatLanding();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -3634,16 +3918,21 @@ async function showLibrary() {
   }
 
   activeCollectionId = null;
+  formatView.hidden = true;
   readerView.hidden = true;
   libraryView.hidden = false;
-  document.body.classList.remove("reader-open");
-  document.body.classList.remove("drop-cap-book");
+  document.body.classList.remove("reader-open", "drop-cap-book", "comic-book-open");
   renderLibrary();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function nextPage() {
-  if (currentPage < activeBook.pages.length - 1) {
+  const pageCount =
+    activeBook.format === "comic"
+      ? Math.ceil(activeBook.pages.length / 2)
+      : activeBook.pages.length;
+
+  if (currentPage < pageCount - 1) {
     currentPage += 1;
     renderPage(1);
   }
@@ -3690,6 +3979,7 @@ readButton.addEventListener("click", readCurrentPage);
 stopButton.addEventListener("click", stopReading);
 libraryButton.addEventListener("click", showLibrary);
 collectionBackButton.addEventListener("click", showLibrary);
+formatHomeButton.addEventListener("click", showFormatLanding);
 window.addEventListener("beforeunload", stopReading);
 setSpeechButtons(false);
 
@@ -3731,4 +4021,4 @@ pageEl.addEventListener("pointerup", (event) => {
   }
 });
 
-renderLibrary();
+renderFormatLanding();

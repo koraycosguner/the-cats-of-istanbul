@@ -1,6 +1,6 @@
 # The Cats of Istanbul
 
-A polished, mobile-friendly GitHub Pages picture-book website for young readers.
+A polished, mobile-friendly GitHub Pages picture-book and cinematic comic library for young readers.
 
 Included stories:
 
@@ -27,8 +27,9 @@ Included stories:
 - _Hakan, Yusuf, and the Star-Elf Forest_
 - _Hakan, Yusuf, and the Deep Dwarf Gate_
 - _The Yusie Dragon Adventures_
+- _Yusuf and Hakan: Guardians of Moonfire Cape_
 
-This is a static HTML, CSS, and JavaScript storybook library with a front landing page, collection cards, book cover cards, generated storybook artwork, page-turn navigation, keyboard controls, swipe controls, browser read-aloud controls, fullscreen support where the browser allows it, and fixed two-page book spreads on larger screens. The Cats of Istanbul, Moonlit Library, Cappadocia Lantern, Starlit School, Kitsune, Hearthlight Realm, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
+This is a static HTML, CSS, and JavaScript story library with a first-screen bookshelf chooser, collection cards, book cover cards, generated artwork, page-turn navigation, keyboard controls, swipe controls, browser read-aloud controls, and fullscreen support where the browser allows it. Picture books retain their illustration-and-text spreads. Comic books use two full-picture captioned pages per spread. The Cats of Istanbul, Moonlit Library, Cappadocia Lantern, Starlit School, Kitsune, Hearthlight Realm, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
 
 ## Reading Level
 
@@ -44,6 +45,8 @@ The main book is designed as a constant 16:9 open-book spread on tablet and desk
 - page edges: compact arrow controls
 
 On narrow phone screens, the pages stack so the text remains readable.
+
+Comic books use two captioned illustration pages on larger screens and stack those pages on phones.
 
 ## Run Locally
 

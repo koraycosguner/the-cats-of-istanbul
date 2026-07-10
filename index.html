@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="A polished picture-book library for Hakan and Yusuf."
+      content="A polished picture-book and comic library for Hakan and Yusuf."
     />
-    <title>Hakan and Yusuf's Picture Books</title>
+    <title>Hakan and Yusuf's Books</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="preload" as="image" href="assets/book-cover-cats-of-istanbul.webp" />
     <link rel="preload" as="image" href="assets/book-cover-cats-blue-tile-map.webp" />
@@ -24,6 +24,7 @@
     <link rel="preload" as="image" href="assets/book-cover-fantasy-deep-dwarf-gate.webp" />
     <link rel="preload" as="image" href="assets/book-cover-space-comet-key.webp" />
     <link rel="preload" as="image" href="assets/book-cover-space-starlight-harbor.webp" />
+    <link rel="preload" as="image" href="assets/comic-moonfire-cover.webp" />
     <link rel="preload" as="image" href="yusuf/assets/yusie-cover.webp" />
     <link rel="preload" as="image" href="assets/page-01.webp" />
     <link rel="stylesheet" href="style.css" />
@@ -45,9 +46,26 @@
 
     <main class="app-shell" aria-live="polite">
       <section
+        class="format-view"
+        id="formatView"
+        aria-labelledby="format-title"
+      >
+        <div class="library-intro">
+          <h2 id="format-title">Choose a Bookshelf</h2>
+          <p>
+            Classic open-book picture stories and cinematic comic adventures
+            live in separate shelves.
+          </p>
+        </div>
+
+        <div class="format-grid" id="formatGrid"></div>
+      </section>
+
+      <section
         class="library-view"
         id="libraryView"
         aria-labelledby="library-title"
+        hidden
       >
         <div class="library-intro">
           <h2 id="library-title">Choose Tonight's Adventure</h2>
@@ -55,14 +73,24 @@
             Cozy picture-book stories made for curious readers, gentle magic,
             and one more page before sleep.
           </p>
-          <button
-            type="button"
-            class="library-button collection-back-button"
-            id="collectionBackButton"
-            hidden
-          >
-            Library
-          </button>
+          <div class="library-actions">
+            <button
+              type="button"
+              class="library-button"
+              id="formatHomeButton"
+              hidden
+            >
+              Book types
+            </button>
+            <button
+              type="button"
+              class="library-button collection-back-button"
+              id="collectionBackButton"
+              hidden
+            >
+              Library
+            </button>
+          </div>
         </div>
 
         <div class="book-grid" id="bookGrid"></div>
@@ -110,6 +138,17 @@
             <h2 id="story-title">Morning Over Istanbul</h2>
             <div class="story-copy" id="storyText"></div>
           </section>
+
+          <figure class="comic-frame" id="comicFrame" hidden>
+            <img
+              id="comicImageRight"
+              src="assets/comic-moonfire-panel-02.webp"
+              alt=""
+              width="1024"
+              height="1536"
+              decoding="async"
+            />
+          </figure>
         </article>
 
         <div class="controls" aria-label="Story controls">
