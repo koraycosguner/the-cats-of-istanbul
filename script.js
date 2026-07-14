@@ -1775,6 +1775,129 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Map Below the Waves",
+    libraryKicker: "Lost City of Aqualis - Book 1",
+    readerKicker: "An epic underwater rescue adventure",
+    description:
+      "A living sea compass and a young sea dragon lead the brothers across the open ocean toward a vanished golden city.",
+    cover: "assets/book-cover-aqualis-map-below-waves.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Map Below the Waves showing the brothers and Marin racing toward the lost city of Aqualis",
+    seriesId: "aqualis",
+    pages: [
+      {
+        title: "The Cave That Breathed",
+        paragraphs: [
+          "The sea was bright when Angela and Koray anchored the family boat beside a blue coastal cave.",
+          "Inside, Hakan heard a sound beneath the waves. It was small and lonely, like someone trying not to cry.",
+          "Yusuf reached between two wet rocks and lifted an old bronze compass. Its needle spun once, then pointed into the cave.",
+          "A golden line appeared across the water. The cave breathed in.",
+        ],
+        image: "assets/aqualis-map-below-waves-page-01.webp",
+        alt: "Hakan hearing a cry in a coastal cave while Yusuf finds a bronze compass and their parents wait on the boat outside",
+      },
+      {
+        title: "Pulled Below",
+        paragraphs: [
+          "The inward tide grabbed their ankles and swept both brothers through the tunnel.",
+          "Yusuf caught Hakan's wrist. The compass flashed, and two clear breathing bubbles closed around their heads.",
+          "Rocks crashed behind them. The way back vanished under a cloud of sand.",
+          "Ahead, the golden line raced deeper. The lonely cry came again.",
+        ],
+        image: "assets/aqualis-map-below-waves-page-02.webp",
+        alt: "Yusuf holding Hakan as the compass gives them breathing bubbles in a collapsing underwater cave",
+      },
+      {
+        title: "The Young Sea Dragon",
+        paragraphs: [
+          "They found a young sea dragon tangled in black vines of current.",
+          "Yusuf used the compass rim to cut the tightest vine. Hakan held the dragon steady until the last knot snapped.",
+          "The dragon clutched half of a golden crescent. \"I am Marin,\" he said. \"This belongs to my mother, Sera.\"",
+          "A dark current moved in the tunnel behind them. Marin whispered, \"She disappeared with Aqualis.\"",
+        ],
+        image: "assets/aqualis-map-below-waves-page-03.webp",
+        alt: "Yusuf and Hakan freeing Marin the young turquoise sea dragon from black current vines",
+      },
+      {
+        title: "A Promise in the Blue",
+        paragraphs: [
+          "Marin had searched every reef for the city and every current for his mother.",
+          "Hakan touched Marin's forehead. \"You do not have to search alone anymore.\"",
+          "Yusuf placed the broken crescent inside the compass. Click! It became the missing needle.",
+          "A road of gold unrolled across the open sea. Yusuf nodded. \"We find Aqualis. Then we bring Sera home.\"",
+        ],
+        image: "assets/aqualis-map-below-waves-page-04.webp",
+        alt: "Hakan promising to help Marin while the crescent pendant becomes the needle of Yusuf's sea compass",
+      },
+      {
+        title: "The Glass-Kelp Forest",
+        paragraphs: [
+          "The road led into a forest of clear kelp. Every leaf made a shining copy of them.",
+          "Ten Marins darted left. Ten more hurried right. Hakan nearly followed the wrong one.",
+          "Yusuf watched the crescent needle pulse. Only one Marin's forehead glowed in the same rhythm.",
+          "\"There!\" Yusuf called. The real friends joined hands, and the false forest cracked open behind them.",
+        ],
+        image: "assets/aqualis-map-below-waves-page-05.webp",
+        alt: "Yusuf using the compass to find the real Marin among reflections in the glass-kelp forest",
+      },
+      {
+        title: "The Hunters in the Current",
+        paragraphs: [
+          "Silver ray-guards burst from the kelp. Their dark currents twisted into a net.",
+          "The three friends raced through a coral canyon, but falling stone trapped the smallest guard.",
+          "Hakan turned back. He pushed until the guard's silver wing came free.",
+          "The guard stared at him. Then it sliced a secret door through the net. Yusuf saw the opening. \"Go!\"",
+        ],
+        image: "assets/aqualis-map-below-waves-page-06.webp",
+        alt: "Hakan freeing a trapped silver ray-guard while Yusuf and Marin face the approaching hunters",
+      },
+      {
+        title: "The Singing Trench",
+        paragraphs: [
+          "The golden route ended above a trench so deep that even the compass light could not find the bottom.",
+          "Then a warm song rose through the darkness. Marin's crescent mark shone bright.",
+          "\"My mother,\" he breathed. \"That is her song.\"",
+          "Yusuf led the dive. Hakan held Marin close as glowing whales spiraled around them like living stars.",
+        ],
+        image: "assets/aqualis-map-below-waves-page-07.webp",
+        alt: "Yusuf leading Hakan and Marin into a vast singing trench among bioluminescent whales",
+      },
+      {
+        title: "The Graveyard of Ships",
+        paragraphs: [
+          "At the bottom waited dozens of old explorer ships. None had sunk by accident.",
+          "Every bow pointed toward the next ship. Together they made one enormous arrow.",
+          "Hakan found a fresh turquoise scale tied to the final mast. Marin pressed it to his cheek. \"Sera made this trail.\"",
+          "Behind them, a tall shadow opened its manta wings. \"And you should not have followed it,\" said Riven.",
+        ],
+        image: "assets/aqualis-map-below-waves-page-08.webp",
+        alt: "The brothers and Marin discovering Sera's arrow trail among wrecked ships as Riven approaches",
+      },
+      {
+        title: "The City Rises",
+        paragraphs: [
+          "Riven struck his tide staff against the sand. A black current charged toward the compass.",
+          "Yusuf covered Hakan. Hakan held Marin. Marin lifted Sera's scale and sang back to her.",
+          "Compass, crescent, scale, and song blazed together.",
+          "The seafloor broke open. Golden towers rose through the storm. The lost city of Aqualis had heard them.",
+        ],
+        image: "assets/aqualis-map-below-waves-page-09.webp",
+        alt: "Aqualis rising from the seafloor as Yusuf, Hakan, and Marin combine the compass, crescent, scale, and song",
+      },
+      {
+        title: "The Gate Between Them",
+        paragraphs: [
+          "They reached the golden gate just as a great turquoise dragon rushed toward them from inside.",
+          "\"Mama!\" Marin cried.",
+          "Riven's staff flashed. The gate slammed shut between mother and child, and the whole city began sliding toward the black abyss.",
+          "Hakan kept one hand on Marin. Yusuf raised the compass. \"We found her,\" he said. \"Now we find a way in.\"",
+        ],
+        image: "assets/aqualis-map-below-waves-page-10.webp",
+        alt: "Marin and his mother Sera touching the opposite sides of Aqualis's sealed golden gate while the brothers prepare to enter",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",
@@ -3449,6 +3572,16 @@ const collections = [
     cover: "assets/book-cover-starlit-school-key.webp",
     coverAlt:
       "Collection cover for The Starlit School Adventures showing Hakan and Yusuf at Asterhall with a glowing school key",
+  },
+  {
+    id: "aqualis",
+    title: "The Lost City of Aqualis",
+    libraryKicker: "Underwater Epic Collection",
+    description:
+      "A living compass, a missing sea-dragon mother, and one continuous three-book journey into a moving lost city.",
+    cover: "assets/book-cover-aqualis-map-below-waves.webp",
+    coverAlt:
+      "Collection cover for The Lost City of Aqualis showing Hakan, Yusuf, Marin, and the golden city beneath the sea",
   },
   {
     id: "kitsune",

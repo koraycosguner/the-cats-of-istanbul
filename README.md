@@ -17,6 +17,7 @@ Included stories:
 - _Hakan, Yusuf, and the Whispering Spellbook_
 - _Hakan, Yusuf, and the Midnight Bell Tower_
 - _Hakan, Yusuf, and the Underwater Star Reef_
+- _Hakan, Yusuf, and the Map Below the Waves_
 - _Hakan and the Little Lost Moon_
 - _Hakan, Yusuf, and the Comet Key_
 - _Hakan, Yusuf, and the Starlight Harbor_
@@ -29,7 +30,7 @@ Included stories:
 - _The Yusie Dragon Adventures_
 - _Yusuf and Hakan: Guardians of Moonfire Cape_
 
-This is a static HTML, CSS, and JavaScript story library with a first-screen bookshelf chooser, collection cards, book cover cards, generated artwork, page-turn navigation, keyboard controls, swipe controls, browser read-aloud controls, and fullscreen support where the browser allows it. Picture books retain their illustration-and-text spreads. Comic books use two full-picture captioned pages per spread. The Cats of Istanbul, Moonlit Library, Cappadocia Lantern, Starlit School, Kitsune, Hearthlight Realm, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
+This is a static HTML, CSS, and JavaScript story library with a first-screen bookshelf chooser, collection cards, book cover cards, generated artwork, page-turn navigation, keyboard controls, swipe controls, browser read-aloud controls, and fullscreen support where the browser allows it. Picture books retain their illustration-and-text spreads. Comic books use two full-picture captioned pages per spread. The Cats of Istanbul, Moonlit Library, Cappadocia Lantern, Starlit School, Lost City of Aqualis, Kitsune, Hearthlight Realm, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
 
 ## Reading Level
 
