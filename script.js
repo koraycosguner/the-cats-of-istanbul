@@ -1898,6 +1898,129 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Prison of Aqualis",
+    libraryKicker: "Lost City of Aqualis - Book 2",
+    readerKicker: "A rescue inside the moving lost city",
+    description:
+      "The city is sinking into the abyss, Sera is still trapped, and the truth about Riven waits inside Aqualis.",
+    cover: "assets/book-cover-aqualis-prison.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Prison of Aqualis showing the brothers trying to free Sera inside the moving city",
+    seriesId: "aqualis",
+    pages: [
+      {
+        title: "The City Slides Deeper",
+        paragraphs: [
+          "Aqualis tilted toward the abyss. Marin pressed his claws to the gate while Sera reached from the other side.",
+          "The small silver ray-guard returned. It was the same guard Hakan had freed in the coral canyon.",
+          "With one sharp wing, it opened an old flood-grate below the gate.",
+          "Yusuf pointed the compass into the tunnel. \"That is our way in.\" Hakan pulled Marin close. \"We are coming back for her.\"",
+        ],
+        image: "assets/aqualis-prison-page-01.webp",
+        alt: "The rescued silver ray-guard opening a flood tunnel as Aqualis slides deeper and the heroes leave Sera's sealed gate",
+      },
+      {
+        title: "The Flood-Tunnel Ride",
+        paragraphs: [
+          "The tunnel caught them like a rushing water slide.",
+          "Aqualis rolled as it sank. The floor became a wall. The wall became the ceiling.",
+          "Yusuf watched the compass and called each turn. \"Left arch! High pipe! Now dive!\"",
+          "The ray-guard cut through a curtain of bubbles, and the friends shot into the heart of the city.",
+        ],
+        image: "assets/aqualis-prison-page-02.webp",
+        alt: "Yusuf guiding Hakan, Marin, and the silver ray-guard through Aqualis's rotating flood tunnels",
+      },
+      {
+        title: "Aqualis Inside Out",
+        paragraphs: [
+          "Golden streets climbed the walls. Fountains poured upward. Silent homes hung sideways around them.",
+          "On a tall mosaic, Sera and Riven stood together beside a shining golden sun.",
+          "\"They were friends,\" Hakan said.",
+          "Yusuf traced the streets on his compass. \"And this city is not only sinking. It is turning like a lock.\"",
+        ],
+        image: "assets/aqualis-prison-page-03.webp",
+        alt: "The heroes exploring the sideways streets of Aqualis and finding a mosaic of Sera and Riven guarding the Sunheart",
+      },
+      {
+        title: "Riven's Story",
+        paragraphs: [
+          "Riven landed in the round council hall. His staff filled the water with a giant memory.",
+          "It showed Sera beside the bright Sunheart while the city shook.",
+          "\"She tried to take its power,\" Riven said. \"I sealed Aqualis to save everyone.\"",
+          "Marin trembled, but Hakan stood in front of him. Yusuf saw the compass needle point behind Riven's memory. Part of the story was hidden.",
+        ],
+        image: "assets/aqualis-prison-page-04.webp",
+        alt: "Riven projecting a false memory about Sera while Yusuf notices the compass pointing behind it",
+      },
+      {
+        title: "The Archive of Living Water",
+        paragraphs: [
+          "Yusuf followed the needle into a secret archive. Sheets of living water floated like open books.",
+          "The compass beam touched one sheet and peeled Riven's shadow away.",
+          "The true memory appeared. Sera had protected the Sunheart. Riven had closed every gate because he was afraid the outside world would find Aqualis.",
+          "Marin stared at the truth. \"He trapped my mother because she wanted the city to live.\"",
+        ],
+        image: "assets/aqualis-prison-page-05.webp",
+        alt: "Yusuf revealing the true memory of Sera protecting the Sunheart in Aqualis's living-water archive",
+      },
+      {
+        title: "The Walls Remember",
+        paragraphs: [
+          "The palace folded around them. Doorways vanished. Golden walls slid together.",
+          "Hakan pressed his palm against one wall. A soft song trembled inside it.",
+          "\"Sera,\" he said. \"The city remembers her song.\"",
+          "Hakan followed the heartbeat in the stone. Yusuf used the compass to hold each passage open until they reached one enormous door.",
+        ],
+        image: "assets/aqualis-prison-page-06.webp",
+        alt: "Hakan following Sera's song through the living palace walls while Yusuf holds the moving passages open",
+      },
+      {
+        title: "The Current Prison",
+        paragraphs: [
+          "Beyond the door, Sera stood inside a round cage of spinning blue water.",
+          "Above her floated the Sunheart, bright enough to light the whole city.",
+          "Marin rushed to the bars. Sera's crescent mark flashed in the same rhythm as his.",
+          "Yusuf opened the compass. Hakan listened to the matching beat. High above them, Riven raised his staff.",
+        ],
+        image: "assets/aqualis-prison-page-07.webp",
+        alt: "Marin reaching Sera's current prison while the brothers study its lock and Riven watches above",
+      },
+      {
+        title: "The Guard Chooses",
+        paragraphs: [
+          "Riven sent a black wave toward the boys.",
+          "The little silver guard flew between them and split the wave in two. Hakan's kindness had returned when they needed it most.",
+          "Yusuf turned the compass against the prison current. Hakan and Marin matched the two crescent beats.",
+          "The bars burst into rings of harmless light. Sera stepped free.",
+        ],
+        image: "assets/aqualis-prison-page-08.webp",
+        alt: "The silver ray-guard protecting the brothers as they open Sera's current prison together",
+      },
+      {
+        title: "Family Reunited",
+        paragraphs: [
+          "Marin leaped into his mother's fins. Their crescent marks touched, and warm light filled the chamber.",
+          "Hakan hugged Marin's side. Even the ray-guard spun a happy circle.",
+          "Sera looked at Yusuf's compass. \"The Sunheart was never made to hide Aqualis,\" she said. \"It lets the city breathe with the whole sea.\"",
+          "Yusuf's smile vanished. The compass needle had begun to spin.",
+        ],
+        image: "assets/aqualis-prison-page-09.webp",
+        alt: "Marin and Sera embracing after their reunion while Yusuf notices the compass warning",
+      },
+      {
+        title: "The City Rockets Up",
+        paragraphs: [
+          "Riven tore the Sunheart from its cradle and locked it onto his staff.",
+          "\"Then Aqualis will breathe above every sea!\" he cried.",
+          "The Sunheart cracked. The city shot upward so fast that towers broke loose and dark water became white foam.",
+          "Far above, a giant storm covered the surface. Yusuf grabbed Hakan. Sera wrapped one fin around Marin. Aqualis was rising straight toward it.",
+        ],
+        image: "assets/aqualis-prison-page-10.webp",
+        alt: "Riven using the cracked Sunheart to launch Aqualis upward toward a giant surface storm",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",
