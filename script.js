@@ -2021,6 +2021,129 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Last Tide Crown",
+    libraryKicker: "Lost City of Aqualis - Book 3",
+    readerKicker: "The epic Aqualis finale",
+    description:
+      "A cracked Sunheart drives Aqualis toward the surface, where both families must trust one another to stop the reverse tide.",
+    cover: "assets/book-cover-aqualis-last-tide-crown.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Last Tide Crown showing the heroes joining the compass, pendant, and tide staff",
+    seriesId: "aqualis",
+    pages: [
+      {
+        title: "The Storm Above",
+        paragraphs: [
+          "Aqualis raced upward beneath a storm that covered the whole sky.",
+          "Inside a cracked tower, Yusuf's compass fired one thin beam toward the surface.",
+          "Far above, Angela saw the golden light beside the family boat. Koray turned the wheel toward it.",
+          "\"The boys are down there,\" Angela said. The sea rose around them like a wall.",
+        ],
+        image: "assets/aqualis-last-tide-crown-page-01.webp",
+        alt: "The compass signaling Angela and Koray's rescue boat while Aqualis rises beneath a giant storm",
+      },
+      {
+        title: "The Reverse Tide",
+        paragraphs: [
+          "The city reached the storm layer. Water climbed upward between its spinning towers.",
+          "Fish, boats, and broken bridges began floating toward the clouds.",
+          "Riven pulled harder on the Sunheart. The crack across it grew wider.",
+          "Yusuf studied the compass. \"He is not lifting the city,\" he said. \"He is turning the whole sea upside down.\"",
+        ],
+        image: "assets/aqualis-last-tide-crown-page-02.webp",
+        alt: "Aqualis creating a reverse tide as Yusuf realizes Riven is turning the whole sea upside down",
+      },
+      {
+        title: "Riven Falls",
+        paragraphs: [
+          "The Sunheart burst with wild golden light.",
+          "Riven's bridge snapped. He fell into the spinning water below.",
+          "\"Leave him!\" shouted one frightened city voice.",
+          "Hakan pointed into the abyss. \"No. If we let him fall, we become part of the fear that started this.\" Marin and Sera dived.",
+        ],
+        image: "assets/aqualis-last-tide-crown-page-03.webp",
+        alt: "Riven falling from a broken bridge as Hakan sends Marin and Sera after him",
+      },
+      {
+        title: "Hakan Reaches Riven",
+        paragraphs: [
+          "Sera caught Riven on one golden fin. Marin held the other side.",
+          "Hakan leaned into the rushing water and grabbed Riven's hand.",
+          "Riven stared at him. \"After everything I did, why save me?\"",
+          "\"Because saving people is how this ends,\" Hakan said. Yusuf opened a safe current with the compass and brought them home.",
+        ],
+        image: "assets/aqualis-last-tide-crown-page-04.webp",
+        alt: "Hakan taking Riven's hand while Sera and Marin rescue him from the maelstrom",
+      },
+      {
+        title: "The Forgotten Crown",
+        paragraphs: [
+          "Riven led them to a damaged sanctuary. An old carving glowed on the wall.",
+          "It showed the Sea Compass, the crescent pendant, and the tide staff becoming one crown.",
+          "\"The Sunheart was made from trust,\" Riven admitted. \"I tried to command it alone.\"",
+          "Yusuf looked at the three objects. \"Then none of us can repair it alone.\"",
+        ],
+        image: "assets/aqualis-last-tide-crown-page-05.webp",
+        alt: "Riven showing the heroes an ancient carving of the three objects forming the Last Tide Crown",
+      },
+      {
+        title: "Yusuf's Impossible Route",
+        paragraphs: [
+          "The empty Sunheart cradle waited across a city that would not stop turning.",
+          "Yusuf mapped the moving bridges, falling towers, and rising water at once.",
+          "A warm lantern blinked through the surface above. Angela and Koray were answering his compass.",
+          "\"Move on the third flash,\" Yusuf said. His golden route leaped across the rooftops.",
+        ],
+        image: "assets/aqualis-last-tide-crown-page-06.webp",
+        alt: "Yusuf mapping an impossible route through rotating Aqualis using his parents' lantern signal",
+      },
+      {
+        title: "The Signal from Home",
+        paragraphs: [
+          "Koray steered between two towering columns of water.",
+          "Angela held the lantern high and sang the steady rhythm the boys knew from home.",
+          "Below, Aqualis's gates turned with her song. On the third flash, they lined up.",
+          "Yusuf grinned. \"Now!\" The route to the cradle opened for seven precious seconds.",
+        ],
+        image: "assets/aqualis-last-tide-crown-page-07.webp",
+        alt: "Angela and Koray guiding Aqualis from the stormy surface with a lantern rhythm",
+      },
+      {
+        title: "Flight Through the Maelstrom",
+        paragraphs: [
+          "Sera carried Yusuf. Marin carried Hakan. Riven and the silver guard flew beside them.",
+          "They shot through the center of the maelstrom as towers and lightning spun around them.",
+          "Yusuf protected the compass. Hakan protected the crescent.",
+          "The seventh second ended just as all five friends landed at the empty cradle.",
+        ],
+        image: "assets/aqualis-last-tide-crown-page-08.webp",
+        alt: "Sera and Marin carrying the brothers through the final maelstrom toward the Sunheart cradle",
+      },
+      {
+        title: "The Last Tide Crown",
+        paragraphs: [
+          "Yusuf placed the Sea Compass. Hakan returned Marin's crescent pendant.",
+          "Riven opened his hands and laid down the tide staff he had never allowed anyone else to touch.",
+          "The three objects rose together. Marin and Sera sang. A crown of turquoise and gold formed around the broken Sunheart.",
+          "The crack healed. The maelstrom stopped. For one quiet moment, the whole sea seemed to breathe.",
+        ],
+        image: "assets/aqualis-last-tide-crown-page-09.webp",
+        alt: "Yusuf, Hakan, and Riven forming the Last Tide Crown as Marin and Sera sing",
+      },
+      {
+        title: "A City Between Two Seas",
+        paragraphs: [
+          "At sunrise, Aqualis rested safely just below the clear blue surface.",
+          "Angela and Koray reached the open gate. Hakan and Yusuf ran into their arms.",
+          "Marin curled beside Sera. Riven stood without his staff, ready to guard a city that no longer needed to hide.",
+          "Above them, the Last Tide Crown glowed. Below it, two families watched a new road open between the deep sea and home.",
+        ],
+        image: "assets/aqualis-last-tide-crown-page-10.webp",
+        alt: "Both families reunited in restored Aqualis at sunrise beneath the Last Tide Crown",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",

@@ -19,6 +19,7 @@ Included stories:
 - _Hakan, Yusuf, and the Underwater Star Reef_
 - _Hakan, Yusuf, and the Map Below the Waves_
 - _Hakan, Yusuf, and the Prison of Aqualis_
+- _Hakan, Yusuf, and the Last Tide Crown_
 - _Hakan and the Little Lost Moon_
 - _Hakan, Yusuf, and the Comet Key_
 - _Hakan, Yusuf, and the Starlight Harbor_
