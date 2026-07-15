@@ -2144,6 +2144,130 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Bronze Owl of Athens",
+    libraryKicker: "The Lost Oracle - Book 1",
+    readerKicker: "A Greek mythology adventure",
+    description:
+      "Athena's Golden Thread has been stolen, and the brothers must save Athens from losing every possible tomorrow.",
+    cover: "assets/book-cover-greek-bronze-owl-athens.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Bronze Owl of Athens showing the brothers, Thalia, Glaux, and Kryon's cracked prophecy mirror",
+    seriesId: "greek-mythology",
+    readerLayout: "wide-art",
+    pages: [
+      {
+        title: "The Owl in the Olive Tree",
+        paragraphs: [
+          "The last sunlight turned the Acropolis gold when Hakan heard a tiny metallic cry.",
+          "High in Athena's olive tree, a bronze owl struggled inside a knot of black-gold thread.",
+          "Yusuf climbed first. Hakan steadied the branch while Yusuf loosened the knot.",
+          "The owl opened moon-blue eyes. \"I am Glaux,\" he said. \"And someone has stolen tomorrow.\"",
+        ],
+        image: "assets/greek-bronze-owl-athens-page-01.webp",
+        alt: "Yusuf freeing Glaux from a magical knot in Athena's olive tree while Hakan steadies the branch",
+      },
+      {
+        title: "The Night Cracks Open",
+        paragraphs: [
+          "Glaux led them into a hidden chamber beneath Athena's temple.",
+          "A golden loom stood empty. Beside it, a prophecy mirror was split from top to bottom.",
+          "Thalia, a young oracle, raced through the door. \"The Golden Thread showed every possible tomorrow,\" she said.",
+          "In the mirror, a cloaked man pulled away its final shining strand. Outside, tomorrow's dawn vanished from the marble sky.",
+        ],
+        image: "assets/greek-bronze-owl-athens-page-02.webp",
+        alt: "Kryon stealing the final Golden Thread through a cracked mirror as the brothers, Thalia, and Glaux reach the empty loom",
+      },
+      {
+        title: "Athena's Choice",
+        paragraphs: [
+          "A woman in silver armor appeared inside the broken glass. An owl shone on her shield.",
+          "\"Kryon was once an oracle,\" Athena said. \"Now he wants one future that can never surprise him. He has torn the Thread into three strands.\"",
+          "She gave Yusuf a bronze spindle that turned toward hidden patterns. She placed an olive-leaf flame in Hakan's palm.",
+          "Glaux dropped one bronze feather. It became a blue path racing down the hill.",
+        ],
+        image: "assets/greek-bronze-owl-athens-page-03.webp",
+        alt: "Athena giving Yusuf a bronze spindle and Hakan an olive-leaf flame while Glaux reveals a blue path",
+      },
+      {
+        title: "The Marble Army Wakes",
+        paragraphs: [
+          "The trail crossed the moonlit Agora. With a grinding roar, rows of marble soldiers stepped from their pedestals.",
+          "Their shields slammed left, right, left, pause.",
+          "Yusuf saw the pattern. \"Move on the pause!\" he called, guiding Hakan, Thalia, and Glaux between the spears.",
+          "Hakan freed a little stone horse trapped beneath one shield. It stamped twice, then opened a secret stair under the street.",
+        ],
+        image: "assets/greek-bronze-owl-athens-page-04.webp",
+        alt: "Yusuf guiding the group through a repeating marble shield pattern while Hakan frees the stone horse that opens a secret stair",
+      },
+      {
+        title: "The River Beneath Athens",
+        paragraphs: [
+          "Below Athens flowed a secret river filled with silver triremes.",
+          "Three currents opened ahead. One showed victory. One showed treasure. One showed a safe road home.",
+          "\"I cannot tell which vision is true,\" Thalia whispered.",
+          "Hakan listened to Glaux's tiny metal heartbeat. \"The real path is the one Kryon tried to hide.\" He pointed to the dark water with no reflection at all.",
+        ],
+        image: "assets/greek-bronze-owl-athens-page-05.webp",
+        alt: "Hakan finding the reflectionless route among three false futures on the underground river",
+      },
+      {
+        title: "The Storm of Lost Futures",
+        paragraphs: [
+          "The dark current burst into a storm of broken futures.",
+          "One shining picture showed Hakan safe forever. \"Choose it,\" Kryon's voice promised. \"Your brother will never face danger again.\"",
+          "Yusuf reached toward the glass, then stopped. Hakan looked safe, but he stood alone inside a locked golden room.",
+          "\"Safe is not the same as free,\" Yusuf said. He spun Athena's spindle, weaving a golden sail through the storm.",
+        ],
+        image: "assets/greek-bronze-owl-athens-page-06.webp",
+        alt: "Yusuf rejecting a false future of Hakan in a golden cage and weaving a glowing sail through the storm",
+      },
+      {
+        title: "The Temple Under the Sea",
+        paragraphs: [
+          "The river launched them into the moonlit sea beside a temple of white columns.",
+          "A bronze serpent circled the ruins. The first Golden Strand was tied around its sleeping heart.",
+          "\"We must defeat it,\" Thalia said.",
+          "Glaux gave one more feather. Blue light showed black thread caught inside the serpent's chest. Hakan shook his head. \"It is not guarding the knot. The knot is hurting it.\"",
+        ],
+        image: "assets/greek-bronze-owl-athens-page-07.webp",
+        alt: "Glaux revealing the painful black knot inside the bronze serpent at the moonlit sea temple",
+      },
+      {
+        title: "Brothers Against the Serpent",
+        paragraphs: [
+          "The serpent woke. Its tail smashed columns into the sea.",
+          "Yusuf raced along its bronze scales, following the pattern to its heart. Hakan stood before its enormous face and lifted the warm olive flame.",
+          "\"We are here to help,\" Hakan said. The serpent held still for one precious breath.",
+          "Thalia and Glaux blocked Kryon's shadow. Yusuf cut the black knot, and the serpent's angry red eyes turned peaceful blue.",
+        ],
+        image: "assets/greek-bronze-owl-athens-page-08.webp",
+        alt: "Hakan calming the bronze serpent while Yusuf cuts the black knot and Thalia and Glaux block Kryon's mirror magic",
+      },
+      {
+        title: "The First Strand",
+        paragraphs: [
+          "The first Golden Strand rose like sunlight from the serpent's heart.",
+          "Yusuf wound it around the spindle. Hakan guided its bright end with the olive flame.",
+          "\"I do not know exactly what comes next,\" Thalia said. \"But I know we face it together.\" The repaired glass showed Athens receiving its dawn again.",
+          "Then Kryon appeared in the mirror, holding two more strands. \"Come find me,\" he said, and the glass filled with twisting stone walls.",
+        ],
+        image: "assets/greek-bronze-owl-athens-page-09.webp",
+        alt: "The brothers recovering the first Golden Strand as Kryon reveals the Labyrinth of Crete in the repaired mirror",
+      },
+      {
+        title: "The Road to Crete",
+        paragraphs: [
+          "At sunrise, Athena returned Glaux's missing feathers. Yet the spindle still pulled toward the sea.",
+          "Inside the mirror, a young Minotaur clutched the second strand while a living maze closed around him.",
+          "\"That is Asterion,\" Thalia said. \"The Labyrinth of Crete has never released anyone it chose to keep.\"",
+          "Yusuf rolled up the golden map. Hakan held Glaux close. \"Then it has never met all four of us,\" he said. Their ship turned toward Crete.",
+        ],
+        image: "assets/greek-bronze-owl-athens-page-10.webp",
+        alt: "Yusuf, Hakan, Thalia, and Glaux sailing toward Crete while the prophecy mirror shows Asterion trapped in a living labyrinth",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",
@@ -3830,6 +3954,16 @@ const collections = [
       "Collection cover for The Lost City of Aqualis showing Hakan, Yusuf, Marin, and the golden city beneath the sea",
   },
   {
+    id: "greek-mythology",
+    title: "The Lost Oracle Trilogy",
+    libraryKicker: "Greek Mythology Collection",
+    description:
+      "Athena's stolen Golden Thread begins one continuous journey from Athens to Crete and the heights of Olympus.",
+    cover: "assets/book-cover-greek-bronze-owl-athens.webp",
+    coverAlt:
+      "Collection cover for The Lost Oracle Trilogy showing Hakan, Yusuf, Thalia, Glaux, Kryon, and the Acropolis",
+  },
+  {
     id: "kitsune",
     title: "The Kitsune Shrine Adventures",
     libraryKicker: "Ancient Japan Collection",
@@ -4237,6 +4371,10 @@ function showReader(bookIndex, sourceBooks = books) {
     sourceBooks === books && bookIndex === 0,
   );
   document.body.classList.toggle("comic-book-open", activeBook.format === "comic");
+  document.body.classList.toggle(
+    "wide-art-book",
+    activeBook.readerLayout === "wide-art",
+  );
   document.body.classList.add("reader-open");
   renderPage(1);
   window.scrollTo({ top: 0, behavior: "smooth" });
