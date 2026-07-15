@@ -21,6 +21,7 @@ Included stories:
 - _Hakan, Yusuf, and the Prison of Aqualis_
 - _Hakan, Yusuf, and the Last Tide Crown_
 - _Hakan, Yusuf, and the Bronze Owl of Athens_
+- _Hakan, Yusuf, and the Labyrinth of Crete_
 - _Hakan and the Little Lost Moon_
 - _Hakan, Yusuf, and the Comet Key_
 - _Hakan, Yusuf, and the Starlight Harbor_

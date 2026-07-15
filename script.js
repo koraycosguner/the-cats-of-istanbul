@@ -2268,6 +2268,130 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Labyrinth of Crete",
+    libraryKicker: "The Lost Oracle - Book 2",
+    readerKicker: "A Greek mythology adventure",
+    description:
+      "The brothers enter a living labyrinth to rescue Asterion and keep Kryon from opening the sky-road to Olympus.",
+    cover: "assets/book-cover-greek-labyrinth-crete.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, Thalia, Glaux, and Asterion running through the living Labyrinth of Crete",
+    seriesId: "greek-mythology",
+    readerLayout: "wide-art",
+    pages: [
+      {
+        title: "The Gate in the Cliff",
+        paragraphs: [
+          "The ship reached Crete before the sunrise had finished painting the sea.",
+          "Yusuf's spindle pulled a golden line toward a bronze door in the cliff.",
+          "The door opened just wide enough for Asterion's frightened hand to reach through.",
+          "Hakan caught it. The cliff groaned, and the Labyrinth pulled all four friends and Glaux into the dark.",
+        ],
+        image: "assets/greek-labyrinth-crete-page-01.webp",
+        alt: "Hakan catching Asterion's hand as the bronze door in the cliff pulls the friends into the Labyrinth of Crete",
+      },
+      {
+        title: "The Maze Divides",
+        paragraphs: [
+          "Stone walls shot between them.",
+          "Yusuf and Thalia ran left. Hakan, Glaux, and Asterion vanished right.",
+          "Yusuf followed the spindle through seven turns, then stopped. His own footprints waited ahead of him.",
+          "On the other side of the wall, the floor tipped. Hakan slid toward a chamber with no bottom.",
+        ],
+        image: "assets/greek-labyrinth-crete-page-02.webp",
+        alt: "The living maze splitting Yusuf and Thalia from Hakan, Glaux, and Asterion as the floor tilts",
+      },
+      {
+        title: "The Minotaur's Choice",
+        paragraphs: [
+          "Asterion planted his hooves and caught Hakan with both hands.",
+          "The second Golden Strand slipped from his belt and vanished between the stones.",
+          "\"You let it go for me,\" Hakan said.",
+          "Asterion lowered his small horns. \"A strand can be found again. A brother cannot.\" Glaux's blue light opened a way forward.",
+        ],
+        image: "assets/greek-labyrinth-crete-page-03.webp",
+        alt: "Asterion catching Hakan above a bottomless chamber while the second Golden Strand slips into the stones",
+      },
+      {
+        title: "Keeper, Not Monster",
+        paragraphs: [
+          "Glaux led both groups into a round room held by giant olive roots.",
+          "Asterion drew a map in the dust. \"The Labyrinth remembers everyone who entered afraid,\" he said. \"Kryon woke those memories and turned them against me.\"",
+          "\"You are its keeper,\" Yusuf realized. \"Not its prisoner.\"",
+          "The ground beat once like a heart. The second strand was moving deeper.",
+        ],
+        image: "assets/greek-labyrinth-crete-page-04.webp",
+        alt: "Asterion drawing a map in an olive-root chamber as Yusuf realizes he is the Labyrinth's keeper",
+      },
+      {
+        title: "The Hall of False Faces",
+        paragraphs: [
+          "The next hall filled with mirrors.",
+          "They showed Asterion as a monster, Hakan as helpless, Yusuf walking away, and Thalia hiding from every choice.",
+          "\"Those are fears, not futures,\" Thalia said.",
+          "Each friend spoke another's true name. The false faces cracked, and the real path appeared between them.",
+        ],
+        image: "assets/greek-labyrinth-crete-page-05.webp",
+        alt: "The friends facing cruel false reflections in the mirror hall and breaking them by speaking true names",
+      },
+      {
+        title: "The Heartbeat Path",
+        paragraphs: [
+          "The Labyrinth changed faster than Yusuf could draw.",
+          "Hakan pressed his palm to the floor. \"It moves when our hearts race.\"",
+          "Asterion tapped one slow beat with his hoof. Hakan answered. Thalia and Yusuf joined them.",
+          "Yusuf mapped the rhythm instead of the walls. For the first time, the Labyrinth opened calmly.",
+        ],
+        image: "assets/greek-labyrinth-crete-page-06.webp",
+        alt: "Yusuf mapping the heartbeat rhythm while Hakan, Thalia, and Asterion calm the living maze",
+      },
+      {
+        title: "The Chamber of Names",
+        paragraphs: [
+          "Thousands of names covered the final door. Asterion searched every line.",
+          "His name was not there.",
+          "\"The Labyrinth remembers fear,\" Hakan said, \"but it should remember who protected it too.\"",
+          "He wrote ASTERION with the olive flame. The stone answered with a warm golden roar, and the Heartstone door opened.",
+        ],
+        image: "assets/greek-labyrinth-crete-page-07.webp",
+        alt: "Hakan writing Asterion's name in golden flame on the carved door of names",
+      },
+      {
+        title: "Kryon Tears the Heart",
+        paragraphs: [
+          "The second strand circled a bright marble heart.",
+          "Kryon stepped from a cracked mirror. \"One certain road,\" he said, and tore the strand free.",
+          "The Heartstone split. The whole Labyrinth began to fall.",
+          "Asterion braced his back between two closing walls. \"Repair the heart!\" he cried. \"I can hold them, but not for long!\"",
+        ],
+        image: "assets/greek-labyrinth-crete-page-08.webp",
+        alt: "Kryon tearing the second strand from the Heartstone as Asterion holds collapsing maze walls apart",
+      },
+      {
+        title: "Two Strands Together",
+        paragraphs: [
+          "Yusuf cast the spindle. Its golden line caught the second strand before Kryon could escape.",
+          "Hakan guided it through the broken Heartstone. First strand and second strand wove together.",
+          "The crack healed. The walls lifted away from Asterion.",
+          "Then a black mirror-knot closed around the joined Thread. Kryon pulled once, and both strands vanished through the glass.",
+        ],
+        image: "assets/greek-labyrinth-crete-page-09.webp",
+        alt: "Yusuf and Hakan healing the Heartstone with two strands as a black mirror knot steals the joined Thread",
+      },
+      {
+        title: "The Stairway to Olympus",
+        paragraphs: [
+          "The friends escaped as the Labyrinth settled peacefully beneath Crete.",
+          "But the sun stopped at the edge of the sea. High above, Kryon climbed a staircase of cloud with the joined Thread.",
+          "Athena appeared faintly in the spindle. \"The third strand is hidden on Olympus. If he binds all three, tomorrow will never change again.\"",
+          "Asterion stepped onto the ship. Yusuf raised the sail. Hakan held Glaux close. Together, five friends followed the road into the sky.",
+        ],
+        image: "assets/greek-labyrinth-crete-page-10.webp",
+        alt: "The friends on a ship outside Crete watching Kryon climb a cloud staircase toward Olympus with the joined Thread",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",
