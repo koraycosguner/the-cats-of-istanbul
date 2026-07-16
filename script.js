@@ -2392,6 +2392,133 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Last Dawn of Olympus",
+    libraryKicker: "The Lost Oracle - Book 3",
+    readerKicker: "A Greek mythology adventure",
+    description:
+      "The brothers climb Olympus to restore the final strand and let tomorrow move again.",
+    cover: "assets/book-cover-greek-last-dawn-olympus.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, Thalia, Glaux, and Asterion before storm-wrapped Olympus and the frozen sun",
+    seriesId: "greek-mythology",
+    readerLayout: "wide-art",
+    pages: [
+      {
+        title: "The Frozen Sunset",
+        paragraphs: [
+          "The ship did not sail on water anymore. It climbed a road of cloud into the sky.",
+          "Below them, the sea held one frozen sunset. No wave moved. No gull called.",
+          "Yusuf studied the cloud steps. \"They repeat in threes,\" he said. \"Bright, dark, bright. But one step is missing.\"",
+          "Hakan held up the olive flame. A hidden step glowed, and the ship rose toward Olympus.",
+        ],
+        image: "assets/greek-last-dawn-olympus-page-01.webp",
+        alt: "Yusuf finding a missing cloud step while Hakan reveals it with the olive flame as the ship climbs toward Olympus",
+      },
+      {
+        title: "Hermes' Broken Road",
+        paragraphs: [
+          "A boyish god with winged sandals flashed beside the mast, then beside the sail, then upside down above Glaux.",
+          "\"Hermes,\" Thalia whispered.",
+          "Hermes pointed to a cracked golden road. \"Kryon stole my turning signs. Now every path points to one ending.\"",
+          "Yusuf spun the bronze spindle. One sign still cast a tiny shadow. \"Then that is the sign he missed.\"",
+        ],
+        image: "assets/greek-last-dawn-olympus-page-02.webp",
+        alt: "Yusuf using the bronze spindle to find the only golden sky-road sign that still casts a shadow while Hermes rushes by",
+      },
+      {
+        title: "The Wind That Would Not Choose",
+        paragraphs: [
+          "The golden road ended at a harbor made of clouds.",
+          "Hundreds of winds waited inside glass jars. None of them moved.",
+          "\"If no wind can change,\" Asterion said, \"no ship can choose a new course.\"",
+          "Hakan heard a tiny tap from the smallest jar. He opened it first. A shy breeze slipped out, circled his hand, and unlocked all the rest.",
+        ],
+        image: "assets/greek-last-dawn-olympus-page-03.webp",
+        alt: "Hakan opening the smallest glass wind jar while Yusuf watches protectively in the sky harbor",
+      },
+      {
+        title: "Poseidon's Still Sea",
+        paragraphs: [
+          "The clouds opened onto a sea floating in the sky.",
+          "Poseidon stood inside it, holding back a wall of frozen waves with both hands.",
+          "\"Kryon tied the tide into one shape,\" he said. \"If I let go, it will fall.\"",
+          "Yusuf mapped the knot in the water. Hakan whispered to the little breeze, and it flew through the pattern like a silver needle.",
+        ],
+        image: "assets/greek-last-dawn-olympus-page-04.webp",
+        alt: "Yusuf mapping a glowing tide knot while Hakan guides a silver breeze through the frozen sky sea held by Poseidon",
+      },
+      {
+        title: "Zeus' Silent Thunder",
+        paragraphs: [
+          "At the ridge of Olympus, thunderbolts hung in the air like golden branches.",
+          "Zeus stood beside them, frowning. \"Kryon bound every echo. Thunder cannot answer itself.\"",
+          "Thalia gripped her cloak. \"What if I choose the wrong prophecy?\"",
+          "Yusuf shook his head. \"We do not need perfect. We need possible.\" Thalia spoke one brave maybe, and the first thunderbolt rang.",
+        ],
+        image: "assets/greek-last-dawn-olympus-page-05.webp",
+        alt: "Yusuf encouraging Thalia beside silent golden thunderbolts while Hakan holds the olive flame and Zeus waits behind them",
+      },
+      {
+        title: "The Loom Around the Sun",
+        paragraphs: [
+          "At the top of Olympus, a golden loom circled the frozen sun.",
+          "Kryon stood before it with the joined Thread in his hands. The third strand shone just beyond him.",
+          "\"Look,\" he told Yusuf.",
+          "The mirror showed a world where no one fell, no one failed, and no one said goodbye. But no one grew, either. Even the waves were still.",
+        ],
+        image: "assets/greek-last-dawn-olympus-page-06.webp",
+        alt: "Yusuf and Hakan facing human Kryon at the Sun Loom as a cracked mirror shows a still world",
+      },
+      {
+        title: "Hakan Sees the Missing Name",
+        paragraphs: [
+          "Black-gold thread curled toward Yusuf's wrist.",
+          "Hakan saw something tiny woven beneath it. Not a spell. A name.",
+          "\"Eleni,\" Hakan said softly.",
+          "Kryon's hand trembled. \"Do not say her name.\"",
+          "\"You did not want to trap tomorrow,\" Hakan said. \"You wanted yesterday to stop leaving.\"",
+        ],
+        image: "assets/greek-last-dawn-olympus-page-07.webp",
+        alt: "Hakan gently pointing to the hidden golden thread of Eleni's name as human Kryon trembles and Yusuf stands beside him",
+      },
+      {
+        title: "The Choice Storm",
+        paragraphs: [
+          "Kryon cried out, and the sky filled with thousands of futures.",
+          "Some were bright. Some were hard. Some were too far away to understand.",
+          "\"Choose one!\" Kryon shouted.",
+          "Yusuf held the spindle high. \"No. We choose the right to keep choosing.\" Hakan held the olive flame steady, and the spindle gathered every shining path.",
+        ],
+        image: "assets/greek-last-dawn-olympus-page-08.webp",
+        alt: "Yusuf raising the bronze spindle and Hakan holding the olive flame steady inside a storm of possible futures",
+      },
+      {
+        title: "Three Strands Open",
+        paragraphs: [
+          "The third strand flew into Yusuf's spindle.",
+          "First, second, and third wove together, bright as morning.",
+          "Athena guided the pattern. Poseidon loosened the sea. Hermes turned the roads. Zeus woke the thunder. Thalia spoke a future with room to change.",
+          "Yusuf and Hakan lifted the Thread together. They did not tie it around the sun. They wove it through every dawn.",
+        ],
+        image: "assets/greek-last-dawn-olympus-page-09.webp",
+        alt: "Yusuf and Hakan lifting the three restored Golden Strands as their allies and the gods guide the Thread through every dawn",
+      },
+      {
+        title: "Tomorrow Moves Again",
+        paragraphs: [
+          "The sun moved.",
+          "One golden inch became a sunrise. Waves rolled. Birds called. Far below, Greece woke into tomorrow.",
+          "Kryon knelt beside the quiet loom. Athena gave him a small empty spindle. \"Remember her,\" she said, \"but let the world keep moving.\"",
+          "On the ship home, Glaux's bronze feathers shone new and bright.",
+          "Yusuf put an arm around Hakan. \"Tomorrow is open,\" he said.",
+          "Hakan smiled at the moving sea. \"Good,\" he said. \"We still have lots to do.\"",
+        ],
+        image: "assets/greek-last-dawn-olympus-page-10.webp",
+        alt: "Yusuf and Hakan smiling together on the ship as sunrise moves again and Athena gives Kryon an empty spindle far behind them",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",
