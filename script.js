@@ -2769,6 +2769,152 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Battle of the Three Banners",
+    libraryKicker: "The Moon Seal - Book 3",
+    readerKicker: "A samurai-era adventure",
+    description:
+      "The final Moon Seal petal waits on a dawn field where Yusuf must prove that promises are stronger when they are chosen.",
+    cover: "assets/book-cover-japanese-three-banners.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, Aiko, Kumo, Emperor Haruto, Lord Sable, and three ancient banners at dawn",
+    seriesId: "moon-seal",
+    readerLayout: "wide-art",
+    pages: [
+      {
+        title: "The Field at Dawn",
+        paragraphs: [
+          "The glowing road led them down from the mountain.",
+          "At dawn, it ended in a wide field where three ancient banners stood taller than trees.",
+          "Kumo folded his wings tight. Aiko's bell made no sound at all.",
+          "Yusuf held up the Moon Seal. Two silver curves shone. The last empty space pulled toward Lord Sable's shadow.",
+        ],
+        image: "assets/japanese-three-banners-page-01.webp",
+        alt: "Yusuf holding the Moon Seal while Hakan, Aiko, Kumo, and the guardian face three ancient banners at dawn",
+      },
+      {
+        title: "Armor Without Footsteps",
+        paragraphs: [
+          "Across the field, empty samurai armor rose from the grass.",
+          "The armor marched, but its feet made no prints.",
+          "Hakan stepped closer to Yusuf. \"Are they ghosts?\"",
+          "Yusuf watched the banners, not the armor. \"No. They are promises with nobody inside them.\"",
+        ],
+        image: "assets/japanese-three-banners-page-02.webp",
+        alt: "Hollow ceremonial armor displays drifting across the dawn field while Yusuf studies the banners",
+      },
+      {
+        title: "The Three Old Promises",
+        paragraphs: [
+          "The first banner showed a crane. The second showed a pine. The third showed a wave.",
+          "Aiko whispered, \"Courage, mercy, and memory. The old samurai promised all three.\"",
+          "Lord Sable lifted the final silver petal.",
+          "\"Promises break,\" he called. \"Commands do not.\"",
+        ],
+        image: "assets/japanese-three-banners-page-03.webp",
+        alt: "Lord Sable holding the final silver petal across from Yusuf, Hakan, Aiko, Kumo, and the three banners",
+      },
+      {
+        title: "The Mercy Bridge",
+        paragraphs: [
+          "A black ribbon split the field into two sides.",
+          "On one side, the empty armor marched. On the other, a little shrine bell trembled alone.",
+          "Hakan set Kumo on the ribbon. \"Maybe mercy is the bridge.\"",
+          "Kumo glowed, and the ribbon softened just enough for Yusuf to cross.",
+        ],
+        image: "assets/japanese-three-banners-page-04.webp",
+        alt: "Hakan setting Kumo on the black ribbon as it softens into a glowing bridge for Yusuf",
+      },
+      {
+        title: "Yusuf's Refusal",
+        paragraphs: [
+          "Lord Sable held out the last petal to Yusuf.",
+          "\"Take it,\" he said. \"Command the banners. Keep your brother safe forever.\"",
+          "Yusuf looked at Hakan, then at the armor with no footprints.",
+          "\"No,\" Yusuf said. \"Hakan is not mine to command. I can protect him and still let him choose.\"",
+        ],
+        image: "assets/japanese-three-banners-page-05.webp",
+        alt: "Yusuf refusing Lord Sable's final silver petal while Hakan watches with Kumo",
+      },
+      {
+        title: "Hakan's Brave Step",
+        paragraphs: [
+          "The empty armor turned toward Hakan.",
+          "Yusuf moved first, but Hakan touched his sleeve. \"I can do one brave thing.\"",
+          "Hakan walked to the little shrine bell with Kumo shining in his hands.",
+          "His knees shook. Still, he rang the bell.",
+        ],
+        image: "assets/japanese-three-banners-page-06.webp",
+        alt: "Hakan ringing the shrine bell while Yusuf stands close behind him and Kumo glows",
+      },
+      {
+        title: "Emperor Haruto Arrives",
+        paragraphs: [
+          "The bell note rolled across the field like sunrise.",
+          "Emperor Haruto rode through the mist, carrying the broken Moon Seal case.",
+          "The guardian bowed. Aiko ran to guide the Emperor between the banners.",
+          "Yusuf saw the pattern at last: courage begins, mercy opens, memory returns.",
+        ],
+        image: "assets/japanese-three-banners-page-07.webp",
+        alt: "Emperor Haruto arriving through mist as Aiko guides him and Yusuf sees the banner pattern",
+      },
+      {
+        title: "The Banner Pattern",
+        paragraphs: [
+          "Yusuf tied the seal-string to the crane banner, then the pine, then the wave.",
+          "\"Not a net,\" he said. \"A path.\"",
+          "Hakan lifted Kumo. Aiko rang her messenger bell. Emperor Haruto held the Moon Seal high.",
+          "The three banners bent toward one another, making a road of light.",
+        ],
+        image: "assets/japanese-three-banners-page-08.webp",
+        alt: "Yusuf tying the seal-string between three glowing banners while Hakan lifts Kumo",
+      },
+      {
+        title: "Lord Sable's True Name",
+        paragraphs: [
+          "Lord Sable's mask cracked.",
+          "Beneath it was not a monster, only a tired promise-keeper who had forgotten how to trust.",
+          "\"If promises can break, why make them?\" he whispered.",
+          "Yusuf answered softly, \"Because keeping one is how people find their way back.\"",
+        ],
+        image: "assets/japanese-three-banners-page-09.webp",
+        alt: "Yusuf speaking kindly to Lord Sable as his cracked mask reveals a tired human face",
+      },
+      {
+        title: "The Last Petal",
+        paragraphs: [
+          "Lord Sable opened his hand.",
+          "The last silver petal floated to the Moon Seal.",
+          "Three curves joined, and moonlight poured across the banners.",
+          "The empty armor folded into flowers of silver paper. Kumo danced above Hakan's hands.",
+        ],
+        image: "assets/japanese-three-banners-page-10.webp",
+        alt: "The restored Moon Seal shining as empty armor becomes silver paper flowers under the three banners",
+      },
+      {
+        title: "The Festival of Promises",
+        paragraphs: [
+          "By evening, the palace lanterns glowed from gate to garden.",
+          "Emperor Haruto invited every messenger, guard, and child to tie one honest promise to the festival wall.",
+          "Aiko tied hers first. Hakan tied one for bravery.",
+          "Yusuf tied one for choice.",
+        ],
+        image: "assets/japanese-three-banners-page-11.webp",
+        alt: "Yusuf and Hakan tying ribbons to the promise wall during the palace lantern festival",
+      },
+      {
+        title: "The Crane Road Home",
+        paragraphs: [
+          "Kumo perched on Yusuf's map as the Moon Seal shone whole again.",
+          "\"The road home is open,\" the paper crane said.",
+          "Hakan leaned against Yusuf, sleepy and proud.",
+          "Yusuf smiled at the quiet sky. Some promises were not chains. Some were lanterns.",
+        ],
+        image: "assets/japanese-three-banners-page-12.webp",
+        alt: "Hakan leaning sleepily against Yusuf while Kumo rests on the map and the whole Moon Seal glows",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",

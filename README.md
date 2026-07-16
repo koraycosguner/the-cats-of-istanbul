@@ -25,6 +25,7 @@ Included stories:
 - _Hakan, Yusuf, and the Last Dawn of Olympus_
 - _Hakan, Yusuf, and the Emperor's Moon Seal_
 - _Hakan, Yusuf, and the Samurai of the Moon Gate_
+- _Hakan, Yusuf, and the Battle of the Three Banners_
 - _Hakan and the Little Lost Moon_
 - _Hakan, Yusuf, and the Comet Key_
 - _Hakan, Yusuf, and the Starlight Harbor_
