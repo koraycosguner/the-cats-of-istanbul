@@ -2644,6 +2644,131 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Samurai of the Moon Gate",
+    libraryKicker: "The Moon Seal - Book 2",
+    readerKicker: "A samurai-era adventure",
+    description:
+      "At a mountain gate above the clouds, Yusuf reads old banner promises while Hakan helps free a frightened guardian.",
+    cover: "assets/book-cover-japanese-samurai-moon-gate.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, Aiko, Kumo, Lord Sable, and the bound guardian at the Moon Gate",
+    seriesId: "moon-seal",
+    readerLayout: "wide-art",
+    pages: [
+      {
+        title: "The Gate Above the Clouds",
+        paragraphs: [
+          "By sunset, the palace road had become a mountain path.",
+          "Aiko led the way with her messenger bell tied to her pack.",
+          "At the top, old samurai banners snapped in the still air. Not one breeze touched them.",
+          "Yusuf opened the map. Every painted road bent toward the same dark ridge.",
+        ],
+        image: "assets/japanese-samurai-moon-gate-page-01.webp",
+        alt: "Yusuf studying the map while Hakan holds Kumo and Aiko leads them toward the mountain gate",
+      },
+      {
+        title: "The Banner Test",
+        paragraphs: [
+          "Three banners dropped across the gate.",
+          "One showed a crane. One showed a pine. One showed a wave.",
+          "\"Old samurai tied promises to these banners,\" Aiko said. \"But one promise is missing.\"",
+          "Yusuf touched the stitches. \"Crane flies. Pine stands. Wave returns.\" He looked at Hakan. \"The missing promise is home.\"",
+        ],
+        image: "assets/japanese-samurai-moon-gate-page-02.webp",
+        alt: "Yusuf reading crane, pine, and wave banners while Hakan holds glowing Kumo beside Aiko",
+      },
+      {
+        title: "Kumo's True Glow",
+        paragraphs: [
+          "Hakan held Kumo near the banners.",
+          "\"Home,\" he whispered.",
+          "Kumo shone bright white, and the gate opened one hand wide.",
+          "Inside sat a stone lion-dog guardian. Black ribbon tied its paws and mouth. Its eyes were not fierce. They were afraid.",
+        ],
+        image: "assets/japanese-samurai-moon-gate-page-03.webp",
+        alt: "Hakan holding glowing Kumo as Yusuf and Aiko see the frightened stone guardian bound inside the gate",
+      },
+      {
+        title: "The Silent Dojo",
+        paragraphs: [
+          "The gate pulled them into a quiet mountain dojo.",
+          "Wooden practice swords floated in perfect rows.",
+          "\"Training teaches control,\" Aiko said. \"This is not training. It is command.\"",
+          "Yusuf listened. The swords moved when Aiko's bell rang by accident, then paused when it was quiet. \"Silence is our path.\"",
+        ],
+        image: "assets/japanese-samurai-moon-gate-page-04.webp",
+        alt: "Yusuf, Hakan, and Aiko kneeling silently beneath floating wooden practice swords in the mountain dojo",
+      },
+      {
+        title: "Hakan and the Guardian",
+        paragraphs: [
+          "Yusuf raised one finger. Step, wait, step.",
+          "The team crossed the silent dojo without touching a sword.",
+          "Hakan knelt beside the guardian and worked at the first ribbon.",
+          "The knot loosened. The guardian's tiny stone tail thumped once. Hakan smiled. \"There you are.\"",
+        ],
+        image: "assets/japanese-samurai-moon-gate-page-05.webp",
+        alt: "Yusuf guiding the team silently while Hakan loosens the guardian's black ribbon",
+      },
+      {
+        title: "Lord Sable's Formation",
+        paragraphs: [
+          "They reached the ridge as moonrise touched the mountains.",
+          "Lord Sable lifted the second silver petal.",
+          "The old banners folded into rows, like soldiers made of cloth and shadow.",
+          "Yusuf's eyes narrowed. \"Every formation needs a center. He stole this one's heart.\"",
+        ],
+        image: "assets/japanese-samurai-moon-gate-page-06.webp",
+        alt: "Yusuf watching Lord Sable raise the second silver petal as banners form rows on the moonlit ridge",
+      },
+      {
+        title: "Aiko's Bell Promise",
+        paragraphs: [
+          "Aiko's hand shook on the messenger bell.",
+          "\"I was carrying the Seal when it broke,\" she said. \"I thought I failed everyone.\"",
+          "Hakan placed Kumo in her hands.",
+          "\"Then promise again,\" he said. Aiko swallowed. \"I will keep running toward what matters.\" Kumo glowed like moonlight on snow.",
+        ],
+        image: "assets/japanese-samurai-moon-gate-page-07.webp",
+        alt: "Hakan placing glowing Kumo into Aiko's hands while Yusuf stands protectively nearby",
+      },
+      {
+        title: "The Center Banner",
+        paragraphs: [
+          "Kumo's glow struck the ridge.",
+          "Beneath Lord Sable's black ribbon, a fourth banner appeared.",
+          "\"Home,\" Yusuf said.",
+          "He hooked the banner with the seal-string. Hakan and the guardian pulled the ribbon together until it snapped into harmless thread.",
+        ],
+        image: "assets/japanese-samurai-moon-gate-page-08.webp",
+        alt: "Yusuf hooking the glowing center banner while Hakan and the guardian pull Lord Sable's black ribbon loose",
+      },
+      {
+        title: "The Second Petal",
+        paragraphs: [
+          "The cloth soldiers unfolded into peaceful banners.",
+          "The guardian finally roared, but it sounded like a temple bell.",
+          "Aiko rang her messenger bell once.",
+          "The sound carried her promise across the ridge. The second silver petal flew from Lord Sable's hand and joined the first in Yusuf's palm.",
+        ],
+        image: "assets/japanese-samurai-moon-gate-page-09.webp",
+        alt: "The second silver petal flying toward Yusuf while Aiko rings her bell and Hakan holds Kumo",
+      },
+      {
+        title: "Three Banners at Dawn",
+        paragraphs: [
+          "Lord Sable vanished into mountain mist.",
+          "On the Moon Seal, two silver curves shone. One empty space remained.",
+          "The guardian bowed its stone head and touched the map with one paw.",
+          "A new road appeared: three ancient banners on a field at dawn.",
+          "Yusuf rolled the map tight. Hakan held Kumo close. Aiko lifted her bell. Together, they followed the last road.",
+        ],
+        image: "assets/japanese-samurai-moon-gate-page-10.webp",
+        alt: "Yusuf, Hakan, Aiko, Kumo, and the guardian studying the glowing map toward three banners at dawn",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",
