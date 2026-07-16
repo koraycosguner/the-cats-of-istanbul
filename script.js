@@ -2519,6 +2519,131 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Emperor's Moon Seal",
+    libraryKicker: "The Moon Seal - Book 1",
+    readerKicker: "A samurai-era adventure",
+    description:
+      "A glowing paper crane leads the brothers into a moonlit palace mystery when the Emperor's Moon Seal is broken.",
+    cover: "assets/book-cover-japanese-emperor-moon-seal.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, Aiko, Kumo, and Lord Sable at a moonlit Japanese palace",
+    seriesId: "moon-seal",
+    readerLayout: "wide-art",
+    pages: [
+      {
+        title: "The Crane in the Lantern",
+        paragraphs: [
+          "Moonlight silvered the palace garden when Hakan heard a tiny paper rustle.",
+          "Inside a hanging lantern, a folded crane beat one glowing wing against the glass.",
+          "Yusuf opened the lantern carefully. Hakan lifted the crane into his hands.",
+          "\"I am Kumo,\" the crane whispered. \"The Emperor's promises have been stolen.\"",
+        ],
+        image: "assets/japanese-emperor-moon-seal-page-01.webp",
+        alt: "Yusuf opening a palace lantern while Hakan gently holds Kumo the glowing paper crane",
+      },
+      {
+        title: "Aiko Runs",
+        paragraphs: [
+          "Footsteps tapped across the red bridge.",
+          "A girl in a blue messenger jacket skidded to a stop. \"I am Aiko,\" she said. \"I was carrying the Emperor's message when the seal broke.\"",
+          "Kumo's wax cracked, showing a missing silver petal.",
+          "\"Lord Sable took the first petal,\" Aiko said. \"Without it, every promise in the palace can be twisted.\"",
+        ],
+        image: "assets/japanese-emperor-moon-seal-page-02.webp",
+        alt: "Aiko racing across the red bridge to warn Yusuf and Hakan as Kumo glows",
+      },
+      {
+        title: "The Promise Hall",
+        paragraphs: [
+          "The Promise Hall was filled with hanging scrolls.",
+          "Each scroll whispered the same wrong words: obey the black mask.",
+          "Yusuf held Kumo near the floor. \"Honest promises cast moon-shadows,\" he said.",
+          "Hakan crawled under a tea table and found one small shadow trembling there. It was the Emperor's true message.",
+        ],
+        image: "assets/japanese-emperor-moon-seal-page-03.webp",
+        alt: "Yusuf reading moon-shadow clues while Hakan finds the true message under a tea table in the Promise Hall",
+      },
+      {
+        title: "The Samurai Courtyard",
+        paragraphs: [
+          "In the courtyard, wooden samurai dummies lifted practice swords.",
+          "Their banners flashed red, white, red, black.",
+          "Aiko reached for her sword. Yusuf shook his head. \"They move on the loud colors. Step on white.\"",
+          "Hakan held Kumo high. The team crossed the moonlit stones between the sweeping wooden blades.",
+        ],
+        image: "assets/japanese-emperor-moon-seal-page-04.webp",
+        alt: "Yusuf guiding Hakan and Aiko across white stepping stones between wooden training dummies",
+      },
+      {
+        title: "The Fox Bell",
+        paragraphs: [
+          "The message led them to a tiny bell beside a stone fox.",
+          "Aiko bowed. \"This bell guards palace promises.\"",
+          "The fox statue's stone eyes shone with tears.",
+          "Hakan touched the rope. \"It is not angry. It is stuck.\" He untied Sable's black command knot, and the bell gave one clear note.",
+        ],
+        image: "assets/japanese-emperor-moon-seal-page-05.webp",
+        alt: "Hakan untying a black knot from the fox bell rope while Yusuf, Aiko, and Kumo watch",
+      },
+      {
+        title: "The River of Ink",
+        paragraphs: [
+          "The bell note opened a stair beneath the shrine.",
+          "Below the palace flowed a river of black ink.",
+          "The friends climbed into a paper boat. Lord Sable's shadow brushed the water, writing false orders in long dark strokes.",
+          "Yusuf folded Aiko's map into a shield. The ink words splashed away before they could stick.",
+        ],
+        image: "assets/japanese-emperor-moon-seal-page-06.webp",
+        alt: "Yusuf shielding the paper boat from dark ink strokes while Hakan watches Kumo fly above the underground river",
+      },
+      {
+        title: "The Moon Carp",
+        paragraphs: [
+          "A giant silver carp rose from the ink river.",
+          "Black wax dulled its moon-bright scales.",
+          "\"It carries promises that people forgot to keep,\" Kumo said.",
+          "Hakan cleaned one scale with his sleeve. The carp shimmered, then opened a path of silver ripples toward the palace roof.",
+        ],
+        image: "assets/japanese-emperor-moon-seal-page-07.webp",
+        alt: "Hakan cleaning a silver moon carp scale as Yusuf and Aiko see the ripple path toward the palace roof",
+      },
+      {
+        title: "Roofs Under the Moon",
+        paragraphs: [
+          "Silver ripples lifted them onto the palace roof.",
+          "Lord Sable waited beneath the moon, holding the first petal of the Seal.",
+          "\"You protect your brother,\" he told Yusuf. \"Let me make one promise for you. Hakan will never be in danger again.\"",
+          "Yusuf looked at Hakan. A safe promise with no choice felt like a locked room.",
+        ],
+        image: "assets/japanese-emperor-moon-seal-page-08.webp",
+        alt: "Yusuf and Hakan facing Lord Sable on moonlit palace rooftops as he offers the first silver petal",
+      },
+      {
+        title: "The First Petal",
+        paragraphs: [
+          "Aiko rang the messenger bell. Lord Sable turned.",
+          "Yusuf followed the petal's moon-shadow across the roof tiles.",
+          "He cast the seal-string, and it hooked the silver edge.",
+          "Hakan lifted Kumo. \"Glow for the true promise.\" Kumo shone bright white, and the first petal flew into Yusuf's hand.",
+        ],
+        image: "assets/japanese-emperor-moon-seal-page-09.webp",
+        alt: "Yusuf catching the first silver petal with the seal-string while Hakan holds glowing Kumo and Aiko rings the bell",
+      },
+      {
+        title: "The Mountain Gate",
+        paragraphs: [
+          "At dawn, Emperor Haruto held the first petal against the broken Moon Seal.",
+          "One silver curve healed. Two empty spaces remained.",
+          "\"Lord Sable will go where old banners sleep,\" Aiko said.",
+          "Kumo spread his paper wings. In their glow, Yusuf and Hakan saw a mountain gate and samurai banners moving without wind.",
+          "Yusuf rolled up the map. Hakan smiled at Aiko. \"Then we go before the wind remembers.\"",
+        ],
+        image: "assets/japanese-emperor-moon-seal-page-10.webp",
+        alt: "Yusuf, Hakan, Aiko, Kumo, and Emperor Haruto seeing the mountain gate vision above the repaired first petal",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Little Lost Moon",
     libraryKicker: "Space Team Adventure",
     readerKicker: "A glowing space rescue among the stars",
@@ -4213,6 +4338,16 @@ const collections = [
     cover: "assets/book-cover-greek-bronze-owl-athens.webp",
     coverAlt:
       "Collection cover for The Lost Oracle Trilogy showing Hakan, Yusuf, Thalia, Glaux, Kryon, and the Acropolis",
+  },
+  {
+    id: "moon-seal",
+    title: "The Moon Seal Trilogy",
+    libraryKicker: "Samurai Adventure Collection",
+    description:
+      "A glowing paper crane, a broken imperial seal, and one connected journey through palace roofs, mountain gates, and samurai banners.",
+    cover: "assets/book-cover-japanese-emperor-moon-seal.webp",
+    coverAlt:
+      "Collection cover for The Moon Seal Trilogy showing Hakan, Yusuf, Aiko, Kumo, and Lord Sable at a moonlit palace",
   },
   {
     id: "kitsune",
