@@ -413,6 +413,151 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Midnight Paws of Istanbul",
+    libraryKicker: "Istanbul Cats Sequel",
+    readerKicker: "A moonlit mystery about listening",
+    description:
+      "Silver paw prints, seven silent stones, and a compass that points toward whoever needs help.",
+    cover: "assets/book-cover-cats-midnight-paws.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Midnight Paws of Istanbul showing the family, Misket, the Purr Compass, and glowing paw paths over the city",
+    seriesId: "cats-of-istanbul",
+    pages: [
+      {
+        title: "The Glowing Paw",
+        paragraphs: [
+          "Tap. Tap. Tap.",
+          "Hakan opened his eyes. Misket stood outside the window, balanced on the ledge.",
+          "The gray-brown cat lifted one paw. It shone silver in the dark.",
+          "Yusuf hurried in. On the floor, bright paw prints were already leading toward the door.",
+        ],
+        image: "assets/cats-midnight-paws-page-01.webp",
+        alt: "Hakan waking as Misket raises a silver-glowing paw at the window and Yusuf follows the bright paw prints",
+      },
+      {
+        title: "The Midnight Path",
+        paragraphs: [
+          "Hakan and Yusuf woke Angela and Koray. No one was going into the night alone.",
+          "Together, they followed Misket through quiet streets. Silver prints crossed blue tiles, curled around flower pots, and skipped over the cobblestones.",
+          "At the hidden blue gate, the trail grew faint.",
+          "Inside, every Cat of Istanbul was awake.",
+        ],
+        image: "assets/cats-midnight-paws-page-02.webp",
+        alt: "Hakan, Yusuf, Angela, and Koray following Misket and silver paw prints toward a hidden blue gate",
+      },
+      {
+        title: "The Purr Compass",
+        paragraphs: [
+          "The eldest cat sat beside seven dark stones on a velvet cloth.",
+          "\"These Listening Stones keep the secret cat paths open,\" he said. \"Tonight, all seven have gone quiet.\"",
+          "Misket opened a tiny box. Inside was a brass compass with a silver needle.",
+          "\"It does not point north,\" said the eldest cat. \"It points to whoever needs help.\"",
+        ],
+        image: "assets/cats-midnight-paws-page-03.webp",
+        alt: "The eldest cat showing the family seven dark Listening Stones and the brass Purr Compass in the hidden courtyard",
+      },
+      {
+        title: "The Broken Pattern",
+        paragraphs: [
+          "The compass led them to a ferry dock where horns and waves filled the air.",
+          "Yusuf studied the silver prints. \"Two together, two together, then one is missing.\"",
+          "He followed the gap to a little gate beneath a bench.",
+          "From behind it came the smallest sound. Mew.",
+        ],
+        image: "assets/cats-midnight-paws-page-04.webp",
+        alt: "Yusuf studying a broken pattern of silver paw prints while Hakan holds the Purr Compass at a moonlit ferry dock",
+      },
+      {
+        title: "The Smallest Meow",
+        paragraphs: [
+          "The gate was bent shut. Koray knelt and straightened the latch with his small tool.",
+          "Hakan waited low and still. A frightened orange kitten crept into his open hands.",
+          "Yusuf spotted matching paw prints near a ferry basket. A mother cat rushed over and touched noses with her kitten.",
+          "Beneath the bench, the first Listening Stone glowed sea-blue.",
+        ],
+        image: "assets/cats-midnight-paws-page-05.webp",
+        alt: "Koray repairing a cat gate while Hakan holds an orange kitten and Yusuf finds its mother beside the first glowing Listening Stone",
+      },
+      {
+        title: "A Song Beneath the Shutter",
+        paragraphs: [
+          "The compass spun toward a closed bakery near the bazaar.",
+          "Misket called once. From behind the shutter came three tiny taps.",
+          "Angela hummed a soft Istanbul song and tapped its rhythm on a tea glass. Three cats answered with the very same beat.",
+          "Yusuf found a fish-shaped lock. Hakan used the Golden Fish Key, and the hidden cat door swung open.",
+        ],
+        image: "assets/cats-midnight-paws-page-06.webp",
+        alt: "Angela tapping a tea-glass rhythm while Yusuf finds a fish lock and Hakan holds the Golden Fish Key outside a closed bakery",
+      },
+      {
+        title: "The Second Stone",
+        paragraphs: [
+          "The trapped cats slipped out, dusty but safe. They rubbed against Angela's shoes and purred.",
+          "Behind a flour basket, the second Listening Stone woke with warm golden light.",
+          "Then rain swept through the street. Drop by drop, the silver paw prints vanished.",
+          "The Purr Compass still pointed up, but there was no path left to follow.",
+        ],
+        image: "assets/cats-midnight-paws-page-07.webp",
+        alt: "Three rescued bakery cats beside Angela as the second Listening Stone glows and rain washes away the silver paw trail",
+      },
+      {
+        title: "Yusuf's Map of Nothing",
+        paragraphs: [
+          "Hakan looked toward the hill. \"We have to hurry!\"",
+          "\"First, we have to know where,\" said Yusuf.",
+          "He drew the ferry stone and the bakery stone on a small map. Their two glowing lines crossed above the Golden Horn.",
+          "\"There,\" Yusuf said. \"An old rooftop. The missing path was pointing there all along.\"",
+        ],
+        image: "assets/cats-midnight-paws-page-08.webp",
+        alt: "Yusuf drawing two glowing lines across a map while Hakan, Angela, Koray, and Misket study the route",
+      },
+      {
+        title: "Wind Over the Rooftops",
+        paragraphs: [
+          "Yusuf went first, testing each step on the wet rooftop stairs.",
+          "Angela tied her bright scarf where they could all see it. Koray cupped both hands around the lantern flame.",
+          "Hakan followed Misket across the last safe row of red tiles.",
+          "On the highest roof, there was no stone—only an old white cat beneath a crooked chimney.",
+        ],
+        image: "assets/cats-midnight-paws-page-09.webp",
+        alt: "Yusuf leading the family up wet rooftop stairs toward Sessiz while Koray shields the lantern and Angela's scarf streams in the wind",
+      },
+      {
+        title: "The Cat Who Went Quiet",
+        paragraphs: [
+          "Misket bowed. \"Sessiz made the first Midnight Path,\" said the eldest cat, who had followed them.",
+          "Sessiz had watched people hurry past hungry cats, sleepy cats, and lost cats. At last, he believed Istanbul had forgotten how to notice.",
+          "He stopped purring. One by one, the Listening Stones fell silent.",
+          "The Purr Compass pointed straight at him.",
+        ],
+        image: "assets/cats-midnight-paws-page-10.webp",
+        alt: "The Purr Compass pointing toward Sessiz as Misket bows and the eldest cat explains on a high Istanbul rooftop",
+      },
+      {
+        title: "Hakan Waits",
+        paragraphs: [
+          "No key, map, song, or tool could mend a lonely heart.",
+          "Hakan sat several steps away. He placed his golden paw charm between them and waited.",
+          "Yusuf sat beside him. Angela grew quiet. Koray kept the lantern warm and still.",
+          "At last, Sessiz touched the charm with one paw. A tiny purr began.",
+        ],
+        image: "assets/cats-midnight-paws-page-11.webp",
+        alt: "Hakan patiently offering his golden paw charm to Sessiz while Yusuf, Angela, Koray, and Misket wait quietly",
+      },
+      {
+        title: "Istanbul Listens",
+        paragraphs: [
+          "The purr rolled over the rooftops like soft thunder. Seven Listening Stones shone across Istanbul.",
+          "Silver paw paths curled around ferries, fountains, bakeries, and blue doors. Every lost cat could find the way home again.",
+          "The eldest cat bowed to the whole family. \"You woke the city by listening.\" Misket placed the Purr Compass between the brothers.",
+          "Then its needle turned across the Bosphorus toward a tiny island light. On the Blue Tile Map, a crescent-shaped paw print appeared.",
+        ],
+        image: "assets/cats-midnight-paws-page-12.webp",
+        alt: "Hakan and Yusuf sharing the Purr Compass as seven Listening Stones glow over Istanbul and a crescent paw print appears across the Bosphorus",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Moonlit Library",
     libraryKicker: "Book Magic",
     readerKicker: "A secret library bedtime mystery",
@@ -4555,7 +4700,7 @@ const collections = [
     title: "The Cats of Istanbul Adventures",
     libraryKicker: "Istanbul Cats Collection",
     description:
-      "Misket, the secret Cats of Istanbul, and three connected city mysteries.",
+      "Misket, the secret Cats of Istanbul, and four connected city mysteries.",
     cover: "assets/book-cover-cats-of-istanbul.webp",
     coverAlt:
       "Collection cover for The Cats of Istanbul Adventures showing Hakan, Yusuf, Misket, and Istanbul",
