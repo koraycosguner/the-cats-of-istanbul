@@ -558,6 +558,151 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Crescent Cats of Büyükada",
+    libraryKicker: "Istanbul Cats Sequel",
+    readerKicker: "An island mystery about arrivals",
+    description:
+      "A dark island beacon, a kitten made of fog, and a ferry route that always comes home.",
+    cover: "assets/book-cover-cats-crescent-buyukada.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Crescent Cats of Büyükada showing the family, Misket, Ada, Sis, and the silver Crescent Beacon",
+    seriesId: "cats-of-istanbul",
+    pages: [
+      {
+        title: "The Needle Over Water",
+        paragraphs: [
+          "The crescent paw print on the Blue Tile Map shone brighter.",
+          "The Purr Compass needle swung past north and pointed across the Bosphorus.",
+          "Misket touched a tiny island on the map. Its light blinked once, then went dark.",
+          '“Büyükada,” Yusuf said. “Someone there needs help.”',
+        ],
+        image: "assets/cats-crescent-buyukada-page-01.webp",
+        alt: "Hakan and Yusuf holding the Purr Compass above the Blue Tile Map as Misket points to Büyükada",
+      },
+      {
+        title: "The Last Moon Ferry",
+        paragraphs: [
+          "Before sunrise, the family boarded a ferry with Misket tucked safely between the brothers.",
+          "The city lights grew small behind them. Ahead, four islands rested under the moon.",
+          "Hakan saw a silver crescent in the ferry's wake.",
+          "Then a wall of pale fog swallowed the island lights.",
+        ],
+        image: "assets/cats-crescent-buyukada-page-02.webp",
+        alt: "The family and Misket riding a moonlit ferry toward four islands as fog covers their lights",
+      },
+      {
+        title: "The Silent Square",
+        paragraphs: [
+          "The ferry reached Büyükada, but the square was strangely quiet.",
+          "The clock tower stood above empty benches. Wooden houses and pine trees faded into the mist.",
+          "Not one island cat waited at the dock.",
+          "At last, a small calico cat stepped from behind a flower pot. A white crescent curved across her chest.",
+        ],
+        image: "assets/cats-crescent-buyukada-page-03.webp",
+        alt: "Ada the calico stepping from behind a flower pot as the family and Misket search Büyükada's misty clock-tower square",
+      },
+      {
+        title: "Ada's Dark Beacon",
+        paragraphs: [
+          '“I am Ada,” said the calico. She led them up a pine path to a little stone beacon.',
+          "Its round window was dark. Fog pressed against the glass.",
+          '“The Crescent Beacon shows every island cat the path home,” Ada said. “Its light is gone.”',
+          "The Purr Compass spun so quickly that its needle became a silver circle.",
+        ],
+        image: "assets/cats-crescent-buyukada-page-04.webp",
+        alt: "Ada leading the family and Misket to a dark stone beacon while the Purr Compass spins in Hakan's hands",
+      },
+      {
+        title: "The Fourth Bell",
+        paragraphs: [
+          "From the square below came the clock bell. Ding. Ding. Ding.",
+          "Yusuf counted each sound and listened to the echoes.",
+          "After the third echo came one tiny extra note. Ting.",
+          '“That is not an echo,” Yusuf said. “Something is answering from the pine trees.”',
+        ],
+        image: "assets/cats-crescent-buyukada-page-05.webp",
+        alt: "Yusuf listening beneath the clock tower as three large bell chimes and one tiny answering note glow over Hakan, Misket, and Ada",
+      },
+      {
+        title: "Angela's Arrival Song",
+        paragraphs: [
+          "Angela knew the tune ferries played when they reached the island.",
+          "She hummed it softly beneath the pines. Ada lifted her ears.",
+          "From deeper in the fog came the same tune, played on one tiny bell.",
+          "Silver-gray paw prints appeared on the path, one misty step at a time.",
+        ],
+        image: "assets/cats-crescent-buyukada-page-06.webp",
+        alt: "Angela singing beneath the pines as a tiny bell answers and silver-gray fog paw prints appear before the family and cats",
+      },
+      {
+        title: "Koray Turns the Light",
+        paragraphs: [
+          "The prints led to the beacon's back door. Inside, its brass gears were white with sea salt.",
+          "Koray cleaned each tooth and loosened the stuck wheel.",
+          "Click. Whirr. The great glass window began to turn.",
+          "But no light appeared. At its center was an empty crescent-shaped space.",
+        ],
+        image: "assets/cats-crescent-buyukada-page-07.webp",
+        alt: "Koray cleaning the beacon's salt-stuck gears while the family, Misket, and Ada see the empty crescent space in its window",
+      },
+      {
+        title: "Pawprints Made of Fog",
+        paragraphs: [
+          "Hakan looked closely at the silver-gray prints.",
+          "They were not wet. They were made of fog.",
+          "He followed them up a narrow stair while Yusuf marked every safe turn.",
+          "At the top, the Purr Compass pointed toward a small wooden chest that was breathing.",
+        ],
+        image: "assets/cats-crescent-buyukada-page-08.webp",
+        alt: "Hakan, Yusuf, and Misket following fog paw prints up the beacon stairs toward a breathing wooden chest",
+      },
+      {
+        title: "Sis and the Crescent Lens",
+        paragraphs: [
+          "Hakan opened the chest. A tiny silver fog kitten was curled around a curved piece of glass.",
+          '“I am Sis,” the kitten whispered. “The lens calls the ferry. The ferry takes everyone away.”',
+          "He had hidden the Crescent Lens so no boat would ever leave again.",
+          "Outside, the island cats called through the fog, unable to find one another.",
+        ],
+        image: "assets/cats-crescent-buyukada-page-09.webp",
+        alt: "Hakan finding Sis the silver fog kitten curled around the Crescent Lens as Yusuf, Misket, and Ada watch",
+      },
+      {
+        title: "Ferries Come Back",
+        paragraphs: [
+          'Hakan sat beside the chest. “A ferry can leave and still come back,” he said.',
+          "Yusuf unfolded his map. The route was not a straight line. It was a loop from city to island and home again.",
+          'Ada touched her nose to Sis\'s misty paw. “We wait for arrivals too.”',
+          "Sis looked at the empty beacon. Slowly, he let go of the lens.",
+        ],
+        image: "assets/cats-crescent-buyukada-page-10.webp",
+        alt: "Hakan comforting Sis while Yusuf shows a glowing loop route and Ada touches noses with the fog kitten",
+      },
+      {
+        title: "Keeper of Arrivals",
+        paragraphs: [
+          "Koray fitted the Crescent Lens into the turning window. Yusuf lined it up with the ferry route.",
+          "Angela sang the arrival song. Hakan invited Sis to breathe one soft cloud across the glass.",
+          "Moonlight filled the mist and spread into a silver bridge over the water.",
+          "Every island path appeared, and the lost cats hurried safely home.",
+        ],
+        image: "assets/cats-crescent-buyukada-page-11.webp",
+        alt: "The whole family and three cats restoring the Crescent Beacon as moonlight spreads into a silver bridge",
+      },
+      {
+        title: "The Light Beyond the Island",
+        paragraphs: [
+          "The Crescent Cats gathered around Sis with welcoming purrs.",
+          'Ada placed a tiny bell on his collar. “Keeper of Arrivals,” she said. “You will see every ferry return.”',
+          "The Purr Compass glowed between Hakan and Yusuf as the beacon swept across the Bosphorus.",
+          "Its beam stopped at Maiden's Tower. Beneath the water, a golden sun-shaped paw opened its eyes.",
+        ],
+        image: "assets/cats-crescent-buyukada-page-12.webp",
+        alt: "Ada giving Sis a bell as the family and island cats watch the Crescent Beacon point toward Maiden's Tower and a golden sun-paw",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Moonlit Library",
     libraryKicker: "Book Magic",
     readerKicker: "A secret library bedtime mystery",
@@ -4700,7 +4845,7 @@ const collections = [
     title: "The Cats of Istanbul Adventures",
     libraryKicker: "Istanbul Cats Collection",
     description:
-      "Misket, the secret Cats of Istanbul, and four connected city mysteries.",
+      "Misket, the secret Cats of Istanbul, and five connected city-and-island mysteries.",
     cover: "assets/book-cover-cats-of-istanbul.webp",
     coverAlt:
       "Collection cover for The Cats of Istanbul Adventures showing Hakan, Yusuf, Misket, and Istanbul",

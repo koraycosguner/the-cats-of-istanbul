@@ -8,6 +8,7 @@ Included stories:
 - _Hakan, Yusuf, and the Blue Tile Map_
 - _Hakan, Yusuf, and the Galata Moon Bell_
 - _Hakan, Yusuf, and the Midnight Paws of Istanbul_
+- _Hakan, Yusuf, and the Crescent Cats of Büyükada_
 - _Hakan and the Moonlit Library_
 - _Hakan, Yusuf, and the Clockwork Chapter_
 - _Hakan, Yusuf, and the Ink Dragon's Promise_
