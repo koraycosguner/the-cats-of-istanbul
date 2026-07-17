@@ -703,6 +703,151 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and the Dawn Cats of the Bosphorus",
+    libraryKicker: "Istanbul Cats Finale",
+    readerKicker: "A sunrise mystery about meeting halfway",
+    description:
+      "Two divided cat paths, one sleeping Dawn Paw, and a bridge that can only open from both sides.",
+    cover: "assets/book-cover-cats-dawn-bosphorus.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and the Dawn Cats of the Bosphorus showing the family, Misket, Ada, Sis, Maiden's Tower, and the glowing Dawn Paw",
+    seriesId: "cats-of-istanbul",
+    pages: [
+      {
+        title: "The Paw Beneath the Water",
+        paragraphs: [
+          "The Crescent Beacon held its silver beam on Maiden's Tower.",
+          "Beneath the dark water, a golden sun-paw blinked once.",
+          "The Purr Compass grew warm between Hakan and Yusuf. Its needle pointed straight through the waves.",
+          '“One more path is waking,” Hakan said.',
+        ],
+        image: "assets/cats-dawn-bosphorus-page-01.webp",
+        alt: "The family, Misket, Ada, and Sis watching the Crescent Beacon point to Maiden's Tower as a golden paw wakes underwater",
+      },
+      {
+        title: "The Door in the Tower",
+        paragraphs: [
+          "The family crossed the Bosphorus with Misket, Ada, and Sis before the sky turned pink.",
+          "At Maiden's Tower, a round stone door rose from the water.",
+          "The Golden Fish Key slipped into a shining fish-shaped lock.",
+          "Click. The door opened onto two stairways—one from the city and one from the islands.",
+        ],
+        image: "assets/cats-dawn-bosphorus-page-02.webp",
+        alt: "Hakan using the Golden Fish Key as the family and three cats discover blue and silver stairways inside Maiden's Tower",
+      },
+      {
+        title: "Two Sides of the Same Sea",
+        paragraphs: [
+          "Mainland cats waited on the west stair with old Sessiz. Island cats waited on the east stair.",
+          '“The city path must catch the first light,” called one cat.',
+          '“The island path has waited longer,” answered another.',
+          "Between them, the last golden pawprints faded into the water.",
+        ],
+        image: "assets/cats-dawn-bosphorus-page-03.webp",
+        alt: "Mainland and island cats waiting on opposite stairs as golden pawprints fade between them and the family stands in the middle",
+      },
+      {
+        title: "The Sleeping Dawn Paw",
+        paragraphs: [
+          "Deep beneath the tower, the two stairs reached a round chamber.",
+          "A giant golden paw filled the floor, but a dark crack split it in half.",
+          "Above it hung a salt-stuck tidewheel with one empty crescent-shaped space.",
+          "The Purr Compass spun over the crack. It could not choose a side.",
+        ],
+        image: "assets/cats-dawn-bosphorus-page-04.webp",
+        alt: "The family and four cats discovering a split golden Dawn Paw, salt-stuck tidewheel, and empty crescent socket",
+      },
+      {
+        title: "Yusuf Sees One Paw",
+        paragraphs: [
+          "Yusuf opened the Blue Tile Map. A blue city path curled from one shore. A silver island path curled from the other.",
+          "He turned the map around. Together, the two paths made one paw.",
+          '“They are not racing roads,” he said. “They are two halves of a crossing.”',
+          "The map showed one empty place exactly in the middle.",
+        ],
+        image: "assets/cats-dawn-bosphorus-page-05.webp",
+        alt: "Yusuf showing the family and cats how the blue city route and silver island route form two halves of one paw",
+      },
+      {
+        title: "Koray Wakes the Tidewheel",
+        paragraphs: [
+          "Koray used the Golden Fish Key to open the tidewheel's brass cover.",
+          "He brushed away salt, straightened a bent tooth, and oiled the axle.",
+          "Yusuf helped him turn the great wheel. Water rushed through two stone channels.",
+          "But the streams pushed away from each other. The empty crescent still held no light.",
+        ],
+        image: "assets/cats-dawn-bosphorus-page-06.webp",
+        alt: "Koray repairing the opened tidewheel while Yusuf helps turn it and two water channels flow away from each other",
+      },
+      {
+        title: "One Song, Two Shores",
+        paragraphs: [
+          "Koray fitted the Crescent Lens into the wheel. Yusuf aimed one side toward Galata and the other toward Büyükada.",
+          "Angela rang the little Moon Bell charm: sea, street, home.",
+          "Then she wove Büyükada's arrival song between the notes.",
+          "Blue light and silver light met above the Dawn Paw. Its toes glowed, but its heart stayed dark.",
+        ],
+        image: "assets/cats-dawn-bosphorus-page-07.webp",
+        alt: "Angela ringing the Moon Bell as Koray seats the Crescent Lens and blue and silver beams light only the Dawn Paw's toes",
+      },
+      {
+        title: "Not First—Together",
+        paragraphs: [
+          '“The wheel works. The songs work,” Yusuf said. “What is missing?”',
+          "Hakan looked at the cats. Both groups were waiting for the other to move first.",
+          '“A bridge is not a race,” he said. “Someone has to walk toward someone.”',
+          "Misket stepped onto the city path. Ada stepped onto the island path.",
+        ],
+        image: "assets/cats-dawn-bosphorus-page-08.webp",
+        alt: "Hakan standing between the two cat groups as Misket and Ada step onto blue and silver paths toward each other",
+      },
+      {
+        title: "Sis's Small Brave Step",
+        paragraphs: [
+          "The chamber trembled. Mist curled around Sis's paws.",
+          '“What if the water takes the path away?” he whispered.',
+          'Hakan knelt beside him. “Brave can be one small step. I will take it with you.”',
+          "Sis placed one misty paw beside Hakan's shoe. The Crescent Lens flashed.",
+        ],
+        image: "assets/cats-dawn-bosphorus-page-09.webp",
+        alt: "Hakan kneeling beside Sis as the fog kitten takes one small step and the Crescent Lens flashes above them",
+      },
+      {
+        title: "The Bridge Hidden in Fog",
+        paragraphs: [
+          "Sis breathed a soft cloud through the Crescent Lens.",
+          "Inside the fog, golden stepping stones appeared across the crack.",
+          'Yusuf read the map and called the pattern. “City, island. City, island.”',
+          "The cats crossed in turns, moving toward one another with every step.",
+        ],
+        image: "assets/cats-dawn-bosphorus-page-10.webp",
+        alt: "Sis revealing golden stepping stones through fog while Yusuf guides Misket, Ada, and the two cat groups across",
+      },
+      {
+        title: "The Middle Belongs to Everyone",
+        paragraphs: [
+          "Misket and Ada reached the center together and touched paws.",
+          "Hakan and Sis arrived beside them. Yusuf placed the Blue Tile Map under the Purr Compass.",
+          "Angela's shared song filled the chamber while Koray gave the tidewheel one final turn.",
+          "The dark crack closed. A golden heart opened in the center of the Dawn Paw.",
+        ],
+        image: "assets/cats-dawn-bosphorus-page-11.webp",
+        alt: "Misket and Ada touching paws as the family joins every returning object and the Dawn Paw's golden heart opens",
+      },
+      {
+        title: "Guardians of the Crossing",
+        paragraphs: [
+          "Sunrise poured from Maiden's Tower across ferries, rooftops, islands, and every secret cat door.",
+          "The mainland and island paths joined in one bright web over the Bosphorus.",
+          '“Guardians of the Crossing,” said Sessiz as all the cats bowed to the family.',
+          "For the first time, the Purr Compass did not point to someone lost. It pointed home in every direction.",
+        ],
+        image: "assets/cats-dawn-bosphorus-page-12.webp",
+        alt: "The family, Misket, Ada, Sis, and Sessiz sharing sunrise as blue and silver cat paths join across the Bosphorus",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Moonlit Library",
     libraryKicker: "Book Magic",
     readerKicker: "A secret library bedtime mystery",
@@ -4845,7 +4990,7 @@ const collections = [
     title: "The Cats of Istanbul Adventures",
     libraryKicker: "Istanbul Cats Collection",
     description:
-      "Misket, the secret Cats of Istanbul, and five connected city-and-island mysteries.",
+      "Misket, the secret Cats of Istanbul, and a complete six-book journey from hidden rooftops to the Dawn Crossing.",
     cover: "assets/book-cover-cats-of-istanbul.webp",
     coverAlt:
       "Collection cover for The Cats of Istanbul Adventures showing Hakan, Yusuf, Misket, and Istanbul",
