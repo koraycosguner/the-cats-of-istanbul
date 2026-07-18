@@ -993,6 +993,151 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and Leonardo's Secret Canal",
+    libraryKicker: "Renaissance Italy Sequel",
+    readerKicker: "A Milan mystery about listening to every level",
+    description:
+      "A backward-flowing canal model, three missing measures, and a frightened kitten named Riva.",
+    cover: "assets/book-cover-leonardo-secret-canal.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and Leonardo's Secret Canal showing the family, Leonardo, Piuma, Riva, and the model lock canal in Milan",
+    seriesId: "leonardo-italy",
+    pages: [
+      {
+        title: "The Blue Road Returns",
+        paragraphs: [
+          "At home, the Living Sketchbook rested beside the Copper Feather from Florence.",
+          "One evening, the feather dipped toward the page as if it had found water.",
+          "Blue lines drew a canal between brick bridges and turning wheels.",
+          "The paper doorway opened. From beyond came a familiar meow.",
+        ],
+        image: "assets/leonardo-secret-canal-page-01.webp",
+        alt: "Hakan and Yusuf watching the Copper Feather draw a blue canal route in the Living Sketchbook as Angela and Koray approach",
+      },
+      {
+        title: "Milan, 1508",
+        paragraphs: [
+          "Angela and Koray joined the boys, and the family stepped through together.",
+          "They arrived beside a busy Milan canal. Barges moved under low brick bridges.",
+          "Their clothes became wool and linen again. Castle towers rose beyond the rooftops.",
+          "Piuma trotted along the towpath, her copper charm shining as she led them onward.",
+        ],
+        image: "assets/leonardo-secret-canal-page-02.webp",
+        alt: "The family arriving beside a Renaissance Milan canal as Piuma leads them toward brick bridges and castle towers",
+      },
+      {
+        title: "The City Made of Water",
+        paragraphs: [
+          "Leonardo waited inside a quiet brick courtyard filled with ropes, gates, and wooden gears.",
+          "On a long table stood a tiny city of canals. Its water climbed backward from the low basin to the high one.",
+          '“My lock model has forgotten which way a river travels,” Leonardo said.',
+          "At noon, canal workers would arrive to learn from it. There was little time.",
+        ],
+        image: "assets/leonardo-secret-canal-page-03.webp",
+        alt: "Leonardo showing the family a three-level model canal whose water is flowing backward in his Milan courtyard",
+      },
+      {
+        title: "Three Missing Measures",
+        paragraphs: [
+          "Exactly three narrow brass measures were missing from the model's lock gates.",
+          "Leonardo's plan showed a high mark, a middle mark, and a low mark—but not where each belonged.",
+          "Yusuf mapped every basin and drew three careful level lines.",
+          "The Living Sketchbook answered with pictures of a roof cistern, a mill bridge, and a dark lower channel.",
+        ],
+        image: "assets/leonardo-secret-canal-page-04.webp",
+        alt: "Yusuf mapping the model's three water levels while Leonardo points to empty measure slots and the Living Sketchbook shows three clues",
+      },
+      {
+        title: "The Measure on the Roof",
+        paragraphs: [
+          "The first clue led up a safe stone stair to the courtyard roof.",
+          "Rainwater had carried one brass measure into a wooden cistern spout.",
+          "Yusuf compared its notches with the highest line on his map.",
+          "Koray closed the spout, and Hakan lifted out the High Measure.",
+        ],
+        image: "assets/leonardo-secret-canal-page-05.webp",
+        alt: "Hakan lifting the High Measure from a rooftop cistern while Koray closes the spout and Yusuf checks his level map",
+      },
+      {
+        title: "The Gear Beneath the Bridge",
+        paragraphs: [
+          "The middle clue led beneath a small mill bridge beside the canal.",
+          "One wooden gear tooth had cracked, and a brass measure was caught behind it.",
+          "Koray stopped the wheel, replaced the tooth, and freed the Middle Measure.",
+          "Angela kept a steady count while Yusuf checked it against his map.",
+        ],
+        image: "assets/leonardo-secret-canal-page-06.webp",
+        alt: "Koray repairing a wooden mill gear and freeing the Middle Measure while the family and Piuma help beneath a Milan bridge",
+      },
+      {
+        title: "A Meow Below",
+        paragraphs: [
+          "At the model, Hakan heard a tiny cry from the lower return channel.",
+          "Inside crouched a wet gray-and-white kitten, afraid to cross the trickling water.",
+          "Hakan lay on the dry stones and spoke softly until she came to him.",
+          "Piuma touched noses with the kitten. Leonardo named her Riva.",
+        ],
+        image: "assets/leonardo-secret-canal-page-07.webp",
+        alt: "Hakan gently rescuing the gray-and-white kitten Riva from the lower channel as Piuma waits nearby",
+      },
+      {
+        title: "The Rhythm in the Lock",
+        paragraphs: [
+          "Riva's wet pawprints led to a side gate clogged with reeds and string.",
+          "Behind it gleamed the Low Measure, trapped beside a frayed rope.",
+          "From the real canal came the workers' lifting song: pull, hold, release.",
+          "Angela sang the three beats. Koray cleared the gate and the Low Measure slid free.",
+        ],
+        image: "assets/leonardo-secret-canal-page-08.webp",
+        alt: "Angela singing the workers' rhythm while Koray clears the clogged side gate and Riva's pawprints lead to the Low Measure",
+      },
+      {
+        title: "Every Level in Its Place",
+        paragraphs: [
+          "Back at the table, Yusuf matched each measure to the line he had mapped.",
+          '“High above, middle here, low below,” he said.',
+          "Koray fitted the three brass pieces and replaced the frayed rope.",
+          "The gates moved again, but the water still rocked between the basins.",
+        ],
+        image: "assets/leonardo-secret-canal-page-09.webp",
+        alt: "Yusuf guiding Koray as he installs the three brass measures while the model water rocks between the basins",
+      },
+      {
+        title: "The Feather Finds the Middle",
+        paragraphs: [
+          "Hakan watched Riva balance on the narrow canal wall with her tail held level.",
+          '“The model needs something that can find the middle,” he said.',
+          "He laid the Copper Feather across the empty pivot above the gates.",
+          "It became a shining balance needle and settled exactly between high and low.",
+        ],
+        image: "assets/leonardo-secret-canal-page-10.webp",
+        alt: "Hakan placing the Copper Feather on the model's brass pivot after Riva shows him how to balance between high and low",
+      },
+      {
+        title: "Water Forward",
+        paragraphs: [
+          "Angela called the rhythm: pull, hold, release.",
+          "Koray turned the repaired gear. Yusuf watched the level lines. Hakan guarded the feather needle.",
+          "Leonardo opened one gate at a time.",
+          "The water stepped gently downward, lifting a tiny wooden barge through every lock.",
+        ],
+        image: "assets/leonardo-secret-canal-page-11.webp",
+        alt: "The family and Leonardo operating the restored three-level model as a tiny wooden barge travels through the locks",
+      },
+      {
+        title: "A Mirror Made of Sun",
+        paragraphs: [
+          "The canal workers cheered. Leonardo smiled at every helper.",
+          '“A good system listens to every level,” he said.',
+          "He returned the Copper Feather. Sunlight flashed on the calm water.",
+          "The sketchbook drew a round mirror over seven hills. Under it appeared: Rome.",
+        ],
+        image: "assets/leonardo-secret-canal-page-12.webp",
+        alt: "Leonardo returning the Copper Feather as sunlight from the restored model reveals a round mirror and Rome clue in the Living Sketchbook",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Moonlit Library",
     libraryKicker: "Book Magic",
     readerKicker: "A secret library bedtime mystery",

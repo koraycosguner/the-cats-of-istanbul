@@ -11,6 +11,7 @@ Included stories:
 - _Hakan, Yusuf, and the Crescent Cats of Büyükada_
 - _Hakan, Yusuf, and the Dawn Cats of the Bosphorus_
 - _Hakan, Yusuf, and Leonardo's Wings of Florence_
+- _Hakan, Yusuf, and Leonardo's Secret Canal_
 - _Hakan and the Moonlit Library_
 - _Hakan, Yusuf, and the Clockwork Chapter_
 - _Hakan, Yusuf, and the Ink Dragon's Promise_
