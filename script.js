@@ -1283,6 +1283,150 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and Leonardo's Midnight Lion",
+    libraryKicker: "Renaissance France Adventure",
+    readerKicker: "An Amboise mystery with two bells and one runaway lion",
+    description:
+      "A missing brass heart gear, a cracked bridge, and a midnight race to stop Leonardo's wooden lion.",
+    cover: "assets/book-cover-leonardo-midnight-lion.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and Leonardo's Midnight Lion showing Hakan with the heart gear, Yusuf, the family, Leonardo, Luc, Piuma, and the giant wooden lion at Amboise",
+    seriesId: "leonardo-italy",
+    pages: [
+      {
+        title: "The Roar in the Book",
+        paragraphs: [
+          "Three whole months had passed since the Living Sketchbook closed.",
+          "Then, in the middle of dinner, it growled.",
+          "The cups jumped. The copper clasp sprang open. On the first page, a golden lion raced beneath a black sky. Above it, a silver bell swung toward midnight.",
+          "The Copper Feather pointed into the page—and a real roar shook the room.",
+        ],
+        image: "assets/leonardo-midnight-lion-page-01.webp",
+        alt: "The family staring at the roaring Living Sketchbook as a golden lion and silver bell glow on its open page",
+      },
+      {
+        title: "One Hour Until Midnight",
+        paragraphs: [
+          "The family tumbled through the paper into a castle yard full of torches.",
+          "The towers of Amboise rose above them. Painted clouds swung from ropes. Drummers hurried past carrying wooden stars.",
+          "Leonardo rushed from a workshop with Piuma at his heels. His silver beard flew in the wind.",
+          "“You came!” he cried. “Someone stole the midnight lion's brass heart gear. The festival begins at the second bell—one hour from now.”",
+        ],
+        image: "assets/leonardo-midnight-lion-page-02.webp",
+        alt: "Hakan, Yusuf, Angela, and Koray arriving in the torchlit Amboise courtyard as Leonardo and Piuma hurry to meet them",
+      },
+      {
+        title: "The Empty Heart",
+        paragraphs: [
+          "Inside stood a wooden lion as large as a carriage. Lanterns glowed inside its ribs. Piuma puffed up at the giant cat.",
+          "Leonardo opened a little heart-shaped door in its chest. An empty peg waited inside.",
+          "“Ropes pull the lion forward,” he said. “The red brake and the heart gear make it stop and bow. Without the heart, it cannot stop safely.”",
+          "The castle gates were already locked for the night. Whoever took the gear was still inside.",
+        ],
+        image: "assets/leonardo-midnight-lion-page-03.webp",
+        alt: "Leonardo showing the family the empty heart-shaped door in the giant wooden lion while Piuma puffs at it",
+      },
+      {
+        title: "The Clues Choose Luc",
+        paragraphs: [
+          "Yusuf found candle wax, a blue wool thread, and one narrow boot print in the sawdust.",
+          "The clues led to Luc, Leonardo's young helper. His blue sleeve was torn. His boots were dusty.",
+          "Luc stepped back. His bag caught on a painted tree. CLANG! The brass heart gear rolled across the stones.",
+          "“You took it!” Yusuf cried. Luc glanced toward a wooden bridge across the yard—and ran.",
+        ],
+        image: "assets/leonardo-midnight-lion-page-04.webp",
+        alt: "The brass heart gear rolling from Luc's bag as Yusuf points and Hakan notices Luc looking toward the bridge",
+      },
+      {
+        title: "Two Brothers, Two Answers",
+        paragraphs: [
+          "Yusuf raced after Luc. “The clues all point to him!”",
+          "Hakan had seen something Yusuf missed. Luc was not looking at the lion. He kept looking toward the bridge.",
+          "“He took the gear,” Hakan called, “but I think he was trying to stop something.”",
+          "“We saw it fall from his bag!” Yusuf answered. “What else could it mean?” BOOONG! The first bell rang. Time was running out.",
+        ],
+        image: "assets/leonardo-midnight-lion-page-05.webp",
+        alt: "Hakan and Yusuf chasing Luc beneath the first castle bell through painted festival scenery toward the bridge",
+      },
+      {
+        title: "The Chase Through the Stars",
+        paragraphs: [
+          "Luc dashed between painted trees and silver moons. He bumped a cart of unlit lanterns. ROLL—RATTLE—ROLL! It raced down the yard.",
+          "Luc reached a little door. He could have escaped. Instead, he spun around. “Catch the rope!”",
+          "Angela drummed a warning. Koray blocked one wheel. Piuma leaped onto the dragging rope while Hakan and Luc pulled.",
+          "The cart stopped one step from a stone stair. “Now follow me!” Luc cried, diving through the little door.",
+        ],
+        image: "assets/leonardo-midnight-lion-page-06.webp",
+        alt: "Hakan and Luc pulling the runaway lantern cart rope with Piuma while Angela drums and Koray blocks a wheel",
+      },
+      {
+        title: "The Crack Under the Bridge",
+        paragraphs: [
+          "The door opened beneath the parade bridge. Luc raised his lantern.",
+          "A deep crack, as long as Hakan's arm, split the thick wood above them. Fresh sawdust covered Luc's boots.",
+          "“The lion is too heavy,” Luc said. “The bridge may break. I warned the festival captain, but he would not listen. So I took the heart gear and went to find Leonardo.”",
+          "Crrrreeak. Yusuf lowered his voice. “You took it to keep everyone safe.”",
+        ],
+        image: "assets/leonardo-midnight-lion-page-07.webp",
+        alt: "Luc lighting a deep crack beneath the wooden bridge as Hakan, Yusuf, Leonardo, and Piuma understand the truth",
+      },
+      {
+        title: "The Lion Wakes",
+        paragraphs: [
+          "The second bell rang.",
+          "Luc went pale. “The lion!”",
+          "A cheer rose from the yard. Above the wall, ropes pulled tight and the lion's golden head lifted. The ground began to rumble.",
+          "Leonardo gasped. “The captain's men started the pulling ropes. They do not know the heart is missing. The lion can go—but it cannot stop!”",
+        ],
+        image: "assets/leonardo-midnight-lion-page-08.webp",
+        alt: "The second bell ringing as the wooden lion rises on taut ropes and Hakan, Yusuf, Luc, Leonardo, and Piuma watch in alarm",
+      },
+      {
+        title: "Twelve Drumbeats",
+        paragraphs: [
+          "They ran into the yard. THUMP—CLACK! The wooden lion rolled downhill. Its lantern ribs blazed. A cheering crowd waited beside the cracked bridge.",
+          "The lion crossed one pale stone with every drumbeat. Yusuf counted twelve before the bridge and circled a white stone on his quick map.",
+          "“Twelve beats!” he cried. “Angela, clear the road! Leonardo, turn the lion! Koray, open the heart door! Luc, help Hakan!”",
+          "Yusuf raced up the steps to the red brake. “I will stop the ropes!”",
+        ],
+        image: "assets/leonardo-midnight-lion-page-09.webp",
+        alt: "Yusuf mapping the white stopping stone as the giant lion rolls downhill and the family divides into rescue roles",
+      },
+      {
+        title: "Inside the Moving Lion",
+        paragraphs: [
+          "BOOM—one! Angela's drum called, “Clear the road!” The other drummers copied her. Two! Three! The crowd hurried into the safe stone courtyard.",
+          "Four! Five! Leonardo pulled a guide rope. The lion swung past the lantern cart.",
+          "Six! Koray opened the low heart door. A wooden guard covered the moving ropes. He lifted Hakan onto a little step and held him tight.",
+          "Luc handed Hakan the gear. Hakan pushed it onto the empty peg.",
+        ],
+        image: "assets/leonardo-midnight-lion-page-10.webp",
+        alt: "Koray holding Hakan safely at the guarded heart door as Luc hands him the gear, Angela drums, Leonardo steers, and Yusuf climbs",
+      },
+      {
+        title: "Before the White Stone",
+        paragraphs: [
+          "Seven! The heart gear caught.",
+          "Eight! The gear slipped. The lion rattled faster. Hakan pushed with both hands.",
+          "Nine! CLICK! The gear locked. “Now!” Hakan shouted. But Yusuf's plan said to wait for the white stone, and the lion had not reached it yet.",
+          "Yusuf looked at his map. Then he looked down at his brother. BOOM—ten! He trusted Hakan and pulled the brake early.",
+        ],
+        image: "assets/leonardo-midnight-lion-page-11.webp",
+        alt: "Hakan locking the heart gear as Yusuf looks down from his map and pulls the red brake before the white stone",
+      },
+      {
+        title: "The Lion's Golden Heart",
+        paragraphs: [
+          "WHUMP! The lion locked and bowed before the bridge.",
+          "The castle was silent. Piuma sat between its paws. Only the golden heart glowed.",
+          "“I should have listened,” the captain told Luc. Yusuf nodded. “Me too.” Hakan smiled. “We needed both clues.” The lion roared softly—and the closed sketchbook answered.",
+        ],
+        image: "assets/leonardo-midnight-lion-page-12.webp",
+        alt: "The repaired wooden lion bowing safely with one golden heart light as the family, Leonardo, Luc, Piuma, and the Living Sketchbook gather",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Moonlit Library",
     libraryKicker: "Book Magic",
     readerKicker: "A secret library bedtime mystery",
@@ -5432,13 +5576,13 @@ const collections = [
   },
   {
     id: "leonardo-italy",
-    title: "Leonardo's Italy Adventures",
-    libraryKicker: "Renaissance Italy Collection",
+    title: "Leonardo's Renaissance Adventures",
+    libraryKicker: "Renaissance Europe Collection",
     description:
-      "A living sketchbook carries the family through Leonardo's Florence, Milan, and Rome.",
+      "A living sketchbook carries the family through Leonardo's Florence, Milan, Rome, and a midnight mystery at Amboise.",
     cover: "assets/book-cover-leonardo-wings-florence.webp",
     coverAlt:
-      "Collection cover for Leonardo's Italy Adventures showing the family, Leonardo, Piuma, the Duomo, and the Great Bird",
+      "Collection cover for Leonardo's Renaissance Adventures showing the family, Leonardo, Piuma, the Duomo, and the Great Bird",
   },
   {
     id: "book-magic",

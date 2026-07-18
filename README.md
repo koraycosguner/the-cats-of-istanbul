@@ -13,6 +13,7 @@ Included stories:
 - _Hakan, Yusuf, and Leonardo's Wings of Florence_
 - _Hakan, Yusuf, and Leonardo's Secret Canal_
 - _Hakan, Yusuf, and Leonardo's Sun Mirror_
+- _Hakan, Yusuf, and Leonardo's Midnight Lion_
 - _Hakan and the Moonlit Library_
 - _Hakan, Yusuf, and the Clockwork Chapter_
 - _Hakan, Yusuf, and the Ink Dragon's Promise_
@@ -44,7 +45,7 @@ Included stories:
 - _The Yusie Dragon Adventures_
 - _Yusuf and Hakan: Guardians of Moonfire Cape_
 
-This is a static HTML, CSS, and JavaScript story library with a first-screen bookshelf chooser, collection cards, book cover cards, generated artwork, page-turn navigation, keyboard controls, swipe controls, browser read-aloud controls, and fullscreen support where the browser allows it. Picture books retain their illustration-and-text spreads, with a wider illustration layout for the Lost Oracle books. Comic books use two full-picture captioned pages per spread. The Cats of Istanbul, Leonardo's Italy, Moonlit Library, Cappadocia Lantern, Starlit School, Lost City of Aqualis, Lost Oracle, Kitsune, Hearthlight Realm, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
+This is a static HTML, CSS, and JavaScript story library with a first-screen bookshelf chooser, collection cards, book cover cards, generated artwork, page-turn navigation, keyboard controls, swipe controls, browser read-aloud controls, and fullscreen support where the browser allows it. Picture books retain their illustration-and-text spreads, with a wider illustration layout for the Lost Oracle books. Comic books use two full-picture captioned pages per spread. The Cats of Istanbul, Leonardo's Renaissance, Moonlit Library, Cappadocia Lantern, Starlit School, Lost City of Aqualis, Lost Oracle, Kitsune, Hearthlight Realm, and Space Team stories are grouped under umbrella collection cards so readers can choose among connected sequels.
 
 ## Reading Level
 
