@@ -532,6 +532,34 @@ h2 {
   margin-bottom: 0;
 }
 
+@media (min-width: 721px) {
+  .compact-text-book .page-turn {
+    grid-template-rows: minmax(0, 1fr);
+  }
+
+  .compact-text-book .illustration-frame,
+  .compact-text-book .story-panel {
+    height: auto;
+    min-height: 0;
+  }
+
+  .compact-text-book .story-panel h2 {
+    margin-bottom: 10px;
+    font-size: clamp(1.35rem, 1.8vw, 1.75rem);
+    transform: translateY(-22px);
+  }
+
+  .compact-text-book .story-copy {
+    font-size: clamp(0.9rem, 1.05vw, 1rem);
+    line-height: 1.42;
+    transform: translateY(-22px);
+  }
+
+  .compact-text-book .story-copy p {
+    margin-bottom: 0.45em;
+  }
+}
+
 .drop-cap-book .story-copy p:first-child::first-letter {
   float: left;
   margin: 0.08em 0.12em 0 0;

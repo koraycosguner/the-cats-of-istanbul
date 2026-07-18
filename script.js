@@ -1427,6 +1427,175 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and Leonardo's Bridge of Stars",
+    libraryKicker: "Renaissance Istanbul Adventure",
+    readerKicker: "A Golden Horn storm rescue with six fading lights",
+    readerLayout: "compact-text",
+    description:
+      "Six lanterns, one runaway music boat, and a floating bridge built before the storm turns dark.",
+    cover: "assets/book-cover-leonardo-bridge-stars.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and Leonardo's Bridge of Stars showing the family rescuing a lantern music boat during a storm on Istanbul's Golden Horn",
+    seriesId: "leonardo-italy",
+    pages: [
+      {
+        title: "Water in the Book",
+        paragraphs: [
+          "At breakfast, a drop of seawater rolled from the closed Living Sketchbook.",
+          "Then another.",
+          "SPLOSH! The pages whipped backward—past the lion, the mirror, the canal, and the wooden bird.",
+          "They stopped at a stormy blue harbor. Six lanterns rocked on a little music boat.",
+          "SNAP! Its drawn rope broke. One lantern went dark. The Copper Feather flashed—and the floor became a rain-slick pier.",
+        ],
+        image: "assets/leonardo-bridge-stars-page-01.webp",
+        alt: "Seawater splashing from the Living Sketchbook as Hakan's family sees a storm boat with six lanterns and the Copper Feather opens a pier doorway",
+      },
+      {
+        title: "Five Lights Remain",
+        paragraphs: [
+          "They landed beside Leonardo on a Golden Horn pier. His bridge drawing flapped in the wind. “Istanbul—the journey I could only imagine!”",
+          "WHOOSH! A real music boat spun away from the pier. Ece and three young musicians waved beneath its painted canopy. Their broken steering oar dragged through the water.",
+          "Beyond the black harbor post, the current raced toward the Bosphorus.",
+          "“When the last light dies, we cannot see them!” Angela cried. Five lights remained.",
+        ],
+        image: "assets/leonardo-bridge-stars-page-02.webp",
+        alt: "The family and Leonardo watching Ece's music boat spin away from a Golden Horn pier with five lanterns lit",
+      },
+      {
+        title: "Into the Storm",
+        paragraphs: [
+          "Koray jumped into an empty fishing boat. “Everyone aboard!”",
+          "He took the oars. Yusuf grabbed the steering handle and watched the currents between the boats. Hakan crouched safely at the front with a long wooden hook.",
+          "Angela counted the distant lights. Leonardo held the rescue rope. Piuma hid inside a basket of nets—with only her wet ears showing.",
+          "“Ready?” Koray called.",
+          "“ROW!”",
+        ],
+        image: "assets/leonardo-bridge-stars-page-03.webp",
+        alt: "Koray rowing the family rescue boat while Yusuf steers, Hakan holds a hook, Leonardo carries rope, and Piuma hides in a net basket",
+      },
+      {
+        title: "The First Try",
+        paragraphs: [
+          "Yusuf steered beside the runaway boat. Hakan reached with the hook.",
+          "CLACK! He caught its old towrope.",
+          "For one hopeful moment, the two boats pulled together.",
+          "Then the painted canopy filled with wind.",
+          "The music boat jerked their little boat sideways. Water splashed over the rail.",
+          "SNAP! The rotten towrope snapped free from Hakan's hook. The music boat shot ahead, and another lantern vanished in the rain.",
+          "“Four lights!” Angela cried. Now there was no rope left to catch.",
+        ],
+        image: "assets/leonardo-bridge-stars-page-04.webp",
+        alt: "Hakan's hook losing the snapped towrope as the canopy boat jerks the family rowboat sideways in the rain",
+      },
+      {
+        title: "The Wind Becomes a Sail",
+        paragraphs: [
+          "The canopy swelled like a giant sail. WHOOSH! The children raced faster toward the open water.",
+          "Yusuf pointed near shore. “The tied fishing boats make a calmer path. But the fishermen do not know we need them.”",
+          "Angela found a round copper tray under their seat. She lifted a wooden spoon.",
+          "Hakan covered his ears.",
+          "“This,” Angela said, “is going to be loud.”",
+        ],
+        image: "assets/leonardo-bridge-stars-page-05.webp",
+        alt: "The music boat canopy ballooning in the wind as Yusuf points to shore and Angela raises a copper tray and spoon",
+      },
+      {
+        title: "Angela's Call",
+        paragraphs: [
+          "BANG-BANG, BANG!",
+          "Angela struck the warning again.",
+          "BANG-BANG, BANG!",
+          "From the runaway boat, Ece answered on her little drum.",
+          "Fishermen raised their lanterns all along the shore and began pulling their boats together. Koray called, “A rescue line! We need every boat!”",
+          "A wave slapped the front of the music boat. The third lantern hissed out.",
+          "Three lights remained.",
+        ],
+        image: "assets/leonardo-bridge-stars-page-06.webp",
+        alt: "Angela striking her copper tray as Ece answers on a drum and Golden Horn fishermen begin joining their boats",
+      },
+      {
+        title: "Leonardo's New Bridge",
+        paragraphs: [
+          "Leonardo stepped onto the first fisherman's boat and unrolled his drawing of one enormous stone arch.",
+          "“We cannot build that tonight,” Hakan said.",
+          "“One little boat cannot hold that sail,” Leonardo said. “But many boats, tied to shore, can share the pull.”",
+          "Yusuf nodded. “A bridge that floats!”",
+          "Behind the family, boat joined boat and rope joined rope. Koray kept rowing after the children. A glowing bridge began to grow into the storm.",
+        ],
+        image: "assets/leonardo-bridge-stars-page-07.webp",
+        alt: "Leonardo holding his great arch drawing while fishermen tie a floating bridge behind the free family rescue boat",
+      },
+      {
+        title: "The Bridge Is Too Short",
+        paragraphs: [
+          "More boats joined the floating bridge. Piuma trotted along it, fell into a basket, and popped up with a silver fish on her head.",
+          "Then her ears rose. She stared at a short red loop bouncing beneath the back of the music boat.",
+          "Hakan saw it—but the boat swept past the line.",
+          "WHOOSH! Another lantern disappeared.",
+          "“Two lights!” Angela called.",
+          "The bridge was too short, and the storm was pushing the children beyond it.",
+        ],
+        image: "assets/leonardo-bridge-stars-page-08.webp",
+        alt: "Piuma wearing a fish on her head and spotting the red rope loop as the music boat passes the short floating bridge",
+      },
+      {
+        title: "Hakan's Handle",
+        paragraphs: [
+          "“The red loop!” Hakan cried. “I can hook it.”",
+          "Leonardo passed them a long rescue rope. Behind him, the fishermen braced its other end across their joined boats.",
+          "Koray tied the free end to Hakan's hook. Then he knelt behind Hakan and held him firmly around the waist.",
+          "Yusuf studied the waves. “I can bring us beside them—but only for one breath.”",
+          "Angela beat her signal so Ece knew help was coming.",
+        ],
+        image: "assets/leonardo-bridge-stars-page-09.webp",
+        alt: "Koray holding Hakan safely while Leonardo and fishermen anchor the rescue rope and Yusuf studies the waves",
+      },
+      {
+        title: "One Breath Between Waves",
+        paragraphs: [
+          "“High wave,” Yusuf called. “Low wave…TURN!”",
+          "He swung their boat beside the musicians. Koray held Hakan safely. Hakan stretched with both hands.",
+          "The hook bounced once.",
+          "Twice.",
+          "CLACK! The hook caught the red loop. Hakan let go as the strong rope took the pull.",
+          "A black wave rolled between the boats. The fifth lantern went dark.",
+          "One light remained—and the rescue rope pulled tight.",
+        ],
+        image: "assets/leonardo-bridge-stars-page-10.webp",
+        alt: "Hakan releasing the hook after it catches the red loop while Koray holds him and Yusuf keeps the boats together for one breath",
+      },
+      {
+        title: "The Last Light",
+        paragraphs: [
+          "The final lantern flickered.",
+          "Then darkness swallowed the music boat.",
+          "Angela struck the tray. BANG-BANG, BANG!",
+          "Ece's drum answered from the rain.",
+          "Yusuf followed the sound, then steered their little boat away from the tightening rope. Hakan watched the hook. “Still caught!”",
+          "Leonardo and the fishermen hauled together.",
+          "WHOOSH—TUG—STOP!",
+          "The runaway boat stopped just before the black harbor post and the fast current beyond it.",
+          "The fishermen kept pulling until it bumped safely against the last boat in the floating bridge.",
+        ],
+        image: "assets/leonardo-bridge-stars-page-11.webp",
+        alt: "The unlit music boat swinging toward the fishermen's floating bridge as Angela and Ece signal through the dark rain",
+      },
+      {
+        title: "The Bridge of Stars",
+        paragraphs: [
+          "The storm passed. The fishermen laid planks over the gaps. Ece and her friends crossed the joined boats, hand in hand.",
+          "The fishermen relit their lanterns. Their bridge glowed on the Golden Horn like a trail of stars.",
+          "“You got us close,” Hakan said.",
+          "“And you caught the rope,” Yusuf said. “Together.”",
+          "Leonardo smiled. “That is how every great bridge begins.”",
+          "The sketchbook's drawn arch became many lights. The Copper Feather carried everyone home.",
+        ],
+        image: "assets/leonardo-bridge-stars-page-12.webp",
+        alt: "Ece and her friends crossing the glowing floating bridge as Hakan, Yusuf, the family, Leonardo, Piuma, and the Living Sketchbook celebrate",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Moonlit Library",
     libraryKicker: "Book Magic",
     readerKicker: "A secret library bedtime mystery",
@@ -5579,7 +5748,7 @@ const collections = [
     title: "Leonardo's Renaissance Adventures",
     libraryKicker: "Renaissance Europe Collection",
     description:
-      "A living sketchbook carries the family through Leonardo's Florence, Milan, Rome, and a midnight mystery at Amboise.",
+      "A living sketchbook carries the family through Florence, Milan, Rome, Amboise, and Leonardo's imagined bridge journey to Istanbul.",
     cover: "assets/book-cover-leonardo-wings-florence.webp",
     coverAlt:
       "Collection cover for Leonardo's Renaissance Adventures showing the family, Leonardo, Piuma, the Duomo, and the Great Bird",
@@ -5791,7 +5960,13 @@ function renderFormatLanding() {
   readerView.hidden = true;
   siteKicker.textContent = "Story library";
   siteTitle.textContent = "Hakan and Yusuf's Books";
-  document.body.classList.remove("reader-open", "drop-cap-book", "comic-book-open");
+  document.body.classList.remove(
+    "reader-open",
+    "drop-cap-book",
+    "comic-book-open",
+    "wide-art-book",
+    "compact-text-book",
+  );
 
   formatOptions.forEach((option, index) => {
     const tile = createBookTile(
@@ -6056,6 +6231,10 @@ function showReader(bookIndex, sourceBooks = books) {
     "wide-art-book",
     activeBook.readerLayout === "wide-art",
   );
+  document.body.classList.toggle(
+    "compact-text-book",
+    activeBook.readerLayout === "compact-text",
+  );
   document.body.classList.add("reader-open");
   renderPage(1);
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -6070,7 +6249,11 @@ function showCollection(collectionId) {
   readerView.hidden = true;
   libraryView.hidden = false;
   document.body.classList.remove("reader-open");
-  document.body.classList.remove("drop-cap-book");
+  document.body.classList.remove(
+    "drop-cap-book",
+    "wide-art-book",
+    "compact-text-book",
+  );
   renderLibrary();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -6081,7 +6264,13 @@ function showPictureLibrary() {
   formatView.hidden = true;
   readerView.hidden = true;
   libraryView.hidden = false;
-  document.body.classList.remove("reader-open", "drop-cap-book", "comic-book-open");
+  document.body.classList.remove(
+    "reader-open",
+    "drop-cap-book",
+    "comic-book-open",
+    "wide-art-book",
+    "compact-text-book",
+  );
   renderLibrary();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -6092,7 +6281,13 @@ function showComicLibrary() {
   formatView.hidden = true;
   readerView.hidden = true;
   libraryView.hidden = false;
-  document.body.classList.remove("reader-open", "drop-cap-book", "comic-book-open");
+  document.body.classList.remove(
+    "reader-open",
+    "drop-cap-book",
+    "comic-book-open",
+    "wide-art-book",
+    "compact-text-book",
+  );
   renderLibrary();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -6119,7 +6314,13 @@ async function showLibrary() {
   formatView.hidden = true;
   readerView.hidden = true;
   libraryView.hidden = false;
-  document.body.classList.remove("reader-open", "drop-cap-book", "comic-book-open");
+  document.body.classList.remove(
+    "reader-open",
+    "drop-cap-book",
+    "comic-book-open",
+    "wide-art-book",
+    "compact-text-book",
+  );
   renderLibrary();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
