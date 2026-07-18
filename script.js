@@ -1138,6 +1138,151 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and Leonardo's Sun Mirror",
+    libraryKicker: "Renaissance Italy Finale",
+    readerKicker: "A Rome finale about joining old lessons",
+    description:
+      "Three turning rings, one shared Copper Feather, and a final circle of morning light above Rome.",
+    cover: "assets/book-cover-leonardo-sun-mirror.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and Leonardo's Sun Mirror showing the family, Leonardo, Piuma, and the three-ring machine above Rome",
+    seriesId: "leonardo-italy",
+    pages: [
+      {
+        title: "The Circle Above Rome",
+        paragraphs: [
+          "At home, the Living Sketchbook opened to the calm blue water of Milan.",
+          "Sunlight touched the page. A bright circle rose above seven drawn hills.",
+          "The Copper Feather turned toward it, and the paper became a golden doorway.",
+          "From the other side, Piuma gave one impatient meow.",
+        ],
+        image: "assets/leonardo-sun-mirror-page-01.webp",
+        alt: "Hakan and Yusuf watching a golden circle rise from the Living Sketchbook as Angela and Koray approach",
+      },
+      {
+        title: "Rome, 1514",
+        paragraphs: [
+          "The family stepped into warm morning air beneath old stone arches.",
+          "Their clothes became wool and linen. Olive trees climbed the sunny hills.",
+          "Red roofs, bell towers, ruins, and new wooden scaffolds filled the city below.",
+          "Piuma led them up a quiet path toward Leonardo's hilltop workshop.",
+        ],
+        image: "assets/leonardo-sun-mirror-page-02.webp",
+        alt: "The family arriving beneath ancient Roman arches in 1514 as Piuma leads them uphill past ruins and scaffolds",
+      },
+      {
+        title: "The Three-Ring Mirror",
+        paragraphs: [
+          "Leonardo stood beside a great round machine on a sturdy wooden frame.",
+          "Its outer ring carried linen wind vanes. Its middle ring held a narrow channel of water. Its inner ring held green glass petals.",
+          "All three rings spun in different directions, scattering sunlight across the walls.",
+          '“The Sun Mirror cannot hold one gentle beam,” Leonardo said. “Morning is already passing.”',
+        ],
+        image: "assets/leonardo-sun-mirror-page-03.webp",
+        alt: "Leonardo showing the family the Sun Mirror as its linen, water, and glass rings spin in different directions",
+      },
+      {
+        title: "Three Lessons on One Table",
+        paragraphs: [
+          "The Living Sketchbook opened beside Leonardo's plans.",
+          "One page showed the Great Bird over Florence. Another showed the three canal levels of Milan.",
+          "Yusuf laid the flight plan beside the water map.",
+          '“Air, water, glass,” he said. “Each ring knows something, but none listens to the others.”',
+        ],
+        image: "assets/leonardo-sun-mirror-page-04.webp",
+        alt: "Yusuf placing the Great Bird flight plan beside the Milan canal map while the sketchbook recalls both adventures",
+      },
+      {
+        title: "The Air Ring Remembers",
+        paragraphs: [
+          "The outer vanes turned toward yesterday's arrow on the flight plan.",
+          "But Piuma's whiskers pointed toward today's breeze.",
+          "Hakan adjusted the vane ring until plan and real wind agreed.",
+          "Koray tightened its wooden stop. The Air Ring became calm.",
+        ],
+        image: "assets/leonardo-sun-mirror-page-05.webp",
+        alt: "Hakan adjusting the Air Ring to match Piuma's whiskers while Koray tightens the wooden stop",
+      },
+      {
+        title: "The Water Ring Finds Level",
+        paragraphs: [
+          "The middle ring tilted, sending water to one side of its copper channel.",
+          "Yusuf used the Milan map to compare its high, middle, and low marks.",
+          "Koray adjusted the frame's three wooden feet while Angela counted evenly.",
+          "The water settled into one level silver-blue circle.",
+        ],
+        image: "assets/leonardo-sun-mirror-page-06.webp",
+        alt: "Yusuf checking the Milan level map while Koray adjusts the frame and the Water Ring settles into a level circle",
+      },
+      {
+        title: "The Silent Glass Petal",
+        paragraphs: [
+          "Angela gently tapped each green glass petal with a padded wooden wand.",
+          "Ting, ting, ting—then one petal made no answer.",
+          "Hakan saw Piuma's reflection break across its loose edge.",
+          "Koray straightened the bent brass clasp. The petal rang clear again.",
+        ],
+        image: "assets/leonardo-sun-mirror-page-07.webp",
+        alt: "Angela testing the glass petals while Hakan notices Piuma's broken reflection and Koray repairs the loose clasp",
+      },
+      {
+        title: "Yusuf Maps the Light",
+        paragraphs: [
+          "Leonardo turned the repaired Glass Ring slowly.",
+          "Bright spots wandered over an old floor mosaic and the workshop wall.",
+          "Yusuf marked every spot with small pieces of chalk.",
+          "The marks made three circles that crossed at one golden point.",
+        ],
+        image: "assets/leonardo-sun-mirror-page-08.webp",
+        alt: "Yusuf mapping wandering light spots with chalk pieces until three circular paths meet at one golden point",
+      },
+      {
+        title: "When Every Ring Leads",
+        paragraphs: [
+          "They tried the machine. Angela called three steady beats.",
+          "The Air Ring followed the breeze. The Water Ring stayed level. The Glass Ring found the golden point.",
+          "Yet each ring arrived at a different time.",
+          "The sunlight split into three pale circles and faded.",
+        ],
+        image: "assets/leonardo-sun-mirror-page-09.webp",
+        alt: "The family operating the three correct rings as their different timing splits the sunlight into three fading circles",
+      },
+      {
+        title: "One Feather, One Turning",
+        paragraphs: [
+          "Hakan looked at the three empty notches in the shared brass hub.",
+          '“They do not need three leaders,” he said. “They need one promise to turn together.”',
+          "Koray laid the Copper Feather across the aligned notches without bending it.",
+          "Click. One feather linked Air, Water, and Glass.",
+        ],
+        image: "assets/leonardo-sun-mirror-page-10.webp",
+        alt: "Koray placing the single Copper Feather across the three hub notches after Hakan realizes it can link every ring",
+      },
+      {
+        title: "Morning Held Gently",
+        paragraphs: [
+          "Angela gave the rhythm. Yusuf called the crossing point. Hakan watched Piuma's whiskers.",
+          "Koray guided the level frame. Leonardo moved the wooden lever.",
+          "All three rings turned as one.",
+          "A warm circle of sunlight rested on the mosaic, then opened above Rome like a quiet golden window.",
+        ],
+        image: "assets/leonardo-sun-mirror-page-11.webp",
+        alt: "The family and Leonardo turning all three rings together as one warm circle rests on the mosaic and opens above Rome",
+      },
+      {
+        title: "Keepers of Wonder",
+        paragraphs: [
+          '“You joined more than a machine,” Leonardo said, returning the Copper Feather.',
+          "Keepers of Wonder, he named them. Piuma's white paw touched it.",
+          "The sketchbook drew a wing, a blue canal, and a golden circle.",
+          "Its cover closed softly. A curious question can travel anywhere.",
+        ],
+        image: "assets/leonardo-sun-mirror-page-12.webp",
+        alt: "Leonardo returning the Copper Feather as Piuma touches it and the Living Sketchbook records a wing, canal, and golden circle before closing",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Moonlit Library",
     libraryKicker: "Book Magic",
     readerKicker: "A secret library bedtime mystery",
