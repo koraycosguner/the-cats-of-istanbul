@@ -848,6 +848,151 @@ const books = [
     ],
   },
   {
+    title: "Hakan, Yusuf, and Leonardo's Wings of Florence",
+    libraryKicker: "Renaissance Italy Adventure",
+    readerKicker: "A Florence mystery about plans and real wind",
+    description:
+      "A living sketchbook, three missing wind pins, and Leonardo's wooden Great Bird above Florence.",
+    cover: "assets/book-cover-leonardo-wings-florence.webp",
+    coverAlt:
+      "Cover art for Hakan, Yusuf, and Leonardo's Wings of Florence showing the family, Leonardo, Piuma, the Copper Feather, and the Great Bird above the Duomo",
+    seriesId: "leonardo-italy",
+    pages: [
+      {
+        title: "The Feather in the Book",
+        paragraphs: [
+          "Rain tapped the window while Hakan and Yusuf explored an old blank sketchbook.",
+          "One page turned by itself. A copper feather rose from a drawing and landed in Hakan's hand.",
+          "Lines raced across the paper—towers, bridges, and a giant red dome.",
+          "The drawing opened like a door. Warm bells rang on the other side.",
+        ],
+        image: "assets/leonardo-wings-florence-page-01.webp",
+        alt: "Hakan receiving a glowing Copper Feather from the Living Sketchbook while Yusuf, Angela, and Koray see a doorway to Florence",
+      },
+      {
+        title: "Florence, 1504",
+        paragraphs: [
+          "Angela and Koray came quickly. No one stepped through a magic door alone.",
+          "Together, the family entered a sunny square filled with carts, wool banners, and stone workshops.",
+          "Their clothes had changed into soft wool and linen.",
+          "A tawny-and-white cat with a copper feather charm tugged gently at Hakan's cloak.",
+        ],
+        image: "assets/leonardo-wings-florence-page-02.webp",
+        alt: "The family in Renaissance clothing arriving in Florence as Piuma tugs gently at Hakan's blue cloak",
+      },
+      {
+        title: "Leonardo's Sky Workshop",
+        paragraphs: [
+          "The cat led them upstairs to a room full of gears, ropes, mirrors, and drawings of birds.",
+          "A tall man with gray-brown hair looked up from a wooden wing.",
+          '“I am Leonardo,” he said. “And this impatient helper is Piuma.”',
+          "Above them, a great wooden bird strained against three ropes. Its linen wings beat without control.",
+        ],
+        image: "assets/leonardo-wings-florence-page-03.webp",
+        alt: "Leonardo welcoming the family and introducing Piuma beneath the tethered wooden-and-linen Great Bird",
+      },
+      {
+        title: "Three Empty Places",
+        paragraphs: [
+          "Leonardo showed them three empty holes in the Great Bird's brass frame.",
+          '“The wind took its Lift, Balance, and Return pins,” he said. “At sunrise, the roof will open.”',
+          "Yusuf held a mirror beside Leonardo's backward writing.",
+          "The reflected clues showed a high stone dome, a turning river wheel, and a bell that answered.",
+        ],
+        image: "assets/leonardo-wings-florence-page-04.webp",
+        alt: "Yusuf using a mirror to reveal dome, waterwheel, and bell clues while Leonardo points to three empty sockets",
+      },
+      {
+        title: "The Pin Above the Duomo",
+        paragraphs: [
+          "The first clue led inside Florence's great red dome.",
+          "Yusuf studied the spiral stair and marked every safe turn. Koray fastened a strong rope to the stone rail.",
+          "Near the lantern, Hakan spotted a copper pin trembling in a pigeon nest.",
+          "He waited until the bird moved aside, then lifted the warm Lift Pin.",
+        ],
+        image: "assets/leonardo-wings-florence-page-05.webp",
+        alt: "Hakan safely retrieving the Lift Pin from a pigeon nest as Yusuf maps the stair and Koray secures a rope inside the Duomo",
+      },
+      {
+        title: "The Wheel in the Arno",
+        paragraphs: [
+          "The second clue led to a wooden waterwheel beside the Arno River.",
+          "The wheel had stopped. A copper pin was wedged between two teeth.",
+          "Koray closed the water gate. Yusuf counted the paddles while Angela held the tool basket steady.",
+          "Koray freed the Balance Pin and straightened the bent tooth. The wheel turned smoothly again.",
+        ],
+        image: "assets/leonardo-wings-florence-page-06.webp",
+        alt: "Koray freeing the Balance Pin and repairing the Arno waterwheel while the family and Piuma help",
+      },
+      {
+        title: "The Bell That Answered",
+        paragraphs: [
+          "At the stone bell tower, Piuma lifted her ears.",
+          "Dong, sang the great bell. From high inside came a tiny copper ting.",
+          "Angela repeated the two notes softly. Dong. Ting.",
+          "The Return Pin danced down the bell rope and landed safely in Hakan's open hands.",
+        ],
+        image: "assets/leonardo-wings-florence-page-07.webp",
+        alt: "Angela singing beneath the bronze bell as the Return Pin travels down the rope toward Hakan's hands",
+      },
+      {
+        title: "The Mirrored Plan",
+        paragraphs: [
+          "Back in the workshop, Yusuf placed the mirror beside Leonardo's plan.",
+          '“Lift first, Balance second, Return last,” he read.',
+          "Koray fitted each pin into the brass frame. Angela counted a steady wingbeat.",
+          "Click. Click. Click. The Great Bird folded its wings—and then snapped them open.",
+        ],
+        image: "assets/leonardo-wings-florence-page-08.webp",
+        alt: "Yusuf reading the mirrored plan while Koray installs three pins and the Great Bird opens its linen wings",
+      },
+      {
+        title: "Wings Too Wild",
+        paragraphs: [
+          "The roof panels rolled apart. Morning wind rushed through the workshop.",
+          "The Great Bird pulled hard against its ropes and spun toward the chimney.",
+          'Piuma hid beneath a table. “The plan is correct,” Yusuf said. “Why is the bird still turning?”',
+          "Leonardo watched the machine, but Hakan watched the cat.",
+        ],
+        image: "assets/leonardo-wings-florence-page-09.webp",
+        alt: "The tethered Great Bird pulling sideways while the adults control it and Hakan notices frightened Piuma beneath the table",
+      },
+      {
+        title: "What Piuma Knew",
+        paragraphs: [
+          "Piuma's whiskers pointed left. The tiny hairs on her back leaned the same way.",
+          '“The wind changed,” Hakan said. “The drawing cannot feel it, but Piuma can.”',
+          "He turned the Great Bird's copper tail feather toward the real breeze.",
+          "At once, the wild wings became calm and even.",
+        ],
+        image: "assets/leonardo-wings-florence-page-10.webp",
+        alt: "Hakan reading the wind from Piuma's whiskers and adjusting the Copper Feather as the Great Bird's wings become level",
+      },
+      {
+        title: "Flight Over Florence",
+        paragraphs: [
+          "Yusuf called the three-part rhythm. Koray released the safety rope one knot at a time.",
+          "Angela counted. Leonardo guided the wooden lever. Hakan held Piuma close.",
+          "The Great Bird sailed from the roof, circled the red dome, and returned on the morning wind.",
+          "It landed softly exactly where it had begun.",
+        ],
+        image: "assets/leonardo-wings-florence-page-11.webp",
+        alt: "The family and Leonardo guiding the unmanned Great Bird as it circles safely above Florence and the red Duomo",
+      },
+      {
+        title: "The Road Drawn in Blue",
+        paragraphs: [
+          'Leonardo bowed to the family. “A plan remembers yesterday\'s wind. A curious mind notices today\'s.”',
+          "He gave the Copper Feather to Hakan and Yusuf. Piuma touched it with one white paw.",
+          "The Living Sketchbook opened. Blue water lines curled between tiny drawn gates and wheels.",
+          "Above them appeared a new city name: Milan.",
+        ],
+        image: "assets/leonardo-wings-florence-page-12.webp",
+        alt: "Leonardo giving the Copper Feather to the brothers as Piuma touches it and the Living Sketchbook draws a blue canal route",
+      },
+    ],
+  },
+  {
     title: "Hakan and the Moonlit Library",
     libraryKicker: "Book Magic",
     readerKicker: "A secret library bedtime mystery",
@@ -4994,6 +5139,16 @@ const collections = [
     cover: "assets/book-cover-cats-of-istanbul.webp",
     coverAlt:
       "Collection cover for The Cats of Istanbul Adventures showing Hakan, Yusuf, Misket, and Istanbul",
+  },
+  {
+    id: "leonardo-italy",
+    title: "Leonardo's Italy Adventures",
+    libraryKicker: "Renaissance Italy Collection",
+    description:
+      "A living sketchbook carries the family through Leonardo's Florence, Milan, and Rome.",
+    cover: "assets/book-cover-leonardo-wings-florence.webp",
+    coverAlt:
+      "Collection cover for Leonardo's Italy Adventures showing the family, Leonardo, Piuma, the Duomo, and the Great Bird",
   },
   {
     id: "book-magic",
