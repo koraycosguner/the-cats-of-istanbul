@@ -15,6 +15,7 @@ Included stories:
 - _Hakan, Yusuf, and Leonardo's Sun Mirror_
 - _Hakan, Yusuf, and Leonardo's Midnight Lion_
 - _Hakan, Yusuf, and Leonardo's Bridge of Stars_
+- _Hakan, Yusuf, and Leonardo's Roaring Cave_
 - _Hakan and the Moonlit Library_
 - _Hakan, Yusuf, and the Clockwork Chapter_
 - _Hakan, Yusuf, and the Ink Dragon's Promise_
