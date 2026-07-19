@@ -464,6 +464,20 @@ h1 {
   object-fit: contain;
 }
 
+.compact-text-book .illustration-frame {
+  --compact-art-inset: clamp(14px, 1.7vw, 24px);
+  overflow: hidden;
+}
+
+.compact-text-book .illustration-frame img {
+  position: absolute;
+  inset: var(--compact-art-inset);
+  width: calc(100% - var(--compact-art-inset) - var(--compact-art-inset));
+  height: calc(100% - var(--compact-art-inset) - var(--compact-art-inset));
+  object-fit: contain;
+  object-position: center;
+}
+
 .comic-frame {
   display: grid;
   place-items: center;
@@ -537,10 +551,15 @@ h2 {
     grid-template-rows: minmax(0, 1fr);
   }
 
-  .compact-text-book .illustration-frame,
   .compact-text-book .story-panel {
     height: auto;
     min-height: 0;
+  }
+
+  .compact-text-book .illustration-frame {
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
   }
 
   .compact-text-book .story-panel h2 {
