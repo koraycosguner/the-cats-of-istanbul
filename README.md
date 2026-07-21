@@ -13,6 +13,7 @@ Included stories:
 - _Hakan, Yusuf, and the Flying Carpet Kittens_
 - _Hakan, Yusuf, and the Galata Storm Nest_
 - _Hakan, Yusuf, and the Topkapı Peacock Race_
+- _Hakan, Yusuf, and the Giant Miniature City_
 - _Hakan, Yusuf, and Leonardo's Wings of Florence_
 - _Hakan, Yusuf, and Leonardo's Secret Canal_
 - _Hakan, Yusuf, and Leonardo's Sun Mirror_
