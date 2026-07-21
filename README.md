@@ -15,6 +15,7 @@ Included stories:
 - _Hakan, Yusuf, and the Topkapı Peacock Race_
 - _Hakan, Yusuf, and the Giant Miniature City_
 - _Hakan, Yusuf, and the Toys Who Wouldn't Sleep_
+- _Hakan, Yusuf, and the Fortress Game That Wouldn't End_
 - _Hakan, Yusuf, and Leonardo's Wings of Florence_
 - _Hakan, Yusuf, and Leonardo's Secret Canal_
 - _Hakan, Yusuf, and Leonardo's Sun Mirror_
